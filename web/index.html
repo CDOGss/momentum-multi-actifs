@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Momentum Multi-Actifs — Rotation IA</title>
+  <meta name="description" content="Rotation momentum mensuelle sur 10 ETF multi-actifs (dual momentum) avec analyse IA quotidienne — expérience à blanc." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A7%AD%3C/text%3E%3C/svg%3E" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --bg-dark: #0f111a;
+      --bg-card: rgba(25, 28, 41, 0.6);
+      --text-primary: #f8f9fa;
+      --text-secondary: #a0a5b1;
+      --accent-primary: #00f2fe;
+      --accent-secondary: #4facfe;
+      --success: #00e676;
+      --danger: #ff1744;
+      --warning: #ffb300;
+      --border: rgba(255, 255, 255, 0.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background-color: var(--bg-dark);
+      background-image:
+        radial-gradient(circle at 15% 50%, rgba(79, 172, 254, 0.15), transparent 25%),
+        radial-gradient(circle at 85% 30%, rgba(0, 242, 254, 0.15), transparent 25%);
+      background-attachment: fixed;
+      color: var(--text-primary);
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+    #root { max-width: 1200px; margin: 0 auto; padding: 0 24px 80px; }
+    h1, h2 { color: var(--text-primary); font-weight: 600; }
+    .text-gradient {
+      background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+      -webkit-background-clip: text; background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .centered-msg { text-align: center; margin-top: 6rem; color: var(--text-secondary); font-size: 1.1rem; }
+    .glass-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 24px;
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    }
+
+    /* ===== Header ===== */
+    .app-header {
+      display: flex; justify-content: space-between; align-items: flex-end;
+      gap: 20px; flex-wrap: wrap;
+      margin: 32px 0 2rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      padding-bottom: 1.5rem;
+    }
+    .app-header h1 { font-size: 2.6rem; letter-spacing: -1.2px; line-height: 1.05; }
+    .app-header .subtitle { color: var(--text-secondary); font-size: 0.95rem; margin-top: 6px; max-width: 640px; }
+    .header-meta { text-align: right; color: var(--text-secondary); font-size: 0.85rem; }
+    .header-meta a { color: var(--accent-secondary); text-decoration: none; }
+    .header-meta a:hover { text-decoration: underline; }
+    .pulse-dot {
+      display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+      background: var(--success); margin-right: 6px; box-shadow: 0 0 8px var(--success);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:0.4;} }
+    @media (max-width: 640px) { .app-header h1 { font-size: 2rem; } .header-meta { text-align: left; } }
+
+    /* ===== Stat cards ===== */
+    .dashboard-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 20px; margin-bottom: 24px;
+    }
+    .stat-label { color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 10px; }
+    .stat-value { font-size: 1.9rem; font-weight: 700; line-height: 1.1; margin-bottom: 6px; }
+    .stat-sub { font-size: 0.88rem; font-weight: 600; }
+    .positive { color: var(--success); }
+    .negative { color: var(--danger); }
+    .muted { color: var(--text-secondary); }
+
+    .section-title { margin: 2.5rem 0 1.2rem; font-size: 1.5rem; }
+
+    /* ===== Badges ===== */
+    .badge {
+      display: inline-block; padding: 3px 12px; border-radius: 999px;
+      font-size: 0.8rem; font-weight: 700; letter-spacing: 0.3px;
+    }
+    .badge.offensif, .badge.risk_on { background: rgba(0,230,118,0.14); color: var(--success); }
+    .badge.mixte, .badge.neutre { background: rgba(255,179,0,0.14); color: var(--warning); }
+    .badge.defensif, .badge.risk_off { background: rgba(255,23,68,0.14); color: var(--danger); }
+    .badge.gris { background: rgba(255,255,255,0.08); color: var(--text-secondary); }
+
+    /* ===== Tables ===== */
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+    th {
+      text-align: left; color: var(--text-secondary); font-weight: 600;
+      font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.6px;
+      padding: 10px 12px; border-bottom: 1px solid var(--border); white-space: nowrap;
+    }
+    td { padding: 12px; border-bottom: 1px solid rgba(255,255,255,0.04); white-space: nowrap; }
+    tr:last-child td { border-bottom: none; }
+    tr.detenu { background: linear-gradient(90deg, rgba(0,242,254,0.07), transparent 70%); }
+    .num { text-align: right; font-variant-numeric: tabular-nums; }
+    th.num { text-align: right; }
+    .ticker { font-weight: 700; }
+    .nom-etf { color: var(--text-secondary); font-size: 0.85rem; }
+
+    .score-bar-wrap { display: flex; align-items: center; gap: 10px; min-width: 160px; }
+    .score-bar-track { flex: 1; height: 7px; background: rgba(255,255,255,0.07); border-radius: 4px; overflow: hidden; }
+    .score-bar {
+      height: 100%; border-radius: 4px;
+      background: linear-gradient(90deg, var(--accent-secondary), var(--accent-primary));
+    }
+    .score-bar.neg { background: linear-gradient(90deg, rgba(255,23,68,0.9), rgba(255,23,68,0.5)); }
+
+    /* ===== Analyse IA ===== */
+    .ia-card { border-left: 3px solid var(--accent-primary); }
+    .ia-titre { font-size: 1.25rem; font-weight: 700; margin-bottom: 4px; }
+    .ia-meta { color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 14px; }
+    .ia-commentaire { line-height: 1.65; color: #dfe2e8; margin-bottom: 18px; }
+    .ia-listes { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+    .ia-listes h3 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.6px; color: var(--text-secondary); margin-bottom: 8px; }
+    .ia-listes ul { list-style: none; }
+    .ia-listes li { padding: 6px 0 6px 24px; position: relative; font-size: 0.92rem; line-height: 1.45; }
+    .ia-listes li::before { position: absolute; left: 0; }
+    .ia-listes .risques li::before { content: '⚠️'; font-size: 0.8rem; }
+    .ia-listes .surveiller li::before { content: '👁️'; font-size: 0.8rem; }
+
+    /* ===== Rotations & journal ===== */
+    .trade-chip {
+      display: inline-block; margin: 2px 6px 2px 0; padding: 3px 10px;
+      border-radius: 8px; font-size: 0.82rem; font-weight: 600;
+    }
+    .trade-chip.achat { background: rgba(0,230,118,0.1); color: var(--success); }
+    .trade-chip.vente { background: rgba(255,23,68,0.1); color: var(--danger); }
+    details.jour {
+      border: 1px solid var(--border); border-radius: 12px;
+      margin-bottom: 10px; background: rgba(25,28,41,0.4); overflow: hidden;
+    }
+    details.jour summary {
+      cursor: pointer; padding: 14px 18px; display: flex; align-items: center;
+      gap: 14px; flex-wrap: wrap; font-size: 0.92rem; list-style: none;
+    }
+    details.jour summary::-webkit-details-marker { display: none; }
+    details.jour summary:hover { background: rgba(255,255,255,0.03); }
+    details.jour .jour-corps { padding: 4px 18px 16px; color: #dfe2e8; font-size: 0.92rem; line-height: 1.6; }
+    .jour-date { font-weight: 700; min-width: 92px; }
+    .jour-nav { font-variant-numeric: tabular-nums; color: var(--text-secondary); }
+
+    footer { margin-top: 4rem; color: var(--text-secondary); font-size: 0.82rem; text-align: center; line-height: 1.6; }
+  </style>
+</head>
+<body>
+  <div id="root">
+    <header class="app-header">
+      <div>
+        <h1>🧭 <span class="text-gradient">Momentum Multi-Actifs</span></h1>
+        <p class="subtitle">
+          Rotation mensuelle « dual momentum » sur 10 ETF (actions US &amp; internationales, or,
+          matières premières, immobilier, obligations) — top 3 par performance 3/6/12 mois,
+          repli obligations/cash si momentum absolu négatif. Analyse IA quotidienne.
+          <strong>Expérience à blanc, aucun argent réel.</strong>
+        </p>
+      </div>
+      <div class="header-meta">
+        <div><span class="pulse-dot"></span>Mise à jour : <span id="maj">—</span></div>
+        <div style="margin-top:6px;">
+          <a href="daily_report.md">Rapport du jour</a> · <a id="lien-repo" href="#">Code source</a>
+        </div>
+      </div>
+    </header>
+
+    <div id="contenu"><p class="centered-msg">Chargement des données…</p></div>
+
+    <footer>
+      Bot exécuté chaque soir de bourse via GitHub Actions · données Yahoo Finance ·
+      analyse générée par IA (Gemini).<br/>
+      Expérience pédagogique de marche à blanc — ceci n'est pas un conseil en investissement.
+    </footer>
+  </div>
+
+<script>
+const $ = (sel) => document.querySelector(sel);
+const fmtUSD = (v) => v.toLocaleString('fr-FR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' $';
+const fmtPct = (v, dec = 2) => (v >= 0 ? '+' : '') + v.toFixed(dec) + ' %';
+const clsSigne = (v) => v >= 0 ? 'positive' : 'negative';
+const REGIMES = { offensif: 'Offensif', mixte: 'Mixte', defensif: 'Défensif',
+                  risk_on: 'Risk-on', neutre: 'Neutre', risk_off: 'Risk-off' };
+const badge = (r) => r ? `<span class="badge ${r}">${REGIMES[r] || r}</span>`
+                       : '<span class="badge gris">—</span>';
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+// En local, la page est servie depuis /web/ : on retente un niveau au-dessus.
+async function chargerJson(nom) {
+  for (const chemin of [nom, '../' + nom]) {
+    try {
+      const rep = await fetch(chemin, { cache: 'no-store' });
+      if (rep.ok) return await rep.json();
+    } catch (e) { /* on tente le chemin suivant */ }
+  }
+  return null;
+}
+
+// Lien vers le dépôt, déduit de l'URL GitHub Pages (user.github.io/repo/).
+(function lienRepo() {
+  const m = location.hostname.match(/^([^.]+)\.github\.io$/);
+  const repo = location.pathname.split('/').filter(Boolean)[0];
+  if (m && repo) $('#lien-repo').href = `https://github.com/${m[1]}/${repo}`;
+})();
+
+function cartesStats(dernier, capital, analyse) {
+  const perf = (v) => (v / capital - 1) * 100;
+  const pBot = perf(dernier.nav), pSpy = perf(dernier.bench_spy), p6040 = perf(dernier.bench_6040);
+  const ecartSpy = pBot - pSpy, ecart6040 = pBot - p6040;
+  const rotation = analyse?.prochaine_rotation;
+  let rotationTxt = '—', rotationSub = '';
+  if (rotation) {
+    const jours = Math.ceil((new Date(rotation) - new Date()) / 864e5);
+    rotationTxt = new Date(rotation).toLocaleDateString('fr-FR', { day: 'numeric', month: 'short' });
+    rotationSub = jours > 0 ? `dans ${jours} jour${jours > 1 ? 's' : ''}` : 'imminente';
+  }
+  return `
+  <div class="dashboard-grid">
+    <div class="glass-card">
+      <div class="stat-label">💼 Valeur du portefeuille</div>
+      <div class="stat-value">${fmtUSD(dernier.nav)}</div>
+      <div class="stat-sub ${clsSigne(pBot)}">${fmtPct(pBot)} depuis le départ</div>
+    </div>
+    <div class="glass-card">
+      <div class="stat-label">⚔️ vs S&amp;P 500</div>
+      <div class="stat-value ${clsSigne(ecartSpy)}">${fmtPct(ecartSpy)}</div>
+      <div class="stat-sub muted">SPY : ${fmtPct(pSpy)}</div>
+    </div>
+    <div class="glass-card">
+      <div class="stat-label">⚖️ vs 60/40</div>
+      <div class="stat-value ${clsSigne(ecart6040)}">${fmtPct(ecart6040)}</div>
+      <div class="stat-sub muted">60/40 : ${fmtPct(p6040)}</div>
+    </div>
+    <div class="glass-card">
+      <div class="stat-label">🚦 Régime</div>
+      <div class="stat-value" style="font-size:1.15rem; line-height:1.5;">
+        ${badge(dernier.regime_strategie)}<br/>${badge(dernier.ia?.regime)}
+      </div>
+      <div class="stat-sub muted">stratégie / vu par l'IA · VIX ${dernier.vix ?? '—'}</div>
+    </div>
+    <div class="glass-card">
+      <div class="stat-label">🔄 Prochaine rotation</div>
+      <div class="stat-value">${rotationTxt}</div>
+      <div class="stat-sub muted">${rotationSub}</div>
+    </div>
+  </div>`;
+}
+
+function graphique(historique, capital) {
+  const labels = historique.map(s => s.date.slice(5));
+  const base = (cle) => historique.map(s => +(s[cle] / capital * 100).toFixed(2));
+  const ctx = $('#chart-nav').getContext('2d');
+  const grad = ctx.createLinearGradient(0, 0, 0, 340);
+  grad.addColorStop(0, 'rgba(0,242,254,0.22)');
+  grad.addColorStop(1, 'rgba(0,242,254,0)');
+  new Chart(ctx, {
+    type: 'line',
+    data: { labels, datasets: [
+      { label: 'Rotation momentum', data: base('nav'), borderColor: '#00f2fe',
+        backgroundColor: grad, fill: true, tension: 0.25, borderWidth: 2.4,
+        pointRadius: historique.length > 60 ? 0 : 2.5 },
+      { label: 'S&P 500 (SPY)', data: base('bench_spy'), borderColor: '#ffb300',
+        borderDash: [6, 4], tension: 0.25, borderWidth: 1.6, pointRadius: 0 },
+      { label: '60/40 (SPY/IEF)', data: base('bench_6040'), borderColor: '#00e676',
+        borderDash: [2, 3], tension: 0.25, borderWidth: 1.6, pointRadius: 0 },
+    ]},
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { labels: { color: '#a0a5b1', usePointStyle: true, boxHeight: 7 } },
+        tooltip: { callbacks: { label: (c) => ` ${c.dataset.label} : ${c.parsed.y.toFixed(2)}` } },
+      },
+      scales: {
+        x: { ticks: { color: '#a0a5b1', maxTicksLimit: 14 }, grid: { color: 'rgba(255,255,255,0.04)' } },
+        y: { ticks: { color: '#a0a5b1' }, grid: { color: 'rgba(255,255,255,0.06)' },
+             title: { display: true, text: 'Base 100', color: '#a0a5b1' } },
+      },
+    },
+  });
+}
+
+function tableAllocation(dernier) {
+  const totalPositions = dernier.positions.reduce((acc, p) => acc + p.valeur, 0);
+  const nav = dernier.nav;
+  let lignes = dernier.positions.map(p => {
+    const perfLigne = (p.prix / p.prix_revient - 1) * 100;
+    return `<tr class="detenu">
+      <td><span class="ticker">${esc(p.ticker)}</span><br/><span class="nom-etf">${esc(p.nom)}</span></td>
+      <td class="num">${((p.valeur / nav) * 100).toFixed(1)} %</td>
+      <td class="num">${fmtUSD(p.valeur)}</td>
+      <td class="num">${p.prix.toFixed(2)} $</td>
+      <td class="num">${p.prix_revient.toFixed(2)} $</td>
+      <td class="num ${clsSigne(perfLigne)}">${fmtPct(perfLigne)}</td>
+    </tr>`;
+  }).join('');
+  const cash = nav - totalPositions;
+  if (cash > 1) {
+    lignes += `<tr>
+      <td><span class="ticker">CASH</span><br/><span class="nom-etf">Liquidités (non investies)</span></td>
+      <td class="num">${((cash / nav) * 100).toFixed(1)} %</td>
+      <td class="num">${fmtUSD(cash)}</td><td class="num">—</td><td class="num">—</td><td class="num">—</td>
+    </tr>`;
+  }
+  return `<div class="glass-card table-wrap"><table>
+    <thead><tr><th>Actif</th><th class="num">Poids</th><th class="num">Valeur</th>
+    <th class="num">Prix</th><th class="num">Prix de revient</th><th class="num">Perf.</th></tr></thead>
+    <tbody>${lignes}</tbody></table></div>`;
+}
+
+function tableMomentum(dernier) {
+  const lignesTriees = [...dernier.momentum].sort((a, b) => (a.rang ?? 99) - (b.rang ?? 99));
+  const maxAbs = Math.max(...lignesTriees.map(l => Math.abs(l.score)), 0.01);
+  const rows = lignesTriees.map(l => {
+    const largeur = Math.abs(l.score) / maxAbs * 100;
+    const pct = (v) => `<span class="${clsSigne(v)}">${fmtPct(v * 100, 1)}</span>`;
+    return `<tr class="${l.selectionne ? 'detenu' : ''}">
+      <td>${l.rang ? '#' + l.rang : '<span class="muted">refuge</span>'}</td>
+      <td><span class="ticker">${esc(l.ticker)}</span>${l.selectionne ? ' 📌' : ''}<br/>
+          <span class="nom-etf">${esc(l.nom)}</span></td>
+      <td><div class="score-bar-wrap">
+        <div class="score-bar-track"><div class="score-bar ${l.score < 0 ? 'neg' : ''}" style="width:${largeur.toFixed(0)}%"></div></div>
+        <span class="num ${clsSigne(l.score)}" style="min-width:58px; font-weight:700;">${fmtPct(l.score * 100, 1)}</span>
+      </div></td>
+      <td class="num">${pct(l.r3m)}</td><td class="num">${pct(l.r6m)}</td><td class="num">${pct(l.r12m)}</td>
+      <td style="text-align:center;">${l.excess > 0 ? '✅' : '❌'}</td>
+    </tr>`;
+  }).join('');
+  return `<div class="glass-card table-wrap"><table>
+    <thead><tr><th>Rang</th><th>Actif</th><th>Score momentum</th>
+    <th class="num">3 mois</th><th class="num">6 mois</th><th class="num">12 mois</th>
+    <th style="text-align:center;">Absolu</th></tr></thead>
+    <tbody>${rows}</tbody></table>
+    <p class="muted" style="margin-top:12px; font-size:0.82rem;">
+      Score = moyenne des performances 3/6/12 mois · 📌 = détenu ·
+      Absolu = momentum supérieur (✅) ou inférieur (❌) aux T-Bills : sous ❌,
+      l'actif est inéligible et son slot bascule vers les obligations refuge, puis le cash.
+    </p></div>`;
+}
+
+function carteAnalyse(dernier) {
+  const ia = dernier.ia;
+  if (!ia) {
+    return `<div class="glass-card ia-card"><p class="muted">Analyse IA indisponible pour cette séance.</p></div>`;
+  }
+  const liste = (items) => (items || []).map(i => `<li>${esc(i)}</li>`).join('');
+  return `<div class="glass-card ia-card">
+    <div class="ia-titre">${esc(ia.titre)}</div>
+    <div class="ia-meta">${dernier.date} · régime perçu ${badge(ia.regime)} · régime mécanique ${badge(dernier.regime_strategie)}</div>
+    <p class="ia-commentaire">${esc(ia.commentaire)}</p>
+    <div class="ia-listes">
+      <div class="risques"><h3>Risques</h3><ul>${liste(ia.risques)}</ul></div>
+      <div class="surveiller"><h3>À surveiller</h3><ul>${liste(ia.a_surveiller)}</ul></div>
+    </div>
+  </div>`;
+}
+
+function sectionRotations(historique) {
+  const rotations = historique.filter(s => s.rebalance).reverse();
+  if (!rotations.length) return '<p class="muted">Aucune rotation pour l\'instant.</p>';
+  const rows = rotations.map(s => {
+    const chips = s.trades.length
+      ? s.trades.map(t => `<span class="trade-chip ${t.sens}">${t.sens === 'achat' ? '🟢' : '🔴'}
+          ${esc(t.ticker)} ${t.montant.toLocaleString('fr-FR', {maximumFractionDigits: 0})} $</span>`).join('')
+      : '<span class="muted">aucun ordre nécessaire</span>';
+    const alloc = s.positions.map(p => `${esc(p.ticker)} ${((p.valeur / s.nav) * 100).toFixed(0)}%`).join(' · ')
+                  || '100 % cash';
+    return `<tr><td class="jour-date">${s.date}</td><td>${badge(s.regime_strategie)}</td>
+            <td style="white-space:normal;">${chips}</td>
+            <td class="nom-etf" style="white-space:normal;">${alloc}</td></tr>`;
+  }).join('');
+  return `<div class="glass-card table-wrap"><table>
+    <thead><tr><th>Date</th><th>Régime</th><th>Ordres</th><th>Allocation résultante</th></tr></thead>
+    <tbody>${rows}</tbody></table></div>`;
+}
+
+function sectionJournal(historique) {
+  const jours = [...historique].reverse().slice(0, 40);
+  return jours.map(s => {
+    const ia = s.ia;
+    const corps = ia
+      ? `<strong>${esc(ia.titre)}</strong><br/>${esc(ia.commentaire)}`
+      : '<span class="muted">Pas d\'analyse IA ce jour-là.</span>';
+    return `<details class="jour">
+      <summary>
+        <span class="jour-date">${s.date}</span>
+        ${badge(ia?.regime)} ${s.rebalance ? '<span class="badge gris">rotation 🔄</span>' : ''}
+        <span class="jour-nav">${fmtUSD(s.nav)}</span>
+      </summary>
+      <div class="jour-corps">${corps}</div>
+    </details>`;
+  }).join('');
+}
+
+async function init() {
+  const [historique, analyse, portefeuille] = await Promise.all([
+    chargerJson('history.json'), chargerJson('latest_analysis.json'), chargerJson('portfolio.json'),
+  ]);
+  const contenu = $('#contenu');
+  if (!historique || !historique.length) {
+    contenu.innerHTML = `<p class="centered-msg">🕰️ En attente du premier passage du bot.<br/>
+      Le portefeuille virtuel sera créé lors de la première clôture de Wall Street.</p>`;
+    return;
+  }
+  const dernier = historique[historique.length - 1];
+  const capital = portefeuille?.capital_initial ?? 10000;
+  $('#maj').textContent = dernier.date;
+
+  contenu.innerHTML = `
+    ${cartesStats(dernier, capital, analyse)}
+    <div class="glass-card"><div style="height:340px;"><canvas id="chart-nav"></canvas></div></div>
+    <h2 class="section-title">🧠 L'œil de l'analyste (IA)</h2>
+    <div id="bloc-ia"></div>
+    <h2 class="section-title">📌 Allocation actuelle</h2>
+    ${tableAllocation(dernier)}
+    <h2 class="section-title">📊 Classement momentum du jour</h2>
+    ${tableMomentum(dernier)}
+    <h2 class="section-title">🔄 Historique des rotations mensuelles</h2>
+    ${sectionRotations(historique)}
+    <h2 class="section-title">📓 Journal quotidien</h2>
+    ${sectionJournal(historique)}
+  `;
+  $('#bloc-ia').innerHTML = carteAnalyse(dernier);
+  graphique(historique, capital);
+}
+
+init();
+</script>
+</body>
+</html>

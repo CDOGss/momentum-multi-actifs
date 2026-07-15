@@ -1,0 +1,90 @@
+name: Bot Momentum Multi-Actifs
+
+on:
+  schedule:
+    # Le cron GitHub Actions est "best-effort" : sur les repos publics gratuits il est
+    # régulièrement retardé, voire sauté. Un cron manqué n'est JAMAIS rattrapé.
+    # Stratégie : 4 créneaux étalés après la clôture de Wall Street (16h00 New York =
+    # 20h00 UTC l'été, 21h00 UTC l'hiver). Le premier créneau qui part exécute le bot,
+    # les suivants sont skippés par le garde-fou "déjà tourné aujourd'hui".
+    # Minutes décalées de :00/:30 pile (créneaux surchargés chez GitHub).
+    - cron: '7 22 * * 1-5'
+    - cron: '37 22 * * 1-5'
+    - cron: '7 23 * * 1-5'
+    - cron: '37 23 * * 1-5'
+  workflow_dispatch: # Lancement manuel depuis l'interface GitHub
+
+# Jamais deux runs en parallèle : si deux créneaux partent presque en même temps,
+# le second attend la fin du premier (puis est skippé par le garde-fou).
+concurrency:
+  group: momentum-bot-daily
+  cancel-in-progress: false
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Nécessaire pour pousser les résultats (commit)
+
+    steps:
+      - name: Check out du dépôt
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Vérifier si le bot a déjà tourné avec succès aujourd'hui
+        id: check
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          ALREADY_RUN=$(gh run list --workflow=momentum_bot.yml --status success \
+            --json databaseId,createdAt \
+            --jq "[.[] | select(.databaseId != ${{ github.run_id }}) | select(.createdAt | startswith(\"$TODAY\"))] | length")
+          echo "Exécutions réussies aujourd'hui (hors run courant) : $ALREADY_RUN"
+          if [ "$ALREADY_RUN" -gt 0 ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Configuration de Python
+        if: steps.check.outputs.skip != 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installation des dépendances
+        if: steps.check.outputs.skip != 'true'
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Exécution du bot momentum
+        if: steps.check.outputs.skip != 'true'
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python main.py
+
+      - name: Commit et push des résultats
+        if: steps.check.outputs.skip != 'true'
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m "🧭 Passage quotidien du bot momentum [skip ci]" || echo "Aucun changement à commiter"
+          # Le remote peut avoir avancé pendant l'exécution : rebase avant push, avec retries.
+          pushed=false
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push; then
+              pushed=true
+              break
+            fi
+            echo "Push refusé (tentative $attempt), nouvel essai dans 5s..."
+            sleep 5
+          done
+          if [ "$pushed" != "true" ]; then
+            echo "::error::Échec du push après 3 tentatives"
+            exit 1
+          fi

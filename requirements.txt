@@ -1,0 +1,6 @@
+google-genai
+yfinance
+feedparser
+pandas
+matplotlib
+tzdata  # base de fuseaux horaires pour zoneinfo (nécessaire sous Windows)
