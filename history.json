@@ -1,0 +1,193 @@
+[
+  {
+    "date": "2026-07-15",
+    "nav": 9995.0,
+    "bench_spy": 10000.0,
+    "bench_6040": 10000.0,
+    "cash": 0.0,
+    "frais_cumules": 5.0,
+    "vix": 15.7,
+    "regime_strategie": "offensif",
+    "rebalance": true,
+    "trades": [
+      {
+        "ticker": "DBC",
+        "sens": "achat",
+        "montant": 3331.67,
+        "prix": 28.79,
+        "parts": 115.723,
+        "frais": 1.67
+      },
+      {
+        "ticker": "EEM",
+        "sens": "achat",
+        "montant": 3331.67,
+        "prix": 65.57,
+        "parts": 50.8108,
+        "frais": 1.67
+      },
+      {
+        "ticker": "QQQ",
+        "sens": "achat",
+        "montant": 3331.67,
+        "prix": 717.74,
+        "parts": 4.6419,
+        "frais": 1.67
+      }
+    ],
+    "positions": [
+      {
+        "ticker": "DBC",
+        "nom": "Matières premières (panier large)",
+        "parts": 115.723,
+        "prix": 28.79,
+        "valeur": 3331.67,
+        "prix_revient": 28.79,
+        "date_achat": "2026-07-15"
+      },
+      {
+        "ticker": "EEM",
+        "nom": "Actions émergentes",
+        "parts": 50.8108,
+        "prix": 65.57,
+        "valeur": 3331.67,
+        "prix_revient": 65.57,
+        "date_achat": "2026-07-15"
+      },
+      {
+        "ticker": "QQQ",
+        "nom": "Nasdaq 100 (tech US)",
+        "parts": 4.6419,
+        "prix": 717.74,
+        "valeur": 3331.67,
+        "prix_revient": 717.74,
+        "date_achat": "2026-07-15"
+      }
+    ],
+    "momentum": [
+      {
+        "ticker": "SPY",
+        "nom": "S&P 500 (actions US)",
+        "type": "risque",
+        "r3m": 0.0897,
+        "r6m": 0.0916,
+        "r12m": 0.2214,
+        "score": 0.1342,
+        "excess": 0.1125,
+        "selectionne": false,
+        "rang": 4
+      },
+      {
+        "ticker": "QQQ",
+        "nom": "Nasdaq 100 (tech US)",
+        "type": "risque",
+        "r3m": 0.1431,
+        "r6m": 0.1471,
+        "r12m": 0.2966,
+        "score": 0.1956,
+        "excess": 0.1738,
+        "selectionne": true,
+        "rang": 1
+      },
+      {
+        "ticker": "EFA",
+        "nom": "Actions internationales développées",
+        "type": "risque",
+        "r3m": 0.0257,
+        "r6m": 0.0694,
+        "r12m": 0.2168,
+        "score": 0.104,
+        "excess": 0.0822,
+        "selectionne": false,
+        "rang": 5
+      },
+      {
+        "ticker": "EEM",
+        "nom": "Actions émergentes",
+        "type": "risque",
+        "r3m": 0.059,
+        "r6m": 0.1376,
+        "r12m": 0.3833,
+        "score": 0.1933,
+        "excess": 0.1715,
+        "selectionne": true,
+        "rang": 2
+      },
+      {
+        "ticker": "GLD",
+        "nom": "Or",
+        "type": "risque",
+        "r3m": -0.1634,
+        "r6m": -0.1181,
+        "r12m": 0.2089,
+        "score": -0.0242,
+        "excess": -0.046,
+        "selectionne": false,
+        "rang": 8
+      },
+      {
+        "ticker": "DBC",
+        "nom": "Matières premières (panier large)",
+        "type": "risque",
+        "r3m": -0.0017,
+        "r6m": 0.2415,
+        "r12m": 0.3333,
+        "score": 0.191,
+        "excess": 0.1692,
+        "selectionne": true,
+        "rang": 3
+      },
+      {
+        "ticker": "VNQ",
+        "nom": "Immobilier coté US (REITs)",
+        "type": "risque",
+        "r3m": 0.0478,
+        "r6m": 0.1137,
+        "r12m": 0.1252,
+        "score": 0.0956,
+        "excess": 0.0738,
+        "selectionne": false,
+        "rang": 6
+      },
+      {
+        "ticker": "TLT",
+        "nom": "Obligations US 20+ ans",
+        "type": "risque",
+        "r3m": -0.0231,
+        "r6m": -0.0173,
+        "r12m": 0.0288,
+        "score": -0.0039,
+        "excess": -0.0256,
+        "selectionne": false,
+        "rang": 7
+      },
+      {
+        "ticker": "IEF",
+        "nom": "Obligations US 7-10 ans (refuge)",
+        "type": "refuge",
+        "r3m": -0.0112,
+        "r6m": -0.0058,
+        "r12m": 0.0336,
+        "score": 0.0055,
+        "excess": -0.0163,
+        "selectionne": false,
+        "rang": null
+      }
+    ],
+    "ia": {
+      "regime": "risk_on",
+      "titre": "Désinflation optimiste : la tech, les émergents et les matières premières dominent.",
+      "commentaire": "La rotation mécanique de ce jour, allouant le portefeuille à parts égales entre le Nasdaq 100 (QQQ), les actions émergentes (EEM) et les matières premières (DBC), valide un régime de marché résolument 'risk-on'. Ce positionnement signale un environnement propice à la croissance mondiale et à l'innovation, soutenu par le récent ralentissement de l'inflation américaine mis en évidence dans l'actualité. Les marchés saluent la modération des prix, reléguant au second plan les tensions géopolitiques au Moyen-Orient. Le momentum de QQQ reste dopé par la thématique de l'IA, tandis que EEM et DBC profitent d'un dollar potentiellement moins agressif. Toutefois, une divergence mécanique est notable : si le score global de DBC est fort à 6 et 12 mois, sa dynamique récente à 3 mois s'essouffle (-0.2%). Les actifs de couverture (TLT, GLD, IEF) affichent tous un momentum absolu négatif par rapport aux T-Bills, ce qui écarte mécaniquement tout besoin de protection dans notre modèle. Le marché price un atterrissage en douceur, ignorant l'insistance de certains membres de la Fed à rester prudents.",
+      "risques": [
+        "Essoufflement de la poche matières premières (DBC) dont la performance à 3 mois est déjà dans le rouge (-0.2%), fragilisée par la pression récente sur les métaux précieux.",
+        "Sensibilité accrue de QQQ et EEM à un revirement des anticipations de taux si les responsables de la Fed (comme Warsh) imposent finalement un ton plus hawkish.",
+        "Complaisance face aux risques géopolitiques : Wall Street ignore ostensiblement les tensions au Moyen-Orient, rendant les actifs risqués vulnérables à un choc exogène."
+      ],
+      "a_surveiller": [
+        "Le duel entre DBC et SPY pour la 3ème place : la dynamique à 3 mois très forte du SPY (+9.0% contre -0.2% pour DBC) laisse présager un potentiel basculement avant la rotation du 3 août.",
+        "Les prochaines déclarations des membres de la Fed (dont John Williams) et les données sur les prix à la production, capables d'inverser rapidement le momentum des bons du Trésor (TLT, IEF)."
+      ],
+      "modele": "gemini-3.1-pro-preview"
+    }
+  }
+]
