@@ -1,19 +1,20 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-07-16",
   "prochaine_rotation": "2026-08-03",
   "regime_strategie": "offensif",
   "ia": {
-    "regime": "risk_on",
-    "titre": "Désinflation optimiste : la tech, les émergents et les matières premières dominent.",
-    "commentaire": "La rotation mécanique de ce jour, allouant le portefeuille à parts égales entre le Nasdaq 100 (QQQ), les actions émergentes (EEM) et les matières premières (DBC), valide un régime de marché résolument 'risk-on'. Ce positionnement signale un environnement propice à la croissance mondiale et à l'innovation, soutenu par le récent ralentissement de l'inflation américaine mis en évidence dans l'actualité. Les marchés saluent la modération des prix, reléguant au second plan les tensions géopolitiques au Moyen-Orient. Le momentum de QQQ reste dopé par la thématique de l'IA, tandis que EEM et DBC profitent d'un dollar potentiellement moins agressif. Toutefois, une divergence mécanique est notable : si le score global de DBC est fort à 6 et 12 mois, sa dynamique récente à 3 mois s'essouffle (-0.2%). Les actifs de couverture (TLT, GLD, IEF) affichent tous un momentum absolu négatif par rapport aux T-Bills, ce qui écarte mécaniquement tout besoin de protection dans notre modèle. Le marché price un atterrissage en douceur, ignorant l'insistance de certains membres de la Fed à rester prudents.",
+    "regime": "neutre",
+    "titre": "Résilience des actifs risqués face au durcissement du discours de la Fed",
+    "commentaire": "Le portefeuille maintient une posture mécanique offensive 100% investie (DBC, QQQ, EEM), mais l'analyse des sous-périodes révèle une fragilité de marché grandissante. Bien que les matières premières (DBC) conservent la tête du classement grâce à un excellent historique sur 12 mois, leur dynamique récente à 3 mois s'érode sensiblement (-1.5%). Parallèlement, le Nasdaq (QQQ) affiche la meilleure vigueur à court terme (+10.9%), mais fait face à des prises de bénéfices brutales dans la technologie. Ces tensions sont exacerbées par les récentes déclarations des responsables de la Fed, qui évoquent ouvertement de potentielles hausses de taux face à une inflation persistante. Cette rhétorique hawkish se lit clairement dans la chute de l'or (GLD) et des obligations longues (TLT), tous deux lourdement pénalisés et en momentum absolu négatif. Le marché global des actions américaines (SPY, +12.8%) se rapproche dangereusement du trio de tête et pourrait évincer l'EEM ou le DBC d'ici la rotation du 3 août si les pressions sur les taux se maintiennent.",
     "risques": [
-      "Essoufflement de la poche matières premières (DBC) dont la performance à 3 mois est déjà dans le rouge (-0.2%), fragilisée par la pression récente sur les métaux précieux.",
-      "Sensibilité accrue de QQQ et EEM à un revirement des anticipations de taux si les responsables de la Fed (comme Warsh) imposent finalement un ton plus hawkish.",
-      "Complaisance face aux risques géopolitiques : Wall Street ignore ostensiblement les tensions au Moyen-Orient, rendant les actifs risqués vulnérables à un choc exogène."
+      "Poursuite de la correction brutale sur les valeurs technologiques et l'IA, pénalisant directement l'allocation en QQQ.",
+      "Effritement continu des matières premières (DBC) dont la tendance à 3 mois est déjà passée en territoire négatif.",
+      "Renforcement du dollar lié aux anticipations de hausses de taux de la Fed, ce qui pèserait lourdement sur les actions émergentes (EEM)."
     ],
     "a_surveiller": [
-      "Le duel entre DBC et SPY pour la 3ème place : la dynamique à 3 mois très forte du SPY (+9.0% contre -0.2% pour DBC) laisse présager un potentiel basculement avant la rotation du 3 août.",
-      "Les prochaines déclarations des membres de la Fed (dont John Williams) et les données sur les prix à la production, capables d'inverser rapidement le momentum des bons du Trésor (TLT, IEF)."
+      "Le resserrement de l'écart de score entre le SPY (+12.8%) et le top 3 actuel avant le rééquilibrage mécanique du 3 août.",
+      "La trajectoire du momentum absolu de DBC : une baisse prolongée du pétrole pourrait l'entraîner sous le rendement des T-Bills.",
+      "Les prochaines statistiques d'inflation et de consommation américaines qui dicteront les futures décisions monétaires de la Fed."
     ],
     "modele": "gemini-3.1-pro-preview"
   }
