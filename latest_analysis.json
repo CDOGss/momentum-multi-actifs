@@ -1,20 +1,19 @@
 {
-  "date": "2026-07-16",
+  "date": "2026-07-17",
   "prochaine_rotation": "2026-08-03",
   "regime_strategie": "offensif",
   "ia": {
     "regime": "neutre",
-    "titre": "Résilience des actifs risqués face au durcissement du discours de la Fed",
-    "commentaire": "Le portefeuille maintient une posture mécanique offensive 100% investie (DBC, QQQ, EEM), mais l'analyse des sous-périodes révèle une fragilité de marché grandissante. Bien que les matières premières (DBC) conservent la tête du classement grâce à un excellent historique sur 12 mois, leur dynamique récente à 3 mois s'érode sensiblement (-1.5%). Parallèlement, le Nasdaq (QQQ) affiche la meilleure vigueur à court terme (+10.9%), mais fait face à des prises de bénéfices brutales dans la technologie. Ces tensions sont exacerbées par les récentes déclarations des responsables de la Fed, qui évoquent ouvertement de potentielles hausses de taux face à une inflation persistante. Cette rhétorique hawkish se lit clairement dans la chute de l'or (GLD) et des obligations longues (TLT), tous deux lourdement pénalisés et en momentum absolu négatif. Le marché global des actions américaines (SPY, +12.8%) se rapproche dangereusement du trio de tête et pourrait évincer l'EEM ou le DBC d'ici la rotation du 3 août si les pressions sur les taux se maintiennent.",
+    "titre": "Tech sous pression et rebond du pétrole : un momentum sous tension.",
+    "commentaire": "Le portefeuille reste mécaniquement offensif avec ses allocations en DBC, QQQ et EEM, mais le classement momentum révèle de profonds tiraillements macroéconomiques. Le maintien de DBC en pole position s'explique principalement par la récente flambée pétrolière liée aux tensions dans le Golfe, masquant un léger essoufflement sur 3 mois (-0.4%). En deuxième position, le QQQ profite de ses excellentes performances passées, mais l'actualité macro souligne une violente correction en cours sur l'IA et les semi-conducteurs, menaçant directement cette poche. Du côté monétaire, le discours restrictif de la Fed maintient le dollar à un niveau élevé et pénalise les actifs de couverture : le momentum absolu d'IEF et de TLT reste négatif, tandis que l'or (GLD) s'effondre littéralement face à la hausse des rendements obligataires réels. L'écart se resserre dangereusement en milieu de tableau pour EEM (3e), qui voit le S&P 500 (SPY) et les REITs (VNQ) revenir sur ses talons. Bien que le régime mécanique soit au plein risque, la fragilité cyclique de nos trois moteurs face à un dollar fort appelle à la prudence analytique.",
     "risques": [
-      "Poursuite de la correction brutale sur les valeurs technologiques et l'IA, pénalisant directement l'allocation en QQQ.",
-      "Effritement continu des matières premières (DBC) dont la tendance à 3 mois est déjà passée en territoire négatif.",
-      "Renforcement du dollar lié aux anticipations de hausses de taux de la Fed, ce qui pèserait lourdement sur les actions émergentes (EEM)."
+      "Correction brutale du Nasdaq (QQQ) liée à l'essoufflement de la thématique IA et aux déceptions microéconomiques, pénalisant la valeur du portefeuille avant la prochaine rotation du 3 août.",
+      "Vulnérabilité de la position sur les marchés émergents (EEM) face à la vigueur continue du dollar, entretenue par la rhétorique restrictive de la Réserve Fédérale.",
+      "Dépendance extrême de la poche matières premières (DBC) au seul choc géopolitique pétrolier, alors que sa dynamique court terme (3 mois) s'érode déjà."
     ],
     "a_surveiller": [
-      "Le resserrement de l'écart de score entre le SPY (+12.8%) et le top 3 actuel avant le rééquilibrage mécanique du 3 août.",
-      "La trajectoire du momentum absolu de DBC : une baisse prolongée du pétrole pourrait l'entraîner sous le rendement des T-Bills.",
-      "Les prochaines statistiques d'inflation et de consommation américaines qui dicteront les futures décisions monétaires de la Fed."
+      "La réduction de l'écart de score entre EEM (+14.7%) et SPY (+11.6%), un franchissement évincerait les émergents du top 3 au profit des actions larges américaines.",
+      "La dégradation du momentum à 3 mois du QQQ, actuellement à +8.7%, pour évaluer la sévérité et la persistance de la purge technologique en cours."
     ],
     "modele": "gemini-3.1-pro-preview"
   }
