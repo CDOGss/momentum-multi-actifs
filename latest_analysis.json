@@ -1,19 +1,20 @@
 {
-  "date": "2026-07-17",
+  "date": "2026-07-20",
   "prochaine_rotation": "2026-08-03",
   "regime_strategie": "offensif",
   "ia": {
     "regime": "neutre",
-    "titre": "Tech sous pression et rebond du pétrole : un momentum sous tension.",
-    "commentaire": "Le portefeuille reste mécaniquement offensif avec ses allocations en DBC, QQQ et EEM, mais le classement momentum révèle de profonds tiraillements macroéconomiques. Le maintien de DBC en pole position s'explique principalement par la récente flambée pétrolière liée aux tensions dans le Golfe, masquant un léger essoufflement sur 3 mois (-0.4%). En deuxième position, le QQQ profite de ses excellentes performances passées, mais l'actualité macro souligne une violente correction en cours sur l'IA et les semi-conducteurs, menaçant directement cette poche. Du côté monétaire, le discours restrictif de la Fed maintient le dollar à un niveau élevé et pénalise les actifs de couverture : le momentum absolu d'IEF et de TLT reste négatif, tandis que l'or (GLD) s'effondre littéralement face à la hausse des rendements obligataires réels. L'écart se resserre dangereusement en milieu de tableau pour EEM (3e), qui voit le S&P 500 (SPY) et les REITs (VNQ) revenir sur ses talons. Bien que le régime mécanique soit au plein risque, la fragilité cyclique de nos trois moteurs face à un dollar fort appelle à la prudence analytique.",
+    "titre": "Surperformance des matières premières face au spectre des hausses de taux",
+    "commentaire": "Le modèle systématique maintient une posture offensive, mais la toile de fond macroéconomique justifie la prudence. Le classement momentum est sans appel : les matières premières (DBC, #1) dominent largement, portées par l'escalade au Moyen-Orient (pétrole au-delà de 90$) et les pressions agricoles liées à El Niño. À l'opposé, les craintes de nouvelles hausses de taux par la Fed écrasent les actifs sans rendement et obligataires : l'or (GLD) s'effondre sur 3 mois (-17.6%) malgré un cours nominal élevé, et les bons du Trésor (TLT, IEF) affichent un momentum absolu négatif sous la pression des rendements. Au sein de l'allocation, le Nasdaq (QQQ, #2) résiste étonnamment bien à la menace des taux grâce à des achats ciblés sur la technologie. En revanche, les actions émergentes (EEM, #3) montrent des signes d'essoufflement à court terme (+0.4% sur 3 mois), potentiellement affectées par la volatilité importée des marchés coréens. Le portefeuille est tiraillé entre un pari direct sur l'inflation (DBC) et des poches actions menacées par le durcissement monétaire imminent.",
     "risques": [
-      "Correction brutale du Nasdaq (QQQ) liée à l'essoufflement de la thématique IA et aux déceptions microéconomiques, pénalisant la valeur du portefeuille avant la prochaine rotation du 3 août.",
-      "Vulnérabilité de la position sur les marchés émergents (EEM) face à la vigueur continue du dollar, entretenue par la rhétorique restrictive de la Réserve Fédérale.",
-      "Dépendance extrême de la poche matières premières (DBC) au seul choc géopolitique pétrolier, alors que sa dynamique court terme (3 mois) s'érode déjà."
+      "Vulnérabilité de la poche technologique (QQQ) face au discours très restrictif de la Fed et à la hausse brutale des rendements obligataires.",
+      "Contagion de la volatilité asiatique (notamment coréenne) risquant de pénaliser durablement notre position sur les actions émergentes (EEM).",
+      "Absence de couverture obligataire efficace : la baisse simultanée des actions et des obligations en cas de choc de taux laisserait le portefeuille exposé."
     ],
     "a_surveiller": [
-      "La réduction de l'écart de score entre EEM (+14.7%) et SPY (+11.6%), un franchissement évincerait les émergents du top 3 au profit des actions larges américaines.",
-      "La dégradation du momentum à 3 mois du QQQ, actuellement à +8.7%, pour évaluer la sévérité et la persistance de la purge technologique en cours."
+      "Croisement imminent entre EEM (#3) et SPY (#4) avant la rotation d'août : le S&P 500 surperforme déjà largement les émergents sur 3 mois (+4.8% contre +0.4%).",
+      "Évolution du VIX (18.6) face aux tensions géopolitiques autour de l'Iran et à l'approche des annonces de la banque centrale américaine.",
+      "Comportement du momentum absolu de l'IEF, actuellement négatif, qui empêche mécaniquement tout repli défensif vers les obligations en cas de correction de nos actifs risqués."
     ],
     "modele": "gemini-3.1-pro-preview"
   }
