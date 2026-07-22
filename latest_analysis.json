@@ -1,20 +1,19 @@
 {
-  "date": "2026-07-20",
+  "date": "2026-07-21",
   "prochaine_rotation": "2026-08-03",
   "regime_strategie": "offensif",
   "ia": {
-    "regime": "neutre",
-    "titre": "Surperformance des matières premières face au spectre des hausses de taux",
-    "commentaire": "Le modèle systématique maintient une posture offensive, mais la toile de fond macroéconomique justifie la prudence. Le classement momentum est sans appel : les matières premières (DBC, #1) dominent largement, portées par l'escalade au Moyen-Orient (pétrole au-delà de 90$) et les pressions agricoles liées à El Niño. À l'opposé, les craintes de nouvelles hausses de taux par la Fed écrasent les actifs sans rendement et obligataires : l'or (GLD) s'effondre sur 3 mois (-17.6%) malgré un cours nominal élevé, et les bons du Trésor (TLT, IEF) affichent un momentum absolu négatif sous la pression des rendements. Au sein de l'allocation, le Nasdaq (QQQ, #2) résiste étonnamment bien à la menace des taux grâce à des achats ciblés sur la technologie. En revanche, les actions émergentes (EEM, #3) montrent des signes d'essoufflement à court terme (+0.4% sur 3 mois), potentiellement affectées par la volatilité importée des marchés coréens. Le portefeuille est tiraillé entre un pari direct sur l'inflation (DBC) et des poches actions menacées par le durcissement monétaire imminent.",
+    "regime": "risk_on",
+    "titre": "Inflation tenace : le momentum consacre matières premières et tech.",
+    "commentaire": "Le régime mécanique reste purement offensif, soutenu par un environnement macroéconomique marqué par une inflation résiliente. Le classement momentum illustre parfaitement ce paradigme : les matières premières (DBC, #1) dominent, portées par le contexte inflationniste et géopolitique, tandis que la tech américaine (QQQ, #3) fait preuve d'une robustesse spectaculaire face aux taux élevés, reléguant le S&P 500 (#4) hors du podium. Les actions émergentes (EEM, #2) complètent cette allocation polarisée. L'actualité confirme ce positionnement : la Fed maintient son discours 'higher for longer' face à l'inflation, ce qui justifie logiquement le momentum absolu négatif des obligations (TLT, IEF). Fait notable, l'or (GLD) s'effondre sur 3 mois (-15.2%) malgré des gros titres médiatiques flatteurs, prouvant l'avantage crucial du filtre quantitatif strict sur le bruit ambiant. Actuellement, ce portefeuille navigue habilement dans ce cycle de croissance inflationniste, surperformant sans mal un benchmark 60/40 englué par la correction de la poche obligataire.",
     "risques": [
-      "Vulnérabilité de la poche technologique (QQQ) face au discours très restrictif de la Fed et à la hausse brutale des rendements obligataires.",
-      "Contagion de la volatilité asiatique (notamment coréenne) risquant de pénaliser durablement notre position sur les actions émergentes (EEM).",
-      "Absence de couverture obligataire efficace : la baisse simultanée des actions et des obligations en cas de choc de taux laisserait le portefeuille exposé."
+      "Une hausse surprise des taux directeurs de la Fed face à l'inflation persistante, ce qui pénaliserait brutalement la tech (QQQ).",
+      "Un accord de cessez-le-feu au Moyen-Orient provoquant un reflux rapide des cours de l'énergie et des matières premières (DBC).",
+      "Une vulnérabilité des marchés émergents (EEM) à une appréciation soudaine du dollar induite par le maintien de taux longs élevés."
     ],
     "a_surveiller": [
-      "Croisement imminent entre EEM (#3) et SPY (#4) avant la rotation d'août : le S&P 500 surperforme déjà largement les émergents sur 3 mois (+4.8% contre +0.4%).",
-      "Évolution du VIX (18.6) face aux tensions géopolitiques autour de l'Iran et à l'approche des annonces de la banque centrale américaine.",
-      "Comportement du momentum absolu de l'IEF, actuellement négatif, qui empêche mécaniquement tout repli défensif vers les obligations en cas de correction de nos actifs risqués."
+      "La fragilité du momentum à 3 mois du DBC (+3.1%) : une correction des cours de l'énergie pourrait l'éjecter du Top 3 d'ici la rotation du 3 août.",
+      "L'écart de score se resserrant entre QQQ (+17.0%) et SPY (+11.7%), le S&P 500 étant en embuscade pour remplacer la tech en cas de consolidation sectorielle."
     ],
     "modele": "gemini-3.1-pro-preview"
   }

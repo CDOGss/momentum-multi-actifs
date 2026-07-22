@@ -1,47 +1,46 @@
-# 🧭 Rotation momentum multi-actifs — 2026-07-20
+# 🧭 Rotation momentum multi-actifs — 2026-07-21
 
 ## 💼 Situation
-- **Valeur du portefeuille : 9,832.74 $** (-1.67% depuis le départ)
-- Benchmark S&P 500 : -1.69% — Benchmark 60/40 : -1.11%
-- Régime mécanique : **offensif** — VIX : 18.6
+- **Valeur du portefeuille : 10,032.87 $** (+0.33% depuis le départ)
+- Benchmark S&P 500 : -0.87% — Benchmark 60/40 : -0.72%
+- Régime mécanique : **offensif** — VIX : 17.0
 - Frais cumulés depuis le départ : 5.00 $
 
 ## 📌 Positions
 | ETF | Nom | Valeur | Prix | Prix de revient |
 |---|---|---:|---:|---:|
-| **DBC** | Matières premières (panier large) | 3,372.17 $ | 29.14 $ | 28.79 $ |
-| **EEM** | Actions émergentes | 3,229.54 $ | 63.56 $ | 65.57 $ |
-| **QQQ** | Nasdaq 100 (tech US) | 3,231.03 $ | 696.06 $ | 717.74 $ |
+| **DBC** | Matières premières (panier large) | 3,421.93 $ | 29.57 $ | 28.79 $ |
+| **EEM** | Actions émergentes | 3,319.98 $ | 65.34 $ | 65.57 $ |
+| **QQQ** | Nasdaq 100 (tech US) | 3,290.96 $ | 708.97 $ | 717.74 $ |
 
 ## 📊 Classement momentum du jour
 | Rang | ETF | Score | 3 mois | 6 mois | 12 mois | Momentum absolu |
 |---|---|---:|---:|---:|---:|:---:|
-| #1 | **DBC** 📌 | +20.8% | +3.0% | +25.6% | +33.9% | ✅ |
-| #2 | **QQQ** 📌 | +14.7% | +7.4% | +12.2% | +24.5% | ✅ |
-| #3 | **EEM** 📌 | +14.0% | +0.4% | +10.0% | +31.7% | ✅ |
-| #4 | **SPY** | +10.7% | +4.8% | +7.8% | +19.5% | ✅ |
-| #5 | **VNQ** | +9.9% | +3.8% | +10.8% | +15.1% | ✅ |
-| #6 | **EFA** | +8.2% | -0.1% | +5.0% | +19.7% | ✅ |
-| #7 | **TLT** | -0.8% | -2.6% | -2.9% | +3.1% | ❌ |
-| #8 | **GLD** | -3.7% | -17.6% | -13.2% | +19.5% | ❌ |
-| refuge | **IEF** | +0.3% | -1.5% | -1.0% | +3.2% | ❌ |
+| #1 | **DBC** 📌 | +22.2% | +3.1% | +27.7% | +35.7% | ✅ |
+| #2 | **EEM** 📌 | +17.7% | +4.0% | +13.5% | +35.7% | ✅ |
+| #3 | **QQQ** 📌 | +17.0% | +9.7% | +14.4% | +26.9% | ✅ |
+| #4 | **SPY** | +11.7% | +5.9% | +8.8% | +20.5% | ✅ |
+| #5 | **EFA** | +9.9% | +1.7% | +6.2% | +21.8% | ✅ |
+| #6 | **VNQ** | +9.3% | +3.5% | +9.6% | +14.9% | ✅ |
+| #7 | **TLT** | -0.9% | -2.8% | -2.5% | +2.6% | ❌ |
+| #8 | **GLD** | -1.6% | -15.2% | -11.0% | +21.5% | ❌ |
+| refuge | **IEF** | +0.1% | -1.7% | -0.8% | +2.7% | ❌ |
 
 📌 = détenu — ✅/❌ = momentum absolu vs T-Bills (BIL)
 
 ## 🧠 L'œil de l'analyste (IA)
-**Surperformance des matières premières face au spectre des hausses de taux** — régime perçu : `neutre`
+**Inflation tenace : le momentum consacre matières premières et tech.** — régime perçu : `risk_on`
 
-Le modèle systématique maintient une posture offensive, mais la toile de fond macroéconomique justifie la prudence. Le classement momentum est sans appel : les matières premières (DBC, #1) dominent largement, portées par l'escalade au Moyen-Orient (pétrole au-delà de 90$) et les pressions agricoles liées à El Niño. À l'opposé, les craintes de nouvelles hausses de taux par la Fed écrasent les actifs sans rendement et obligataires : l'or (GLD) s'effondre sur 3 mois (-17.6%) malgré un cours nominal élevé, et les bons du Trésor (TLT, IEF) affichent un momentum absolu négatif sous la pression des rendements. Au sein de l'allocation, le Nasdaq (QQQ, #2) résiste étonnamment bien à la menace des taux grâce à des achats ciblés sur la technologie. En revanche, les actions émergentes (EEM, #3) montrent des signes d'essoufflement à court terme (+0.4% sur 3 mois), potentiellement affectées par la volatilité importée des marchés coréens. Le portefeuille est tiraillé entre un pari direct sur l'inflation (DBC) et des poches actions menacées par le durcissement monétaire imminent.
+Le régime mécanique reste purement offensif, soutenu par un environnement macroéconomique marqué par une inflation résiliente. Le classement momentum illustre parfaitement ce paradigme : les matières premières (DBC, #1) dominent, portées par le contexte inflationniste et géopolitique, tandis que la tech américaine (QQQ, #3) fait preuve d'une robustesse spectaculaire face aux taux élevés, reléguant le S&P 500 (#4) hors du podium. Les actions émergentes (EEM, #2) complètent cette allocation polarisée. L'actualité confirme ce positionnement : la Fed maintient son discours 'higher for longer' face à l'inflation, ce qui justifie logiquement le momentum absolu négatif des obligations (TLT, IEF). Fait notable, l'or (GLD) s'effondre sur 3 mois (-15.2%) malgré des gros titres médiatiques flatteurs, prouvant l'avantage crucial du filtre quantitatif strict sur le bruit ambiant. Actuellement, ce portefeuille navigue habilement dans ce cycle de croissance inflationniste, surperformant sans mal un benchmark 60/40 englué par la correction de la poche obligataire.
 
 **Risques :**
-- ⚠️ Vulnérabilité de la poche technologique (QQQ) face au discours très restrictif de la Fed et à la hausse brutale des rendements obligataires.
-- ⚠️ Contagion de la volatilité asiatique (notamment coréenne) risquant de pénaliser durablement notre position sur les actions émergentes (EEM).
-- ⚠️ Absence de couverture obligataire efficace : la baisse simultanée des actions et des obligations en cas de choc de taux laisserait le portefeuille exposé.
+- ⚠️ Une hausse surprise des taux directeurs de la Fed face à l'inflation persistante, ce qui pénaliserait brutalement la tech (QQQ).
+- ⚠️ Un accord de cessez-le-feu au Moyen-Orient provoquant un reflux rapide des cours de l'énergie et des matières premières (DBC).
+- ⚠️ Une vulnérabilité des marchés émergents (EEM) à une appréciation soudaine du dollar induite par le maintien de taux longs élevés.
 
 **À surveiller :**
-- 👁️ Croisement imminent entre EEM (#3) et SPY (#4) avant la rotation d'août : le S&P 500 surperforme déjà largement les émergents sur 3 mois (+4.8% contre +0.4%).
-- 👁️ Évolution du VIX (18.6) face aux tensions géopolitiques autour de l'Iran et à l'approche des annonces de la banque centrale américaine.
-- 👁️ Comportement du momentum absolu de l'IEF, actuellement négatif, qui empêche mécaniquement tout repli défensif vers les obligations en cas de correction de nos actifs risqués.
+- 👁️ La fragilité du momentum à 3 mois du DBC (+3.1%) : une correction des cours de l'énergie pourrait l'éjecter du Top 3 d'ici la rotation du 3 août.
+- 👁️ L'écart de score se resserrant entre QQQ (+17.0%) et SPY (+11.7%), le S&P 500 étant en embuscade pour remplacer la tech en cas de consolidation sectorielle.
 
 ---
 *Rapport généré automatiquement — expérience à blanc, aucun argent réel, ceci n'est pas un conseil en investissement.*
