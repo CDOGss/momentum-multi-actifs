@@ -1,19 +1,20 @@
 {
-  "date": "2026-07-21",
+  "date": "2026-07-22",
   "prochaine_rotation": "2026-08-03",
   "regime_strategie": "offensif",
   "ia": {
-    "regime": "risk_on",
-    "titre": "Inflation tenace : le momentum consacre matières premières et tech.",
-    "commentaire": "Le régime mécanique reste purement offensif, soutenu par un environnement macroéconomique marqué par une inflation résiliente. Le classement momentum illustre parfaitement ce paradigme : les matières premières (DBC, #1) dominent, portées par le contexte inflationniste et géopolitique, tandis que la tech américaine (QQQ, #3) fait preuve d'une robustesse spectaculaire face aux taux élevés, reléguant le S&P 500 (#4) hors du podium. Les actions émergentes (EEM, #2) complètent cette allocation polarisée. L'actualité confirme ce positionnement : la Fed maintient son discours 'higher for longer' face à l'inflation, ce qui justifie logiquement le momentum absolu négatif des obligations (TLT, IEF). Fait notable, l'or (GLD) s'effondre sur 3 mois (-15.2%) malgré des gros titres médiatiques flatteurs, prouvant l'avantage crucial du filtre quantitatif strict sur le bruit ambiant. Actuellement, ce portefeuille navigue habilement dans ce cycle de croissance inflationniste, surperformant sans mal un benchmark 60/40 englué par la correction de la poche obligataire.",
+    "regime": "neutre",
+    "titre": "Surchauffe inflationniste : matières premières en tête, la tech sous pression",
+    "commentaire": "Le régime mécanique reste purement offensif, mais l'analyse du momentum révèle une dynamique de fin de cycle marquée par la résurgence de l'inflation. Le portefeuille actuel (DBC, EEM, QQQ) illustre une dichotomie de marché intéressante. D'un côté, les matières premières (DBC, #1 à +22.2%) et les émergents (EEM, #2) captent le choc inflationniste, validé par la récente hausse des taux de 50 points de base de la Fed et les tensions au Moyen-Orient qui propulsent l'énergie. De l'autre, le Nasdaq (QQQ, #3) conserve son rang grâce à d'excellentes performances passées, mais l'actualité macro souligne la vulnérabilité de la technologie face aux craintes d'un sommet sur l'IA et aux premiers résultats mitigés (Tesla). Cette configuration « barbell » (inflation + croissance) permet au système de surperformer le S&P 500 dans l'immédiat. On notera que malgré un frémissement de l'or dans les manchettes, son momentum mécanique (GLD, -1.3%) et celui des obligations (TLT, IEF) restent fermement négatifs, laminés par le resserrement monétaire.",
     "risques": [
-      "Une hausse surprise des taux directeurs de la Fed face à l'inflation persistante, ce qui pénaliserait brutalement la tech (QQQ).",
-      "Un accord de cessez-le-feu au Moyen-Orient provoquant un reflux rapide des cours de l'énergie et des matières premières (DBC).",
-      "Une vulnérabilité des marchés émergents (EEM) à une appréciation soudaine du dollar induite par le maintien de taux longs élevés."
+      "Correction brutale sur le Nasdaq (QQQ) si les doutes sur le cycle de l'IA se matérialisent lors des publications de résultats (Alphabet).",
+      "Choc sur la demande des matières premières (DBC) et émergents (EEM) en cas d'étranglement de la croissance suite aux hausses de taux de la Fed.",
+      "Baisse simultanée des actions et des obligations (taux d'emprunt en hausse), ce qui dégraderait rapidement les scores absolus du portefeuille."
     ],
     "a_surveiller": [
-      "La fragilité du momentum à 3 mois du DBC (+3.1%) : une correction des cours de l'énergie pourrait l'éjecter du Top 3 d'ici la rotation du 3 août.",
-      "L'écart de score se resserrant entre QQQ (+17.0%) et SPY (+11.7%), le S&P 500 étant en embuscade pour remplacer la tech en cas de consolidation sectorielle."
+      "La contraction de l'écart de score entre QQQ (+17.2%) et SPY (+12.5%) : une aggravation de la correction technologique pourrait sortir le Nasdaq du Top 3 d'ici la rotation du 3 août.",
+      "L'inversion potentielle du momentum sur l'or (GLD) : bien qu'actuellement négatif, son statut de valeur refuge s'active dans un contexte de tensions géopolitiques extrêmes.",
+      "Le momentum absolu du SPY et de l'EFA face au T-Bills si la nervosité actuelle se prolonge sur les marchés mondiaux."
     ],
     "modele": "gemini-3.1-pro-preview"
   }
