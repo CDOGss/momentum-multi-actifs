@@ -8,10 +8,10 @@ on:
     # 20h00 UTC l'été, 21h00 UTC l'hiver). Le premier créneau qui part exécute le bot,
     # les suivants sont skippés par le garde-fou "déjà tourné aujourd'hui".
     # Minutes décalées de :00/:30 pile (créneaux surchargés chez GitHub).
-    - cron: '7 22 * * 1-5'
-    - cron: '37 22 * * 1-5'
-    - cron: '7 23 * * 1-5'
-    - cron: '37 23 * * 1-5'
+    - cron: '12 22 * * 1-5'
+    - cron: '43 22 * * 1-5'
+    - cron: '12 23 * * 1-5'
+    - cron: '43 23 * * 1-5'
   workflow_dispatch: # Lancement manuel depuis l'interface GitHub
 
 # Jamais deux runs en parallèle : si deux créneaux partent presque en même temps,
