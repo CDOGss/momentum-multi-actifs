@@ -1,20 +1,20 @@
 {
-  "date": "2026-07-28",
+  "date": "2026-07-29",
   "prochaine_rotation": "2026-08-03",
   "regime_strategie": "offensif",
   "ia": {
     "regime": "neutre",
-    "titre": "Suspense monétaire et fragilité de la Tech avant la Fed",
-    "commentaire": "Bien que la stratégie soit mécaniquement 100% investie en actifs risqués, le momentum sous-jacent montre des signaux de divergence forts. Le portefeuille détient DBC, EEM et QQQ, mais leurs dynamiques de court terme se détériorent. DBC conserve son leadership grâce à la performance sur 12 mois, mais son momentum à 3 mois (-5,0%) encaisse le plongeon récent du pétrole lié à l'accalmie au Moyen-Orient. Parallèlement, QQQ subit la violente correction mondiale des semi-conducteurs et les doutes croissants sur l'IA, ce qui pèse sur sa compétitivité relative. La véritable surprise vient de VNQ (#2), qui capte une forte dynamique haussière à court terme (+7,4% sur 3 mois), le marché jouant peut-être l'attentisme de la Fed, bien qu'il reste hors du portefeuille jusqu'au prochain rebalancement. Notre sous-performance actuelle face au S&P 500 illustre la vulnérabilité de cette exposition croisée (matières premières en repli et tech vendue) dans un marché nerveux. L'environnement macroéconomique est sur le fil du rasoir, tiraillé entre des taux souverains tendus en Europe et l'incertitude extrême sur la décision de la Fed de mercredi.",
+    "titre": "Stagflation latente et rotation majeure en vue face au choc pétrolier",
+    "commentaire": "Le portefeuille subit actuellement les secousses d'un marché en pleine transition. Bien que le régime mécanique demeure offensif, la conjoncture macroéconomique reflète un climat stagflationniste : la Réserve fédérale maintient ses taux (3,50-3,75%) face à une inflation persistante, tandis que le pétrole flambe en raison des frappes au Moyen-Orient. Ce cocktail pèse lourdement sur le secteur technologique (QQQ, seulement +0,7% sur 3 mois) et les actions émergentes (EEM, -2,5% sur 3 mois), expliquant la sous-performance actuelle de nos détentions face au S&P 500 et au 60/40. Le classement momentum illustre ce changement brutal de leadership. Si les matières premières (DBC) conservent la première place grâce à leur solide performance sur 12 mois, la véritable dynamique haussière provient désormais de l'immobilier (VNQ) et des actions internationales (EFA), propulsés aux rangs #2 et #3. Notre modèle étant strictement systématique, une bascule majeure se prépare : si la hiérarchie perdure jusqu'à la rotation du 3 août, QQQ et EEM seront mécaniquement évincés. Le VIX à 20,7 confirme la nervosité d'un marché tiraillé entre chocs exogènes et attentisme monétaire.",
     "risques": [
-      "Une hausse surprise des taux de la Fed ce mercredi, qui écraserait la valorisation de QQQ et freinerait le récent rebond de VNQ.",
-      "Poursuite de l'hémorragie sur les valeurs technologiques et les semi-conducteurs, menaçant directement le rang de QQQ avant la prochaine rotation.",
-      "Accélération de la chute de l'énergie si la désescalade géopolitique se confirme, risquant de détruire l'avance de DBC acquise sur 12 mois."
+      "Sous-performance prolongée de la position QQQ, vulnérable à la remontée des taux réels et aux déceptions potentielles sur les bénéfices de Microsoft et Meta.",
+      "Exposition à une correction brutale sur les émergents (EEM) si l'envolée du pétrole aggrave le déficit courant des pays importateurs.",
+      "Risque de frottement et de 'whipsaw' (faux signal) lors de la rotation du 3 août si les marchés surréagissent temporairement au statu quo de la Fed."
     ],
     "a_surveiller": [
-      "Réunion du FOMC ce mercredi : la décision sur les taux (surprise vs statu quo) dictera la direction de l'ensemble des classes d'actifs.",
-      "Rotation mensuelle du 3 août : très forte probabilité d'une entrée de VNQ en remplacement de QQQ ou EEM selon l'issue de la semaine.",
-      "Momentum absolu de DBC : surveiller si la contraction à court terme menace de faire basculer l'actif sous le rendement des T-Bills."
+      "La rotation mensuelle du 3 août : VNQ (+11,9%) et EFA (+8,9%) sont en passe de remplacer EEM et QQQ au sein du portefeuille.",
+      "Les résultats de Microsoft et Meta, catalyseurs décisifs capables de raviver ou d'achever le momentum à court terme du Nasdaq (QQQ).",
+      "L'impact des nouvelles frappes au Moyen-Orient sur le momentum de DBC à 3 mois, actuellement négatif (-3,0%) mais susceptible de s'inverser rapidement."
     ],
     "modele": "gemini-3.1-pro-preview"
   }
