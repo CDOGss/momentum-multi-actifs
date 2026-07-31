@@ -1,47 +1,51 @@
-# 🧭 Rotation momentum multi-actifs — 2026-07-29
+# 🧭 Rotation momentum multi-actifs — 2026-07-30
 
 ## 💼 Situation
-- **Valeur du portefeuille : 9,579.27 $** (-4.21% depuis le départ)
-- Benchmark S&P 500 : -3.36% — Benchmark 60/40 : -2.28%
-- Régime mécanique : **offensif** — VIX : 20.7
+- **Valeur du portefeuille : 9,797.02 $** (-2.03% depuis le départ)
+- Benchmark S&P 500 : -1.74% — Benchmark 60/40 : -1.29%
+- Régime mécanique : **offensif** — VIX : 17.1
 - Frais cumulés depuis le départ : 5.00 $
 
 ## 📌 Positions
 | ETF | Nom | Valeur | Prix | Prix de revient |
 |---|---|---:|---:|---:|
-| **DBC** | Matières premières (panier large) | 3,404.57 $ | 29.42 $ | 28.79 $ |
-| **EEM** | Actions émergentes | 3,103.02 $ | 61.07 $ | 65.57 $ |
-| **QQQ** | Nasdaq 100 (tech US) | 3,071.67 $ | 661.73 $ | 717.74 $ |
+| **DBC** | Matières premières (panier large) | 3,393.00 $ | 29.32 $ | 28.79 $ |
+| **EEM** | Actions émergentes | 3,231.06 $ | 63.59 $ | 65.57 $ |
+| **QQQ** | Nasdaq 100 (tech US) | 3,172.96 $ | 683.55 $ | 717.74 $ |
 
 ## 📊 Classement momentum du jour
 | Rang | ETF | Score | 3 mois | 6 mois | 12 mois | Momentum absolu |
 |---|---|---:|---:|---:|---:|:---:|
-| #1 | **DBC** 📌 | +17.4% | -3.0% | +19.5% | +35.8% | ✅ |
-| #2 | **VNQ** | +11.8% | +6.2% | +13.5% | +15.8% | ✅ |
-| #3 | **EFA** | +8.9% | +4.0% | +2.9% | +19.7% | ✅ |
-| #4 | **EEM** 📌 | +8.6% | -2.5% | +1.7% | +26.6% | ✅ |
-| #5 | **SPY** | +8.0% | +2.8% | +5.4% | +15.8% | ✅ |
-| #6 | **QQQ** 📌 | +7.6% | +0.8% | +5.1% | +17.0% | ✅ |
-| #7 | **TLT** | -1.9% | -3.0% | -3.5% | +0.9% | ❌ |
-| #8 | **GLD** | -4.2% | -12.0% | -22.1% | +21.5% | ❌ |
-| refuge | **IEF** | +0.1% | -1.2% | -1.0% | +2.4% | ❌ |
+| #1 | **DBC** 📌 | +15.2% | -5.7% | +17.6% | +33.6% | ✅ |
+| #2 | **EEM** 📌 | +13.0% | +2.0% | +5.2% | +31.8% | ✅ |
+| #3 | **EFA** | +12.7% | +8.0% | +6.8% | +23.3% | ✅ |
+| #4 | **QQQ** 📌 | +10.9% | +3.4% | +8.2% | +21.1% | ✅ |
+| #5 | **VNQ** | +10.6% | +5.8% | +13.4% | +12.7% | ✅ |
+| #6 | **SPY** | +9.9% | +4.5% | +7.2% | +18.1% | ✅ |
+| #7 | **TLT** | -2.2% | -2.3% | -3.3% | -0.9% | ❌ |
+| #8 | **GLD** | -3.4% | -9.6% | -23.7% | +23.2% | ❌ |
+| refuge | **IEF** | +0.1% | -0.7% | -0.9% | +1.8% | ❌ |
 
 📌 = détenu — ✅/❌ = momentum absolu vs T-Bills (BIL)
 
 ## 🧠 L'œil de l'analyste (IA)
-**Stagflation latente et rotation majeure en vue face au choc pétrolier** — régime perçu : `neutre`
+**Statu quo de la Fed et inflation : vers une rotation internationale.** — régime perçu : `risk_on`
 
-Le portefeuille subit actuellement les secousses d'un marché en pleine transition. Bien que le régime mécanique demeure offensif, la conjoncture macroéconomique reflète un climat stagflationniste : la Réserve fédérale maintient ses taux (3,50-3,75%) face à une inflation persistante, tandis que le pétrole flambe en raison des frappes au Moyen-Orient. Ce cocktail pèse lourdement sur le secteur technologique (QQQ, seulement +0,7% sur 3 mois) et les actions émergentes (EEM, -2,5% sur 3 mois), expliquant la sous-performance actuelle de nos détentions face au S&P 500 et au 60/40. Le classement momentum illustre ce changement brutal de leadership. Si les matières premières (DBC) conservent la première place grâce à leur solide performance sur 12 mois, la véritable dynamique haussière provient désormais de l'immobilier (VNQ) et des actions internationales (EFA), propulsés aux rangs #2 et #3. Notre modèle étant strictement systématique, une bascule majeure se prépare : si la hiérarchie perdure jusqu'à la rotation du 3 août, QQQ et EEM seront mécaniquement évincés. Le VIX à 20,7 confirme la nervosité d'un marché tiraillé entre chocs exogènes et attentisme monétaire.
+Le portefeuille mécanique maintient son positionnement offensif. Le classement momentum illustre un régime de marché dominé par l'inflation persistante et une appétence pour le risque. DBC (matières premières) conserve la première place grâce à son solide historique sur 12 mois, bien que son élan récent s'essouffle (-5,7% sur 3 mois). EEM (émergents) capte la deuxième place, soutenu par les révisions macroéconomiques en Asie liées au boom de l'IA.
+
+Une bascule décisive se prépare sous la surface : l'indice QQQ (#4), actuellement en portefeuille et maintenu à flot par de bons résultats tech (Microsoft), vient d'être supplanté par EFA (#3, actions internationales) qui affiche une dynamique courte bien plus robuste (+8,0% sur 3 mois).
+
+Sur le plan macroéconomique, la Fed temporise face à l'inflation. Ce statu quo très controversé (3 voix dissidentes) nourrit une fuite en avant vers les actifs réels et les actions. Le marché doute de la fermeté monétaire, ce qui valide la sous-performance structurelle des obligations (TLT, IEF) au momentum absolu toujours négatif. Lors de la rotation du 3 août, le modèle mécanique s'apprête fort probablement à évincer la tech US au profit de l'international.
 
 **Risques :**
-- ⚠️ Sous-performance prolongée de la position QQQ, vulnérable à la remontée des taux réels et aux déceptions potentielles sur les bénéfices de Microsoft et Meta.
-- ⚠️ Exposition à une correction brutale sur les émergents (EEM) si l'envolée du pétrole aggrave le déficit courant des pays importateurs.
-- ⚠️ Risque de frottement et de 'whipsaw' (faux signal) lors de la rotation du 3 août si les marchés surréagissent temporairement au statu quo de la Fed.
+- ⚠️ Vulnérabilité de la poche DBC à court terme en raison d'un momentum trimestriel négatif, fragilisé si le pétrole continue de reculer.
+- ⚠️ Correction des marchés actions (QQQ en première ligne) si la perte de crédibilité de la Fed entraîne une remontée brutale des taux longs.
+- ⚠️ Concentration du risque cyclique : une exposition 100% émergents/matières premières/tech laisse le portefeuille sensible au moindre choc de croissance.
 
 **À surveiller :**
-- 👁️ La rotation mensuelle du 3 août : VNQ (+11,9%) et EFA (+8,9%) sont en passe de remplacer EEM et QQQ au sein du portefeuille.
-- 👁️ Les résultats de Microsoft et Meta, catalyseurs décisifs capables de raviver ou d'achever le momentum à court terme du Nasdaq (QQQ).
-- 👁️ L'impact des nouvelles frappes au Moyen-Orient sur le momentum de DBC à 3 mois, actuellement négatif (-3,0%) mais susceptible de s'inverser rapidement.
+- 👁️ Rotation mensuelle du 3 août : bascule très probable de QQQ (#4) vers EFA (#3) si le classement reste en l'état.
+- 👁️ Dynamique fulgurante de VNQ (#5, immobilier coté) qui profite d'anticipations de taux réels plus bas et se rapproche du Top 3.
+- 👁️ Tensions au sein de la Fed (Warsh) et évolution du VIX (17.1) face au risque grandissant de désancrage de l'inflation.
 
 ---
 *Rapport généré automatiquement — expérience à blanc, aucun argent réel, ceci n'est pas un conseil en investissement.*
