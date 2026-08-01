@@ -1,20 +1,20 @@
 {
-  "date": "2026-07-30",
+  "date": "2026-07-31",
   "prochaine_rotation": "2026-08-03",
   "regime_strategie": "offensif",
   "ia": {
-    "regime": "risk_on",
-    "titre": "Statu quo de la Fed et inflation : vers une rotation internationale.",
-    "commentaire": "Le portefeuille mécanique maintient son positionnement offensif. Le classement momentum illustre un régime de marché dominé par l'inflation persistante et une appétence pour le risque. DBC (matières premières) conserve la première place grâce à son solide historique sur 12 mois, bien que son élan récent s'essouffle (-5,7% sur 3 mois). EEM (émergents) capte la deuxième place, soutenu par les révisions macroéconomiques en Asie liées au boom de l'IA.\n\nUne bascule décisive se prépare sous la surface : l'indice QQQ (#4), actuellement en portefeuille et maintenu à flot par de bons résultats tech (Microsoft), vient d'être supplanté par EFA (#3, actions internationales) qui affiche une dynamique courte bien plus robuste (+8,0% sur 3 mois).\n\nSur le plan macroéconomique, la Fed temporise face à l'inflation. Ce statu quo très controversé (3 voix dissidentes) nourrit une fuite en avant vers les actifs réels et les actions. Le marché doute de la fermeté monétaire, ce qui valide la sous-performance structurelle des obligations (TLT, IEF) au momentum absolu toujours négatif. Lors de la rotation du 3 août, le modèle mécanique s'apprête fort probablement à évincer la tech US au profit de l'international.",
+    "regime": "neutre",
+    "titre": "Incertitudes sur les taux, le momentum tech menacé.",
+    "commentaire": "Le portefeuille maintient mécaniquement sa posture offensive sur DBC, EEM et QQQ, mais l'analyse du momentum révèle des fragilités sous-jacentes. DBC conserve sa première place grâce à un historique 12 mois exceptionnel (+34.5%), bien que son essoufflement récent à 3 mois (-5.3%) reflète l'hésitation des cours du brut face à l'augmentation des flux du Golfe. De son côté, le Nasdaq (QQQ, 3e) voit son avance fondre face aux actions internationales (EFA, 4e), l'écart n'étant plus que de 0.3 point. Cette dynamique de tassement fait écho à l'actualité macroéconomique : la fronde inédite de plusieurs dissidents de la Fed (Kashkari, Logan, Hammack) face à Kevin Warsh ravive les craintes d'un nouveau resserrement monétaire contre l'inflation. Ce contexte de taux durablement élevés bride le rebond de l'IA et maintient les obligations (TLT, IEF) ainsi que l'or (GLD) en momentum absolu négatif. Bien que le régime reste mécaniquement investi en actifs risqués (VIX clément à 16.0), le leadership de la tech américaine est devenu vulnérable, annonçant un possible changement de hiérarchie au profit de l'international si les rendements obligataires se tendent davantage.",
     "risques": [
-      "Vulnérabilité de la poche DBC à court terme en raison d'un momentum trimestriel négatif, fragilisé si le pétrole continue de reculer.",
-      "Correction des marchés actions (QQQ en première ligne) si la perte de crédibilité de la Fed entraîne une remontée brutale des taux longs.",
-      "Concentration du risque cyclique : une exposition 100% émergents/matières premières/tech laisse le portefeuille sensible au moindre choc de croissance."
+      "Poursuite de la correction à court terme sur les matières premières (DBC), pesant directement sur la première ligne du portefeuille.",
+      "Basculement de QQQ hors du top 3 au profit de EFA sous la pression d'une rhétorique agressive de la Fed sur les taux.",
+      "Baisse de régime brutale si le marché sanctionne un manque de crédibilité du président de la Réserve Fédérale."
     ],
     "a_surveiller": [
-      "Rotation mensuelle du 3 août : bascule très probable de QQQ (#4) vers EFA (#3) si le classement reste en l'état.",
-      "Dynamique fulgurante de VNQ (#5, immobilier coté) qui profite d'anticipations de taux réels plus bas et se rapproche du Top 3.",
-      "Tensions au sein de la Fed (Warsh) et évolution du VIX (17.1) face au risque grandissant de désancrage de l'inflation."
+      "L'écart critique de score entre QQQ (+11.5%) et EFA (+11.2%) pour la prochaine rotation du 3 août.",
+      "La dynamique 3 mois de DBC, dont le retournement négatif commence à peser sur son momentum global.",
+      "Le prochain rapport sur l'emploi américain, catalyseur très attendu pour trancher le débat interne à la Fed."
     ],
     "modele": "gemini-3.1-pro-preview"
   }
