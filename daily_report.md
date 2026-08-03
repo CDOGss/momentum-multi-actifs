@@ -1,47 +1,50 @@
-# 🧭 Rotation momentum multi-actifs — 2026-07-31
+# 🧭 Rotation momentum multi-actifs — 2026-08-03
 
 ## 💼 Situation
-- **Valeur du portefeuille : 9,858.08 $** (-1.42% depuis le départ)
-- Benchmark S&P 500 : -1.03% — Benchmark 60/40 : -0.97%
-- Régime mécanique : **offensif** — VIX : 16.0
-- Frais cumulés depuis le départ : 5.00 $
+- **Valeur du portefeuille : 9,859.85 $** (-1.40% depuis le départ)
+- Benchmark S&P 500 : +0.38% — Benchmark 60/40 : -0.18%
+- Régime mécanique : **offensif** — VIX : 15.9
+- Frais cumulés depuis le départ : 5.03 $
+
+## 🔄 Rotation mensuelle exécutée
+- 🔴 **Vente DBC** : 55.47 $ à 28.88 $ (frais 0.03 $)
 
 ## 📌 Positions
 | ETF | Nom | Valeur | Prix | Prix de revient |
 |---|---|---:|---:|---:|
-| **DBC** | Matières premières (panier large) | 3,408.04 $ | 29.45 $ | 28.79 $ |
-| **EEM** | Actions émergentes | 3,256.47 $ | 64.09 $ | 65.57 $ |
-| **QQQ** | Nasdaq 100 (tech US) | 3,193.57 $ | 687.99 $ | 717.74 $ |
+| **DBC** | Matières premières (panier large) | 3,286.61 $ | 28.88 $ | 28.79 $ |
+| **EEM** | Actions émergentes | 3,268.15 $ | 64.32 $ | 65.57 $ |
+| **QQQ** | Nasdaq 100 (tech US) | 3,249.64 $ | 700.07 $ | 717.74 $ |
 
 ## 📊 Classement momentum du jour
 | Rang | ETF | Score | 3 mois | 6 mois | 12 mois | Momentum absolu |
 |---|---|---:|---:|---:|---:|:---:|
-| #1 | **DBC** 📌 | +15.2% | -5.3% | +16.4% | +34.5% | ✅ |
-| #2 | **EEM** 📌 | +13.7% | +0.7% | +6.6% | +33.8% | ✅ |
-| #3 | **QQQ** 📌 | +11.5% | +3.1% | +9.6% | +21.7% | ✅ |
-| #4 | **EFA** | +11.2% | +4.8% | +5.5% | +23.4% | ✅ |
-| #5 | **SPY** | +10.5% | +4.2% | +8.2% | +19.1% | ✅ |
-| #6 | **VNQ** | +9.5% | +3.6% | +11.2% | +13.7% | ✅ |
-| #7 | **TLT** | -2.6% | -2.8% | -4.0% | -1.0% | ❌ |
-| #8 | **GLD** | -4.6% | -12.3% | -25.1% | +23.4% | ❌ |
-| refuge | **IEF** | -0.2% | -1.2% | -1.3% | +1.9% | ❌ |
+| #1 | **EEM** 📌 | +15.1% | +0.8% | +9.4% | +35.0% | ✅ |
+| #2 | **DBC** 📌 | +15.0% | -6.3% | +18.2% | +33.0% | ✅ |
+| #3 | **QQQ** 📌 | +13.8% | +4.0% | +12.8% | +24.5% | ✅ |
+| #4 | **EFA** | +12.6% | +5.5% | +6.9% | +25.3% | ✅ |
+| #5 | **SPY** | +12.2% | +5.4% | +10.1% | +21.2% | ✅ |
+| #6 | **VNQ** | +10.2% | +4.0% | +11.2% | +15.4% | ✅ |
+| #7 | **GLD** | -2.0% | -12.2% | -16.5% | +22.7% | ❌ |
+| #8 | **TLT** | -2.6% | -3.3% | -3.5% | -1.1% | ❌ |
+| refuge | **IEF** | -0.4% | -1.4% | -1.4% | +1.6% | ❌ |
 
 📌 = détenu — ✅/❌ = momentum absolu vs T-Bills (BIL)
 
 ## 🧠 L'œil de l'analyste (IA)
-**Incertitudes sur les taux, le momentum tech menacé.** — régime perçu : `neutre`
+**Détente géopolitique et essoufflement latent des matières premières.** — régime perçu : `risk_on`
 
-Le portefeuille maintient mécaniquement sa posture offensive sur DBC, EEM et QQQ, mais l'analyse du momentum révèle des fragilités sous-jacentes. DBC conserve sa première place grâce à un historique 12 mois exceptionnel (+34.5%), bien que son essoufflement récent à 3 mois (-5.3%) reflète l'hésitation des cours du brut face à l'augmentation des flux du Golfe. De son côté, le Nasdaq (QQQ, 3e) voit son avance fondre face aux actions internationales (EFA, 4e), l'écart n'étant plus que de 0.3 point. Cette dynamique de tassement fait écho à l'actualité macroéconomique : la fronde inédite de plusieurs dissidents de la Fed (Kashkari, Logan, Hammack) face à Kevin Warsh ravive les craintes d'un nouveau resserrement monétaire contre l'inflation. Ce contexte de taux durablement élevés bride le rebond de l'IA et maintient les obligations (TLT, IEF) ainsi que l'or (GLD) en momentum absolu négatif. Bien que le régime reste mécaniquement investi en actifs risqués (VIX clément à 16.0), le leadership de la tech américaine est devenu vulnérable, annonçant un possible changement de hiérarchie au profit de l'international si les rendements obligataires se tendent davantage.
+Le modèle maintient un positionnement strictement offensif, validé par un VIX bas (15.9) et un momentum absolu négatif sur les actifs refuges (GLD, TLT, IEF). L'allégement marginal de DBC (55 $) correspond à un simple rééquilibrage de poids, mais il met en lumière une fracture dans sa dynamique : son momentum à 3 mois plonge (-6.3%). Ce décrochage s'aligne parfaitement avec l'actualité macroéconomique, marquée par la chute des cours du pétrole suite à la suspension des frappes américaines et la reprise des négociations avec l'Iran. À l'inverse, cette détente énergétique agit comme un catalyseur pour les actions mondiales. Si EEM et QQQ conservent leur place dans le trio de tête, on observe une poussée remarquable de EFA et SPY, dont les scores trimestriels surpassent désormais ceux de notre top 3. L'inertie du momentum à 6 et 12 mois maintient DBC en portefeuille, mais la divergence entre la macro (choc pétrolier évité) et nos positions historiques suggère qu'une rotation vers le 100% actions (SPY ou EFA remplaçant DBC) se prépare pour les prochains mois.
 
 **Risques :**
-- ⚠️ Poursuite de la correction à court terme sur les matières premières (DBC), pesant directement sur la première ligne du portefeuille.
-- ⚠️ Basculement de QQQ hors du top 3 au profit de EFA sous la pression d'une rhétorique agressive de la Fed sur les taux.
-- ⚠️ Baisse de régime brutale si le marché sanctionne un manque de crédibilité du président de la Réserve Fédérale.
+- ⚠️ Vulnérabilité de la position DBC face à l'accélération de la détente géopolitique avec l'Iran, pesant sur le complexe énergétique.
+- ⚠️ Risque de duration et de valorisation sur QQQ et EEM si l'inflation s'avère persistante, forçant la Fed à exécuter ses menaces de resserrement (cf. avertissements de J. Williams).
+- ⚠️ Inertie mécanique (drag) due au maintien de DBC malgré sa forte sous-performance trimestrielle (-6.3%) face aux actions développées.
 
 **À surveiller :**
-- 👁️ L'écart critique de score entre QQQ (+11.5%) et EFA (+11.2%) pour la prochaine rotation du 3 août.
-- 👁️ La dynamique 3 mois de DBC, dont le retournement négatif commence à peser sur son momentum global.
-- 👁️ Le prochain rapport sur l'emploi américain, catalyseur très attendu pour trancher le débat interne à la Fed.
+- 👁️ Le resserrement des scores de EFA (+12.6%) et SPY (+12.2%), qui sont en embuscade pour éjecter DBC (+15.0%) ou QQQ (+13.8%) lors de la prochaine rotation du 1er septembre.
+- 👁️ L'évolution des pourparlers US-Iran, catalyseur binaire pour la composante énergie du tracker DBC.
+- 👁️ Les prochaines publications du CPI américain, déterminantes pour confirmer le scénario de désinflation ou raviver la rhétorique restrictive de la Fed.
 
 ---
 *Rapport généré automatiquement — expérience à blanc, aucun argent réel, ceci n'est pas un conseil en investissement.*
