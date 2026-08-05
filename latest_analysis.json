@@ -1,21 +1,6 @@
 {
-  "date": "2026-08-03",
+  "date": "2026-08-04",
   "prochaine_rotation": "2026-09-01",
   "regime_strategie": "offensif",
-  "ia": {
-    "regime": "risk_on",
-    "titre": "Détente géopolitique et essoufflement latent des matières premières.",
-    "commentaire": "Le modèle maintient un positionnement strictement offensif, validé par un VIX bas (15.9) et un momentum absolu négatif sur les actifs refuges (GLD, TLT, IEF). L'allégement marginal de DBC (55 $) correspond à un simple rééquilibrage de poids, mais il met en lumière une fracture dans sa dynamique : son momentum à 3 mois plonge (-6.3%). Ce décrochage s'aligne parfaitement avec l'actualité macroéconomique, marquée par la chute des cours du pétrole suite à la suspension des frappes américaines et la reprise des négociations avec l'Iran. À l'inverse, cette détente énergétique agit comme un catalyseur pour les actions mondiales. Si EEM et QQQ conservent leur place dans le trio de tête, on observe une poussée remarquable de EFA et SPY, dont les scores trimestriels surpassent désormais ceux de notre top 3. L'inertie du momentum à 6 et 12 mois maintient DBC en portefeuille, mais la divergence entre la macro (choc pétrolier évité) et nos positions historiques suggère qu'une rotation vers le 100% actions (SPY ou EFA remplaçant DBC) se prépare pour les prochains mois.",
-    "risques": [
-      "Vulnérabilité de la position DBC face à l'accélération de la détente géopolitique avec l'Iran, pesant sur le complexe énergétique.",
-      "Risque de duration et de valorisation sur QQQ et EEM si l'inflation s'avère persistante, forçant la Fed à exécuter ses menaces de resserrement (cf. avertissements de J. Williams).",
-      "Inertie mécanique (drag) due au maintien de DBC malgré sa forte sous-performance trimestrielle (-6.3%) face aux actions développées."
-    ],
-    "a_surveiller": [
-      "Le resserrement des scores de EFA (+12.6%) et SPY (+12.2%), qui sont en embuscade pour éjecter DBC (+15.0%) ou QQQ (+13.8%) lors de la prochaine rotation du 1er septembre.",
-      "L'évolution des pourparlers US-Iran, catalyseur binaire pour la composante énergie du tracker DBC.",
-      "Les prochaines publications du CPI américain, déterminantes pour confirmer le scénario de désinflation ou raviver la rhétorique restrictive de la Fed."
-    ],
-    "modele": "gemini-3.1-pro-preview"
-  }
+  "ia": null
 }
