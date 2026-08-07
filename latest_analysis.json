@@ -1,20 +1,20 @@
 {
-  "date": "2026-08-05",
+  "date": "2026-08-06",
   "prochaine_rotation": "2026-09-01",
   "regime_strategie": "offensif",
   "ia": {
     "regime": "neutre",
-    "titre": "Momentum offensif fragilisé par la Fed et la chute du pétrole",
-    "commentaire": "Le portefeuille maintient son allocation mécanique 100% offensive (QQQ, EEM, DBC), mais l'analyse croisée du classement momentum et de la macroéconomie révèle de nettes fragilités. Si le Nasdaq (QQQ) et les actions émergentes (EEM) conservent la tête grâce à de solides performances sur 12 mois, la dynamique à court terme ralentit. La divergence majeure provient de notre troisième ligne, le panier de matières premières (DBC) : bien que son score pondéré le maintienne sur le podium (+14.3%), son momentum à 3 mois s'effondre (-8.7%), heurté par le récent décrochage du brut en dépit des tensions iraniennes. Cette faiblesse explique le retard actuel du portefeuille face au benchmark (SPY). Sur le plan macroéconomique, le ton résolument 'hawkish' de la Fed (Kashkari et Cook prêts à remonter les taux si l'inflation persiste) contraste dangereusement avec les sommets boursiers tirés par la tech. Le récent sursaut de l'or souligne cette nervosité sous-jacente. Notre diagnostic s'écarte donc du régime mécanique : l'environnement devient neutre à risque.",
+    "titre": "Menaces sur les taux et fragilité du momentum court terme",
+    "commentaire": "Bien que notre modèle systématique maintienne une posture mécanique offensive, l'analyse des sous-composantes du classement momentum révèle une fragilité grandissante. Nos positions sur les matières premières (DBC) et les marchés émergents (EEM) affichent d'excellents scores historiques à 12 mois, mais souffrent d'un momentum négatif sur 3 mois (-4,5% et -3,2%). Cette dynamique divergente s'explique par la volatilité extrême liée à la guerre en Iran et aux spéculations sur le détroit d'Ormuz, chahutant les cours du brut. Parallèlement, les récents discours très hawkish de la Fed, qui n'excluent plus de nouvelles hausses de taux face à une inflation tenace, menacent structurellement notre allocation tech (QQQ) et émergente (EEM). Le VIX complaisant (15,1) et les indices proches de leurs sommets masquent cette nervosité sous-jacente. Le SPY, porté par un momentum à 3 mois robuste (+5,0%), talonne désormais notre trio de tête. La décorrélation entre les performances à 12 mois de nos actifs détenus et la réalité macro-économique actuelle pèse sur le portefeuille, qui sous-performe actuellement le S&P 500, et suggère une forte probabilité de rotation le mois prochain.",
     "risques": [
-      "Un choc monétaire provoqué par une Fed agressive (menaces de Cook et Kashkari), pénalisant directement la valorisation de QQQ et EEM.",
-      "La poursuite du repli des cours de l'or noir qui continuerait de sanctionner la performance de notre position DBC.",
-      "Une correction sur le secteur technologique (essoufflement déjà visible avec la chute de SpaceX) qui effacerait les gains accumulés par le Nasdaq."
+      "Un resserrement monétaire persistant ou une hausse de taux de la Fed, pénalisant directement la valorisation du Nasdaq (QQQ) et les flux vers les émergents (EEM).",
+      "Une chute soudaine des matières premières (DBC) en cas d'accord diplomatique au Moyen-Orient et de réouverture effective du détroit d'Ormuz.",
+      "Un risque de sous-performance temporaire face au SPY jusqu'à la prochaine rotation, nos poches DBC et EEM subissant une forte dégradation de leur dynamique trimestrielle."
     ],
     "a_surveiller": [
-      "L'écart critique entre DBC (14.3%) et SPY (14.1%) : le S&P 500 est sur le point d'éjecter les matières premières du top 3.",
-      "Le momentum à court terme de l'or (GLD) qui s'enflamme dans l'actualité récente et pourrait rapidement regagner un momentum absolu positif.",
-      "La prochaine publication du CPI américain, qui validera ou invalidera les probabilités de hausse des taux évoquées par la Fed."
+      "Le rapport sur l'emploi américain de juillet, catalyseur décisif pour les anticipations d'inflation et de politique monétaire de la Fed.",
+      "L'écart de score entre le SPY (+13,8%) et l'EEM (+14,6%) : un léger sursaut des actions US suffirait à évincer l'EEM du trio de tête pour la rotation du 1er septembre.",
+      "Le momentum de l'or (GLD) : malgré un score absolu négatif, son récent rebond face aux tensions géopolitiques pourrait le rapprocher d'un signal positif d'ici la fin du mois."
     ],
     "modele": "gemini-3.1-pro-preview"
   }

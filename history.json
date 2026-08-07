@@ -2686,5 +2686,172 @@
       ],
       "modele": "gemini-3.1-pro-preview"
     }
+  },
+  {
+    "date": "2026-08-06",
+    "nav": 9960.82,
+    "bench_spy": 10182.17,
+    "bench_6040": 10073.46,
+    "cash": 55.45,
+    "frais_cumules": 5.03,
+    "vix": 15.1,
+    "regime_strategie": "offensif",
+    "rebalance": false,
+    "trades": [],
+    "positions": [
+      {
+        "ticker": "DBC",
+        "nom": "Matières premières (panier large)",
+        "parts": 113.8022,
+        "prix": 28.86,
+        "valeur": 3284.33,
+        "prix_revient": 28.79,
+        "date_achat": "2026-07-15"
+      },
+      {
+        "ticker": "EEM",
+        "nom": "Actions émergentes",
+        "parts": 50.8108,
+        "prix": 65.02,
+        "valeur": 3303.72,
+        "prix_revient": 65.57,
+        "date_achat": "2026-07-15"
+      },
+      {
+        "ticker": "QQQ",
+        "nom": "Nasdaq 100 (tech US)",
+        "parts": 4.6419,
+        "prix": 714.65,
+        "valeur": 3317.32,
+        "prix_revient": 717.74,
+        "date_achat": "2026-07-15"
+      }
+    ],
+    "momentum": [
+      {
+        "ticker": "SPY",
+        "nom": "S&P 500 (actions US)",
+        "type": "risque",
+        "r3m": 0.05,
+        "r6m": 0.126,
+        "r12m": 0.2374,
+        "score": 0.1378,
+        "excess": 0.1161,
+        "selectionne": false,
+        "rang": 4
+      },
+      {
+        "ticker": "QQQ",
+        "nom": "Nasdaq 100 (tech US)",
+        "type": "risque",
+        "r3m": 0.0283,
+        "r6m": 0.1826,
+        "r12m": 0.2817,
+        "score": 0.1642,
+        "excess": 0.1425,
+        "selectionne": true,
+        "rang": 2
+      },
+      {
+        "ticker": "EFA",
+        "nom": "Actions internationales développées",
+        "type": "risque",
+        "r3m": 0.0405,
+        "r6m": 0.0715,
+        "r12m": 0.2555,
+        "score": 0.1225,
+        "excess": 0.1008,
+        "selectionne": false,
+        "rang": 5
+      },
+      {
+        "ticker": "EEM",
+        "nom": "Actions émergentes",
+        "type": "risque",
+        "r3m": -0.0316,
+        "r6m": 0.1115,
+        "r12m": 0.3574,
+        "score": 0.1458,
+        "excess": 0.124,
+        "selectionne": true,
+        "rang": 3
+      },
+      {
+        "ticker": "GLD",
+        "nom": "Or",
+        "type": "risque",
+        "r3m": -0.0958,
+        "r6m": -0.1416,
+        "r12m": 0.2523,
+        "score": 0.005,
+        "excess": -0.0168,
+        "selectionne": false,
+        "rang": 7
+      },
+      {
+        "ticker": "DBC",
+        "nom": "Matières premières (panier large)",
+        "type": "risque",
+        "r3m": -0.0447,
+        "r6m": 0.1931,
+        "r12m": 0.3672,
+        "score": 0.1718,
+        "excess": 0.1501,
+        "selectionne": true,
+        "rang": 1
+      },
+      {
+        "ticker": "VNQ",
+        "nom": "Immobilier coté US (REITs)",
+        "type": "risque",
+        "r3m": 0.0187,
+        "r6m": 0.0991,
+        "r12m": 0.1285,
+        "score": 0.0821,
+        "excess": 0.0604,
+        "selectionne": false,
+        "rang": 6
+      },
+      {
+        "ticker": "TLT",
+        "nom": "Obligations US 20+ ans",
+        "type": "risque",
+        "r3m": -0.0301,
+        "r6m": -0.0246,
+        "r12m": -0.023,
+        "score": -0.0259,
+        "excess": -0.0476,
+        "selectionne": false,
+        "rang": 8
+      },
+      {
+        "ticker": "IEF",
+        "nom": "Obligations US 7-10 ans (refuge)",
+        "type": "refuge",
+        "r3m": -0.0117,
+        "r6m": -0.0076,
+        "r12m": 0.009,
+        "score": -0.0034,
+        "excess": -0.0251,
+        "selectionne": false,
+        "rang": null
+      }
+    ],
+    "ia": {
+      "regime": "neutre",
+      "titre": "Menaces sur les taux et fragilité du momentum court terme",
+      "commentaire": "Bien que notre modèle systématique maintienne une posture mécanique offensive, l'analyse des sous-composantes du classement momentum révèle une fragilité grandissante. Nos positions sur les matières premières (DBC) et les marchés émergents (EEM) affichent d'excellents scores historiques à 12 mois, mais souffrent d'un momentum négatif sur 3 mois (-4,5% et -3,2%). Cette dynamique divergente s'explique par la volatilité extrême liée à la guerre en Iran et aux spéculations sur le détroit d'Ormuz, chahutant les cours du brut. Parallèlement, les récents discours très hawkish de la Fed, qui n'excluent plus de nouvelles hausses de taux face à une inflation tenace, menacent structurellement notre allocation tech (QQQ) et émergente (EEM). Le VIX complaisant (15,1) et les indices proches de leurs sommets masquent cette nervosité sous-jacente. Le SPY, porté par un momentum à 3 mois robuste (+5,0%), talonne désormais notre trio de tête. La décorrélation entre les performances à 12 mois de nos actifs détenus et la réalité macro-économique actuelle pèse sur le portefeuille, qui sous-performe actuellement le S&P 500, et suggère une forte probabilité de rotation le mois prochain.",
+      "risques": [
+        "Un resserrement monétaire persistant ou une hausse de taux de la Fed, pénalisant directement la valorisation du Nasdaq (QQQ) et les flux vers les émergents (EEM).",
+        "Une chute soudaine des matières premières (DBC) en cas d'accord diplomatique au Moyen-Orient et de réouverture effective du détroit d'Ormuz.",
+        "Un risque de sous-performance temporaire face au SPY jusqu'à la prochaine rotation, nos poches DBC et EEM subissant une forte dégradation de leur dynamique trimestrielle."
+      ],
+      "a_surveiller": [
+        "Le rapport sur l'emploi américain de juillet, catalyseur décisif pour les anticipations d'inflation et de politique monétaire de la Fed.",
+        "L'écart de score entre le SPY (+13,8%) et l'EEM (+14,6%) : un léger sursaut des actions US suffirait à évincer l'EEM du trio de tête pour la rotation du 1er septembre.",
+        "Le momentum de l'or (GLD) : malgré un score absolu négatif, son récent rebond face aux tensions géopolitiques pourrait le rapprocher d'un signal positif d'ici la fin du mois."
+      ],
+      "modele": "gemini-3.1-pro-preview"
+    }
   }
 ]
