@@ -1,20 +1,18 @@
 {
-  "date": "2026-08-06",
+  "date": "2026-08-07",
   "prochaine_rotation": "2026-09-01",
   "regime_strategie": "offensif",
   "ia": {
-    "regime": "neutre",
-    "titre": "Menaces sur les taux et fragilité du momentum court terme",
-    "commentaire": "Bien que notre modèle systématique maintienne une posture mécanique offensive, l'analyse des sous-composantes du classement momentum révèle une fragilité grandissante. Nos positions sur les matières premières (DBC) et les marchés émergents (EEM) affichent d'excellents scores historiques à 12 mois, mais souffrent d'un momentum négatif sur 3 mois (-4,5% et -3,2%). Cette dynamique divergente s'explique par la volatilité extrême liée à la guerre en Iran et aux spéculations sur le détroit d'Ormuz, chahutant les cours du brut. Parallèlement, les récents discours très hawkish de la Fed, qui n'excluent plus de nouvelles hausses de taux face à une inflation tenace, menacent structurellement notre allocation tech (QQQ) et émergente (EEM). Le VIX complaisant (15,1) et les indices proches de leurs sommets masquent cette nervosité sous-jacente. Le SPY, porté par un momentum à 3 mois robuste (+5,0%), talonne désormais notre trio de tête. La décorrélation entre les performances à 12 mois de nos actifs détenus et la réalité macro-économique actuelle pèse sur le portefeuille, qui sous-performe actuellement le S&P 500, et suggère une forte probabilité de rotation le mois prochain.",
+    "regime": "risk_on",
+    "titre": "Inertie du modèle : essoufflement court terme des matières premières et émergents.",
+    "commentaire": "Le modèle mécanique maintient une posture résolument offensive, confortée par un VIX complaisant à 14.9 et des obligations (IEF, TLT) au momentum absolu toujours négatif. Toutefois, l'analyse granulaire des scores révèle une forte divergence temporelle. Si DBC (matières premières) et EEM (actions émergentes) trônent toujours dans le top 3 grâce à de spectaculaires performances sur 12 mois (+37.3% et +36.4%), leur dynamique à 3 mois est dans le rouge (-4.4% et -0.9%). À l'inverse, les actions classiques rattrapent leur retard avec un momentum court terme très robuste : +6.0% pour le SPY et +7.2% pour EFA. Le Nasdaq (QQQ) reste quant à lui le socle le plus régulier du portefeuille. Cette inertie, inhérente aux stratégies systématiques favorisant les fenêtres longues, explique notre sous-performance immédiate face au SPY pur (+0.37% vs +2.44%). Le marché reste 'risk-on', mais le leadership est en train de pivoter des actifs tangibles/émergents vers les actions développées.",
     "risques": [
-      "Un resserrement monétaire persistant ou une hausse de taux de la Fed, pénalisant directement la valorisation du Nasdaq (QQQ) et les flux vers les émergents (EEM).",
-      "Une chute soudaine des matières premières (DBC) en cas d'accord diplomatique au Moyen-Orient et de réouverture effective du détroit d'Ormuz.",
-      "Un risque de sous-performance temporaire face au SPY jusqu'à la prochaine rotation, nos poches DBC et EEM subissant une forte dégradation de leur dynamique trimestrielle."
+      "Poursuite de la correction à court terme sur les matières premières (DBC) qui plomberait la performance d'ici la fin du mois.",
+      "Coût d'opportunité (drag) important si SPY et EFA continuent d'accélérer alors que le portefeuille reste verrouillé sur EEM."
     ],
     "a_surveiller": [
-      "Le rapport sur l'emploi américain de juillet, catalyseur décisif pour les anticipations d'inflation et de politique monétaire de la Fed.",
-      "L'écart de score entre le SPY (+13,8%) et l'EEM (+14,6%) : un léger sursaut des actions US suffirait à évincer l'EEM du trio de tête pour la rotation du 1er septembre.",
-      "Le momentum de l'or (GLD) : malgré un score absolu négatif, son récent rebond face aux tensions géopolitiques pourrait le rapprocher d'un signal positif d'ici la fin du mois."
+      "Le croisement imminent des scores globaux entre EEM (16.1%) et SPY (14.7%) d'ici la rotation du 1er septembre.",
+      "L'aggravation du momentum à 3 mois de DBC qui pourrait finir par effacer son avance acquise sur 12 mois et l'exclure du Top 3."
     ],
     "modele": "gemini-3.1-pro-preview"
   }

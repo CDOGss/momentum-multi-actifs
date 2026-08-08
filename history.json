@@ -2853,5 +2853,170 @@
       ],
       "modele": "gemini-3.1-pro-preview"
     }
+  },
+  {
+    "date": "2026-08-07",
+    "nav": 10036.92,
+    "bench_spy": 10244.43,
+    "bench_6040": 10120.08,
+    "cash": 55.45,
+    "frais_cumules": 5.03,
+    "vix": 14.9,
+    "regime_strategie": "offensif",
+    "rebalance": false,
+    "trades": [],
+    "positions": [
+      {
+        "ticker": "DBC",
+        "nom": "Matières premières (panier large)",
+        "parts": 113.8022,
+        "prix": 28.91,
+        "valeur": 3290.02,
+        "prix_revient": 28.79,
+        "date_achat": "2026-07-15"
+      },
+      {
+        "ticker": "EEM",
+        "nom": "Actions émergentes",
+        "parts": 50.8108,
+        "prix": 65.64,
+        "valeur": 3335.22,
+        "prix_revient": 65.57,
+        "date_achat": "2026-07-15"
+      },
+      {
+        "ticker": "QQQ",
+        "nom": "Nasdaq 100 (tech US)",
+        "parts": 4.6419,
+        "prix": 723.03,
+        "valeur": 3356.22,
+        "prix_revient": 717.74,
+        "date_achat": "2026-07-15"
+      }
+    ],
+    "momentum": [
+      {
+        "ticker": "SPY",
+        "nom": "S&P 500 (actions US)",
+        "type": "risque",
+        "r3m": 0.0597,
+        "r6m": 0.1472,
+        "r12m": 0.2355,
+        "score": 0.1475,
+        "excess": 0.1256,
+        "selectionne": false,
+        "rang": 4
+      },
+      {
+        "ticker": "QQQ",
+        "nom": "Nasdaq 100 (tech US)",
+        "type": "risque",
+        "r3m": 0.0416,
+        "r6m": 0.2139,
+        "r12m": 0.2806,
+        "score": 0.1787,
+        "excess": 0.1568,
+        "selectionne": true,
+        "rang": 2
+      },
+      {
+        "ticker": "EFA",
+        "nom": "Actions internationales développées",
+        "type": "risque",
+        "r3m": 0.0717,
+        "r6m": 0.0991,
+        "r12m": 0.2611,
+        "score": 0.144,
+        "excess": 0.1221,
+        "selectionne": false,
+        "rang": 5
+      },
+      {
+        "ticker": "EEM",
+        "nom": "Actions émergentes",
+        "type": "risque",
+        "r3m": -0.0091,
+        "r6m": 0.1273,
+        "r12m": 0.3639,
+        "score": 0.1607,
+        "excess": 0.1388,
+        "selectionne": true,
+        "rang": 3
+      },
+      {
+        "ticker": "GLD",
+        "nom": "Or",
+        "type": "risque",
+        "r3m": -0.0769,
+        "r6m": -0.0982,
+        "r12m": 0.2833,
+        "score": 0.036,
+        "excess": 0.0142,
+        "selectionne": false,
+        "rang": 7
+      },
+      {
+        "ticker": "DBC",
+        "nom": "Matières premières (panier large)",
+        "type": "risque",
+        "r3m": -0.0443,
+        "r6m": 0.2168,
+        "r12m": 0.3727,
+        "score": 0.1817,
+        "excess": 0.1598,
+        "selectionne": true,
+        "rang": 1
+      },
+      {
+        "ticker": "VNQ",
+        "nom": "Immobilier coté US (REITs)",
+        "type": "risque",
+        "r3m": 0.0302,
+        "r6m": 0.105,
+        "r12m": 0.1419,
+        "score": 0.0924,
+        "excess": 0.0705,
+        "selectionne": false,
+        "rang": 6
+      },
+      {
+        "ticker": "TLT",
+        "nom": "Obligations US 20+ ans",
+        "type": "risque",
+        "r3m": -0.0224,
+        "r6m": -0.0323,
+        "r12m": -0.0145,
+        "score": -0.0231,
+        "excess": -0.0449,
+        "selectionne": false,
+        "rang": 8
+      },
+      {
+        "ticker": "IEF",
+        "nom": "Obligations US 7-10 ans (refuge)",
+        "type": "refuge",
+        "r3m": -0.0063,
+        "r6m": -0.011,
+        "r12m": 0.0121,
+        "score": -0.0017,
+        "excess": -0.0236,
+        "selectionne": false,
+        "rang": null
+      }
+    ],
+    "ia": {
+      "regime": "risk_on",
+      "titre": "Inertie du modèle : essoufflement court terme des matières premières et émergents.",
+      "commentaire": "Le modèle mécanique maintient une posture résolument offensive, confortée par un VIX complaisant à 14.9 et des obligations (IEF, TLT) au momentum absolu toujours négatif. Toutefois, l'analyse granulaire des scores révèle une forte divergence temporelle. Si DBC (matières premières) et EEM (actions émergentes) trônent toujours dans le top 3 grâce à de spectaculaires performances sur 12 mois (+37.3% et +36.4%), leur dynamique à 3 mois est dans le rouge (-4.4% et -0.9%). À l'inverse, les actions classiques rattrapent leur retard avec un momentum court terme très robuste : +6.0% pour le SPY et +7.2% pour EFA. Le Nasdaq (QQQ) reste quant à lui le socle le plus régulier du portefeuille. Cette inertie, inhérente aux stratégies systématiques favorisant les fenêtres longues, explique notre sous-performance immédiate face au SPY pur (+0.37% vs +2.44%). Le marché reste 'risk-on', mais le leadership est en train de pivoter des actifs tangibles/émergents vers les actions développées.",
+      "risques": [
+        "Poursuite de la correction à court terme sur les matières premières (DBC) qui plomberait la performance d'ici la fin du mois.",
+        "Coût d'opportunité (drag) important si SPY et EFA continuent d'accélérer alors que le portefeuille reste verrouillé sur EEM."
+      ],
+      "a_surveiller": [
+        "Le croisement imminent des scores globaux entre EEM (16.1%) et SPY (14.7%) d'ici la rotation du 1er septembre.",
+        "L'aggravation du momentum à 3 mois de DBC qui pourrait finir par effacer son avance acquise sur 12 mois et l'exclure du Top 3."
+      ],
+      "modele": "gemini-3.1-pro-preview"
+    }
   }
 ]
