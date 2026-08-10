@@ -1,18 +1,20 @@
 {
-  "date": "2026-08-07",
+  "date": "2026-08-10",
   "prochaine_rotation": "2026-09-01",
   "regime_strategie": "offensif",
   "ia": {
-    "regime": "risk_on",
-    "titre": "Inertie du modèle : essoufflement court terme des matières premières et émergents.",
-    "commentaire": "Le modèle mécanique maintient une posture résolument offensive, confortée par un VIX complaisant à 14.9 et des obligations (IEF, TLT) au momentum absolu toujours négatif. Toutefois, l'analyse granulaire des scores révèle une forte divergence temporelle. Si DBC (matières premières) et EEM (actions émergentes) trônent toujours dans le top 3 grâce à de spectaculaires performances sur 12 mois (+37.3% et +36.4%), leur dynamique à 3 mois est dans le rouge (-4.4% et -0.9%). À l'inverse, les actions classiques rattrapent leur retard avec un momentum court terme très robuste : +6.0% pour le SPY et +7.2% pour EFA. Le Nasdaq (QQQ) reste quant à lui le socle le plus régulier du portefeuille. Cette inertie, inhérente aux stratégies systématiques favorisant les fenêtres longues, explique notre sous-performance immédiate face au SPY pur (+0.37% vs +2.44%). Le marché reste 'risk-on', mais le leadership est en train de pivoter des actifs tangibles/émergents vers les actions développées.",
+    "regime": "neutre",
+    "titre": "Attentisme macroéconomique et tensions énergétiques face au leadership technologique",
+    "commentaire": "Le régime mécanique du portefeuille est pleinement offensif, reflétant une dynamique de fond robuste sur les actifs risqués. Toutefois, le classement momentum illustre parfaitement la dichotomie actuelle. D'un côté, les matières premières (DBC, #1) capitalisent sur les tensions géopolitiques dans le détroit d'Ormuz, bien que leur momentum à 3 mois (-1,2%) signale une nervosité à court terme. De l'autre, la tech américaine (QQQ, #2) maintient son leadership malgré un marché macro attentiste.\n\nLe fait quantitatif marquant du jour est le croisement entre le S&P 500 (SPY, #3) et les actions émergentes (EEM, #4). Le portefeuille détient encore EEM suite à la dernière rotation, mais la dynamique récente d'EEM (-3,6% sur 3 mois) montre un net essoufflement. Si la rotation avait lieu aujourd'hui, le S&P 500 l'évincerait.\n\nL'actualité macroéconomique justifie la stagnation des indices : les investisseurs retiennent leur souffle avant les données cruciales sur l'inflation américaine. Le compartiment obligataire (TLT et IEF) reste bloqué en momentum absolu négatif. Notre configuration barbell 'Tech + Matières premières' est résiliente mais très exposée à un choc inflationniste.",
     "risques": [
-      "Poursuite de la correction à court terme sur les matières premières (DBC) qui plomberait la performance d'ici la fin du mois.",
-      "Coût d'opportunité (drag) important si SPY et EFA continuent d'accélérer alors que le portefeuille reste verrouillé sur EEM."
+      "Sous-performance de notre ligne EEM par rapport au S&P 500 (SPY), créant un manque à gagner d'ici la prochaine rotation mécanique du 1er septembre.",
+      "Correction brutale du DBC (notre 1ère position) en cas de résolution diplomatique ou d'apaisement soudain des tensions dans le détroit d'Ormuz.",
+      "Choc de valorisation sur le QQQ si l'inflation américaine ressort supérieure aux attentes, forçant la Fed à maintenir une politique restrictive stricte."
     ],
     "a_surveiller": [
-      "Le croisement imminent des scores globaux entre EEM (16.1%) et SPY (14.7%) d'ici la rotation du 1er septembre.",
-      "L'aggravation du momentum à 3 mois de DBC qui pourrait finir par effacer son avance acquise sur 12 mois et l'exclure du Top 3."
+      "La publication des chiffres de l'inflation américaine, principal catalyseur directionnel attendu par les marchés boursiers cette semaine.",
+      "L'écart de score entre SPY (+13,7%) et EEM (+13,3%) : ce duel déterminera l'actif qui accompagnera DBC et QQQ lors de la rotation de septembre.",
+      "L'évolution du momentum à 3 mois du DBC (-1,2%), très sensible à la volatilité des prix de l'énergie et aux annonces géopolitiques."
     ],
     "modele": "gemini-3.1-pro-preview"
   }
