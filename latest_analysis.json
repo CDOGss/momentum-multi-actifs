@@ -1,6 +1,21 @@
 {
-  "date": "2026-08-13",
+  "date": "2026-08-17",
   "prochaine_rotation": "2026-09-01",
   "regime_strategie": "offensif",
-  "ia": null
+  "ia": {
+    "regime": "risk_on",
+    "titre": "Le régime offensif perdure, soutenu par la Fed et le pétrole",
+    "commentaire": "Le portefeuille maintient une posture purement offensive en détenant DBC, EEM et QQQ. Ce classement momentum valide un régime de marché confiant (VIX à 15.2) où les actifs refuges sont délaissés, comme en témoigne le momentum absolu négatif de TLT et de l'IEF. La première place des matières premières (DBC) repose sur une inertie impressionnante à 6 et 12 mois, même si son momentum récent à 3 mois s'est tassé (-2.0%) ; l'actualité sur les tensions à Ormuz et la remontée du pétrole pourrait toutefois stopper cette consolidation. Parallèlement, le net recul du dollar, porté par les anticipations d'un statu quo de la Fed en septembre, offre un puissant vent de dos aux actions émergentes (EEM, #2). En revanche, la dynamique des actions américaines (QQQ, #3) s'effrite légèrement malgré le récit porteur de l'IA. Son avance se resserre face au S&P 500 (SPY, #4) et surtout face aux actions internationales (EFA, #5), qui affichent le meilleur momentum à 3 mois (+8.3%). Le marché reste fondamentalement porteur, mais le leadership tend à se diversifier.",
+    "risques": [
+      "Résurgence de l'inflation liée à la remontée des cours du pétrole, pouvant forcer la Fed à revoir sa pause tarifaire.",
+      "Baisse de régime soudaine de la tech américaine (QQQ), dont la domination s'érode face aux indices internationaux (EFA).",
+      "Forte volatilité sur la poche matières premières (DBC) en cas d'apaisement ou d'escalade brutale au Moyen-Orient."
+    ],
+    "a_surveiller": [
+      "Rotation mensuelle du 1er septembre : SPY (+13.3%) et EFA (+12.1%) sont en embuscade pour ravir la troisième place détenue par QQQ (+17.0%).",
+      "Évolution du momentum à 3 mois de DBC, actuellement en territoire négatif (-2.0%), pour confirmer si la hausse du brut se traduit dans les prix de l'ETF.",
+      "Maintien du momentum absolu de l'IEF en territoire négatif, indicateur ultime pour une éventuelle bascule défensive mécanique."
+    ],
+    "modele": "gemini-3.1-pro-preview"
+  }
 }
