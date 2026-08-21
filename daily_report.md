@@ -1,47 +1,48 @@
-# 🧭 Rotation momentum multi-actifs — 2026-08-20
+# 🧭 Rotation momentum multi-actifs — 2026-08-21
 
 ## 💼 Situation
-- **Valeur du portefeuille : 10,280.91 $** (+2.81% depuis le départ)
-- Benchmark S&P 500 : +1.03% — Benchmark 60/40 : +0.29%
-- Régime mécanique : **offensif** — VIX : 16.0
+- **Valeur du portefeuille : 10,335.04 $** (+3.35% depuis le départ)
+- Benchmark S&P 500 : +1.45% — Benchmark 60/40 : +0.45%
+- Régime mécanique : **offensif** — VIX : 15.1
 - Frais cumulés depuis le départ : 5.03 $
 
 ## 📌 Positions
 | ETF | Nom | Valeur | Prix | Prix de revient |
 |---|---|---:|---:|---:|
-| **DBC** | Matières premières (panier large) | 3,540.39 $ | 31.11 $ | 28.79 $ |
-| **EEM** | Actions émergentes | 3,385.02 $ | 66.62 $ | 65.57 $ |
-| **QQQ** | Nasdaq 100 (tech US) | 3,300.06 $ | 710.93 $ | 717.74 $ |
+| **DBC** | Matières premières (panier large) | 3,557.46 $ | 31.26 $ | 28.79 $ |
+| **EEM** | Actions émergentes | 3,410.42 $ | 67.12 $ | 65.57 $ |
+| **QQQ** | Nasdaq 100 (tech US) | 3,311.71 $ | 713.44 $ | 717.74 $ |
 
 ## 📊 Classement momentum du jour
 | Rang | ETF | Score | 3 mois | 6 mois | 12 mois | Momentum absolu |
 |---|---|---:|---:|---:|---:|:---:|
-| #1 | **DBC** 📌 | +25.8% | -0.3% | +30.3% | +47.2% | ✅ |
-| #2 | **EEM** 📌 | +16.3% | +4.2% | +9.4% | +35.2% | ✅ |
-| #3 | **QQQ** 📌 | +14.5% | -0.2% | +18.1% | +25.5% | ✅ |
-| #4 | **SPY** | +11.9% | +3.1% | +12.0% | +20.5% | ✅ |
-| #5 | **EFA** | +10.4% | +6.2% | +4.6% | +20.4% | ✅ |
-| #6 | **VNQ** | +8.7% | +4.4% | +6.5% | +15.2% | ✅ |
-| #7 | **GLD** | +8.6% | -0.5% | -9.6% | +36.0% | ✅ |
-| #8 | **TLT** | -2.5% | -0.7% | -6.0% | -0.6% | ❌ |
-| refuge | **IEF** | +0.1% | +0.9% | -2.2% | +1.6% | ❌ |
+| #1 | **DBC** 📌 | +25.6% | +1.8% | +27.1% | +47.8% | ✅ |
+| #2 | **EEM** 📌 | +16.0% | +2.2% | +8.2% | +37.6% | ✅ |
+| #3 | **QQQ** 📌 | +14.7% | -0.0% | +17.5% | +26.7% | ✅ |
+| #4 | **SPY** | +12.1% | +3.4% | +11.7% | +21.3% | ✅ |
+| #5 | **GLD** | +9.7% | +1.5% | -9.7% | +37.3% | ✅ |
+| #6 | **VNQ** | +7.1% | +2.8% | +5.9% | +12.8% | ✅ |
+| #7 | **TLT** | -2.9% | -1.4% | -6.1% | -1.2% | ❌ |
+| refuge | **IEF** | -0.5% | -0.0% | -2.5% | +1.0% | ❌ |
 
 📌 = détenu — ✅/❌ = momentum absolu vs T-Bills (BIL)
 
 ## 🧠 L'œil de l'analyste (IA)
-**Tensions obligataires et craintes stagflationnistes face au momentum des matières premières.** — régime perçu : `neutre`
+**Dominance des matières premières face au retour du risque d'inflation.** — régime perçu : `neutre`
 
-Le modèle maintient une posture mécaniquement offensive en détenant DBC, EEM et QQQ, porté par de fortes performances historiques à 6 et 12 mois. Toutefois, l'analyse du momentum à 3 mois révèle un essoufflement marqué sur le Nasdaq (QQQ : -0.2%) et les matières premières (DBC : -0.3%), contrastant avec la relative résilience du S&P 500 (SPY : +3.1%). Cette divergence interne fait écho à une actualité macroéconomique dominée par la résurgence du risque de taux. Les minutes de la Fed, qui n'excluent pas une nouvelle hausse en septembre, propulsent les rendements obligataires à la hausse et maintiennent TLT en territoire fortement négatif. La flambée des taux souverains, exacerbée par le franchissement des 40 000 milliards de dette américaine, commence à lourdement peser sur Wall Street. Nous évoluons dans un régime tiraillé entre des pressions inflationnistes persistantes (qui soutiennent le classement de DBC) et un durcissement monétaire imminent fragilisant les valorisations technologiques (QQQ). Un climat aux accents stagflationnistes semble se cristalliser.
+Le portefeuille systématique maintient son positionnement offensif avec le trio DBC, EEM, et QQQ. Cette allocation purement mécanique se révèle particulièrement cohérente avec le régime macroéconomique qui se dessine. La domination écrasante du panier de matières premières (DBC, #1 avec un score de +25.6%) fait directement écho aux titres de l'actualité : résurgence des craintes inflationnistes, fermeté de la Fed et envolée des métaux. L'exclusion systématique des obligations (TLT/IEF en momentum absolu négatif) protège opportunément notre capital des tensions souveraines actuelles.
+
+Toutefois, l'analyse du classement dévoile des fragilités sous-jacentes. Si la technologie américaine (QQQ) conserve sa troisième place (+14.7% sur 12 mois), son momentum à 3 mois est totalement nul (0.0%). Le marché commence à pénaliser la 'duration action' face aux minutes restrictives de la Fed. À l'inverse, l'indice large S&P 500 (SPY) montre plus de robustesse à court terme (+3.4%). Bien que le modèle ne détecte aucun signal de repli vers le cash, le diagnostic macro s'oriente vers un régime de fin de cycle dominé par les actifs réels, exigeant une grande prudence face aux valorisations des actifs de croissance.
 
 **Risques :**
-- ⚠️ Vulnérabilité de la poche technologique (QQQ) face à la poursuite de la hausse des rendements obligataires souverains.
-- ⚠️ Risque de correction sur les matières premières (DBC) si le resserrement monétaire de la Fed provoque une destruction brutale de la demande.
-- ⚠️ Sensibilité des actions émergentes (EEM) à un éventuel rebond du dollar américain, catalysé par la divergence des politiques monétaires mondiales.
+- ⚠️ Essoufflement technologique : La stagnation de QQQ sur 3 mois expose cette poche à un risque de correction abrupte si l'appétit pour le risque recule.
+- ⚠️ Choc hawkish de la Fed : Une hausse des taux surprise en septembre pourrait corréler à la baisse les marchés actions (QQQ, EEM) et les matières premières.
+- ⚠️ Tensions sur les dettes souveraines : La remontée brutale des taux américains pourrait renforcer le dollar et pénaliser violemment la dynamique des marchés émergents (EEM).
 
 **À surveiller :**
-- 👁️ Croisement imminent entre QQQ (score 14.5%) et SPY (score 11.9%) : la dynamique 3 mois du S&P 500 pourrait éjecter le Nasdaq du top 3 lors de la prochaine rotation.
-- 👁️ Cassure ou rejet du pétrole WTI sous la résistance des 85 dollars, déterminante pour le maintien de DBC à la première place du classement.
-- 👁️ Anticipations de marché et discours officiels précédant la réunion de la Réserve Fédérale de septembre, qui dicteront la trajectoire des taux.
+- 👁️ Le croisement QQQ / SPY : Avec un score de +12.1% contre +14.7% pour QQQ, le S&P 500 est en embuscade pour ravir la 3ème place lors de la rotation du 1er septembre.
+- 👁️ L'accélération de l'Or (GLD) : Soutenu par ses récents records historiques au-delà des 4500$, son momentum pourrait rapidement le propulser dans le Top 3.
+- 👁️ Momentum absolu du Nasdaq : Une poursuite de la faiblesse de QQQ à court terme pourrait le pousser vers un momentum absolu négatif vs T-Bills.
 
 ---
 *Rapport généré automatiquement — expérience à blanc, aucun argent réel, ceci n'est pas un conseil en investissement.*
