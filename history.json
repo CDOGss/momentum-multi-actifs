@@ -4464,5 +4464,172 @@
       ],
       "modele": "gemini-3.1-pro-preview"
     }
+  },
+  {
+    "date": "2026-08-24",
+    "nav": 10214.25,
+    "bench_spy": 10114.73,
+    "bench_6040": 10035.81,
+    "cash": 55.45,
+    "frais_cumules": 5.03,
+    "vix": 15.9,
+    "regime_strategie": "offensif",
+    "rebalance": false,
+    "trades": [],
+    "positions": [
+      {
+        "ticker": "DBC",
+        "nom": "Matières premières (panier large)",
+        "parts": 113.8022,
+        "prix": 30.94,
+        "valeur": 3521.04,
+        "prix_revient": 28.79,
+        "date_achat": "2026-07-15"
+      },
+      {
+        "ticker": "EEM",
+        "nom": "Actions émergentes",
+        "parts": 50.8108,
+        "prix": 66.11,
+        "valeur": 3359.1,
+        "prix_revient": 65.57,
+        "date_achat": "2026-07-15"
+      },
+      {
+        "ticker": "QQQ",
+        "nom": "Nasdaq 100 (tech US)",
+        "parts": 4.6419,
+        "prix": 706.32,
+        "valeur": 3278.66,
+        "prix_revient": 717.74,
+        "date_achat": "2026-07-15"
+      }
+    ],
+    "momentum": [
+      {
+        "ticker": "SPY",
+        "nom": "S&P 500 (actions US)",
+        "type": "risque",
+        "r3m": 0.0266,
+        "r6m": 0.1248,
+        "r12m": 0.2146,
+        "score": 0.122,
+        "excess": 0.1003,
+        "selectionne": false,
+        "rang": 4
+      },
+      {
+        "ticker": "QQQ",
+        "nom": "Nasdaq 100 (tech US)",
+        "type": "risque",
+        "r3m": -0.0146,
+        "r6m": 0.1772,
+        "r12m": 0.26,
+        "score": 0.1409,
+        "excess": 0.1192,
+        "selectionne": true,
+        "rang": 3
+      },
+      {
+        "ticker": "EFA",
+        "nom": "Actions internationales développées",
+        "type": "risque",
+        "r3m": 0.0554,
+        "r6m": 0.0504,
+        "r12m": 0.2164,
+        "score": 0.1074,
+        "excess": 0.0858,
+        "selectionne": false,
+        "rang": 5
+      },
+      {
+        "ticker": "EEM",
+        "nom": "Actions émergentes",
+        "type": "risque",
+        "r3m": 0.0087,
+        "r6m": 0.0779,
+        "r12m": 0.3579,
+        "score": 0.1482,
+        "excess": 0.1265,
+        "selectionne": true,
+        "rang": 2
+      },
+      {
+        "ticker": "GLD",
+        "nom": "Or",
+        "type": "risque",
+        "r3m": 0.0311,
+        "r6m": -0.1134,
+        "r12m": 0.3886,
+        "score": 0.1021,
+        "excess": 0.0804,
+        "selectionne": false,
+        "rang": 6
+      },
+      {
+        "ticker": "DBC",
+        "nom": "Matières premières (panier large)",
+        "type": "risque",
+        "r3m": 0.0131,
+        "r6m": 0.2501,
+        "r12m": 0.4544,
+        "score": 0.2392,
+        "excess": 0.2175,
+        "selectionne": true,
+        "rang": 1
+      },
+      {
+        "ticker": "VNQ",
+        "nom": "Immobilier coté US (REITs)",
+        "type": "risque",
+        "r3m": 0.0331,
+        "r6m": 0.0648,
+        "r12m": 0.1383,
+        "score": 0.0788,
+        "excess": 0.0571,
+        "selectionne": false,
+        "rang": 7
+      },
+      {
+        "ticker": "TLT",
+        "nom": "Obligations US 20+ ans",
+        "type": "risque",
+        "r3m": -0.0136,
+        "r6m": -0.059,
+        "r12m": -0.0008,
+        "score": -0.0245,
+        "excess": -0.0461,
+        "selectionne": false,
+        "rang": 8
+      },
+      {
+        "ticker": "IEF",
+        "nom": "Obligations US 7-10 ans (refuge)",
+        "type": "refuge",
+        "r3m": 0.0008,
+        "r6m": -0.0266,
+        "r12m": 0.0149,
+        "score": -0.0036,
+        "excess": -0.0253,
+        "selectionne": false,
+        "rang": null
+      }
+    ],
+    "ia": {
+      "regime": "neutre",
+      "titre": "Attentisme et essoufflement du momentum avant Jackson Hole",
+      "commentaire": "Le portefeuille maintient mécaniquement son positionnement offensif sur DBC, EEM et QQQ, surfant sur un robuste momentum à 12 mois et générant une surperformance face au S&P 500. Toutefois, l'analyse de la dynamique à 3 mois révèle un net essoufflement : le Nasdaq 100 (QQQ) recule de 1,5 %, tandis que les matières premières (DBC) et les émergents (EEM) stagnent à peine au-dessus de zéro. Ce tassement reflète la nervosité macroéconomique actuelle. Les marchés retiennent leur souffle avant le discours très attendu de Warsh à Jackson Hole, qui pourrait redéfinir la trajectoire de la Fed alors que sa crédibilité est ouvertement questionnée par la presse financière. Parallèlement, les nouvelles sanctions américaines et l'anticipation des résultats de Nvidia pèsent sur la tech et l'appétit pour le risque. Les rendements obligataires restent résilients (momentum absolu toujours négatif pour TLT et IEF), interdisant pour l'heure tout repli mécanique vers les Treasuries. À une semaine de la rotation de septembre, la structure interne du marché montre un pivot potentiel : le S&P 500 (SPY) et les actions internationales (EFA) affichent une bien meilleure résistance à court terme et menacent directement les actifs actuellement détenus.",
+      "risques": [
+        "Déception sur les résultats de Nvidia entraînant un décrochage de la tech US (QQQ), déjà fragilisée sur le trimestre écoulé.",
+        "Discours restrictif de Warsh à Jackson Hole ou rebond de l'inflation PCE, figeant les taux à des niveaux pénalisants pour les émergents (EEM).",
+        "Hausse de la volatilité sur les matières premières (DBC) liée aux annonces de durcissement des sanctions américaines et géopolitiques."
+      ],
+      "a_surveiller": [
+        "Le resserrement de l'écart de score entre QQQ (14,1 %) et SPY (12,2 %) avant la rotation mensuelle du 1er septembre.",
+        "Le discours du président de la Fed (Warsh) à Jackson Hole et la publication de l'indice PCE de base américain cette semaine.",
+        "L'évolution du momentum absolu de l'IEF, actuellement à -0,4 %, qui reste la clé d'un basculement défensif de la stratégie si les actifs risqués venaient à chuter."
+      ],
+      "modele": "gemini-3.1-pro-preview"
+    }
   }
 ]
