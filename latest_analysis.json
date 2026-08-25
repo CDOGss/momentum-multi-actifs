@@ -1,20 +1,20 @@
 {
-  "date": "2026-08-24",
+  "date": "2026-08-25",
   "prochaine_rotation": "2026-09-01",
   "regime_strategie": "offensif",
   "ia": {
     "regime": "neutre",
-    "titre": "Attentisme et essoufflement du momentum avant Jackson Hole",
-    "commentaire": "Le portefeuille maintient mécaniquement son positionnement offensif sur DBC, EEM et QQQ, surfant sur un robuste momentum à 12 mois et générant une surperformance face au S&P 500. Toutefois, l'analyse de la dynamique à 3 mois révèle un net essoufflement : le Nasdaq 100 (QQQ) recule de 1,5 %, tandis que les matières premières (DBC) et les émergents (EEM) stagnent à peine au-dessus de zéro. Ce tassement reflète la nervosité macroéconomique actuelle. Les marchés retiennent leur souffle avant le discours très attendu de Warsh à Jackson Hole, qui pourrait redéfinir la trajectoire de la Fed alors que sa crédibilité est ouvertement questionnée par la presse financière. Parallèlement, les nouvelles sanctions américaines et l'anticipation des résultats de Nvidia pèsent sur la tech et l'appétit pour le risque. Les rendements obligataires restent résilients (momentum absolu toujours négatif pour TLT et IEF), interdisant pour l'heure tout repli mécanique vers les Treasuries. À une semaine de la rotation de septembre, la structure interne du marché montre un pivot potentiel : le S&P 500 (SPY) et les actions internationales (EFA) affichent une bien meilleure résistance à court terme et menacent directement les actifs actuellement détenus.",
+    "titre": "Taux haussiers : essoufflement tech et émergent à court terme.",
+    "commentaire": "Le portefeuille reste mécaniquement investi à 100 % en actifs risqués (DBC, EEM, QQQ), mais le classement momentum révèle de fortes tensions sous-jacentes. La première place des matières premières (DBC) traduit des pressions inflationnistes persistantes, en parfaite résonance avec l'actualité macroéconomique : la Fed évoque de nouvelles hausses de taux face à une inflation tenace. Conséquence logique, les rendements obligataires grimpent et maintiennent les obligations (TLT, IEF) en momentum absolu négatif, fermant la porte à un repli défensif.\n\nUne divergence majeure se dessine toutefois sur nos positions. Bien que QQQ et EEM conservent le podium grâce à leur historique à 6 et 12 mois, leur momentum à 3 mois vire au rouge (-2,6 % pour QQQ, -1,2 % pour EEM), pénalisés par la hausse des coûts d'emprunt. À l'inverse, le S&P 500 (SPY, #4) montre une résilience supérieure à court terme (+2,3 % sur 3 mois) et talonne le Nasdaq (score de 11,4 % vs 13,2 %).\n\nÀ une semaine de la rotation, le maintien du QQQ est précaire et dépendra intimement du symposium de Jackson Hole et du catalyseur binaire des résultats de Nvidia.",
     "risques": [
-      "Déception sur les résultats de Nvidia entraînant un décrochage de la tech US (QQQ), déjà fragilisée sur le trimestre écoulé.",
-      "Discours restrictif de Warsh à Jackson Hole ou rebond de l'inflation PCE, figeant les taux à des niveaux pénalisants pour les émergents (EEM).",
-      "Hausse de la volatilité sur les matières premières (DBC) liée aux annonces de durcissement des sanctions américaines et géopolitiques."
+      "Choc hawkish à Jackson Hole propulsant les rendements obligataires, ce qui pénaliserait simultanément les poches QQQ et EEM.",
+      "Déception sur les résultats de Nvidia provoquant une chute brutale du Nasdaq avant la date de rotation mensuelle.",
+      "Baisse prolongée du pétrole (WTI sous 84$) qui viendrait éroder la première place de l'ETF DBC."
     ],
     "a_surveiller": [
-      "Le resserrement de l'écart de score entre QQQ (14,1 %) et SPY (12,2 %) avant la rotation mensuelle du 1er septembre.",
-      "Le discours du président de la Fed (Warsh) à Jackson Hole et la publication de l'indice PCE de base américain cette semaine.",
-      "L'évolution du momentum absolu de l'IEF, actuellement à -0,4 %, qui reste la clé d'un basculement défensif de la stratégie si les actifs risqués venaient à chuter."
+      "Basculement SPY/QQQ : le SPY (#4) pourrait mécaniquement remplacer le QQQ (#3) si le rebond technologique échoue.",
+      "Déclarations de Jerome Powell à Jackson Hole concernant la crédibilité de la Fed et le niveau terminal des taux.",
+      "Réaction du marché aux résultats trimestriels de Nvidia."
     ],
     "modele": "gemini-3.1-pro-preview"
   }
