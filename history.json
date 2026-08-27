@@ -4798,5 +4798,172 @@
       ],
       "modele": "gemini-3.1-pro-preview"
     }
+  },
+  {
+    "date": "2026-08-26",
+    "nav": 10241.48,
+    "bench_spy": 10149.31,
+    "bench_6040": 10069.77,
+    "cash": 55.45,
+    "frais_cumules": 5.03,
+    "vix": 15.2,
+    "regime_strategie": "offensif",
+    "rebalance": false,
+    "trades": [],
+    "positions": [
+      {
+        "ticker": "DBC",
+        "nom": "Matières premières (panier large)",
+        "parts": 113.8022,
+        "prix": 30.5,
+        "valeur": 3470.97,
+        "prix_revient": 28.79,
+        "date_achat": "2026-07-15"
+      },
+      {
+        "ticker": "EEM",
+        "nom": "Actions émergentes",
+        "parts": 50.8108,
+        "prix": 67.17,
+        "valeur": 3412.96,
+        "prix_revient": 65.57,
+        "date_achat": "2026-07-15"
+      },
+      {
+        "ticker": "QQQ",
+        "nom": "Nasdaq 100 (tech US)",
+        "parts": 4.6419,
+        "prix": 711.37,
+        "valeur": 3302.1,
+        "prix_revient": 717.74,
+        "date_achat": "2026-07-15"
+      }
+    ],
+    "momentum": [
+      {
+        "ticker": "SPY",
+        "nom": "S&P 500 (actions US)",
+        "type": "risque",
+        "r3m": 0.0234,
+        "r6m": 0.1111,
+        "r12m": 0.2056,
+        "score": 0.1134,
+        "excess": 0.0919,
+        "selectionne": false,
+        "rang": 4
+      },
+      {
+        "ticker": "QQQ",
+        "nom": "Nasdaq 100 (tech US)",
+        "type": "risque",
+        "r3m": -0.0237,
+        "r6m": 0.1563,
+        "r12m": 0.2533,
+        "score": 0.1286,
+        "excess": 0.1071,
+        "selectionne": true,
+        "rang": 3
+      },
+      {
+        "ticker": "EFA",
+        "nom": "Actions internationales développées",
+        "type": "risque",
+        "r3m": 0.0498,
+        "r6m": 0.0409,
+        "r12m": 0.2171,
+        "score": 0.1026,
+        "excess": 0.0811,
+        "selectionne": false,
+        "rang": 5
+      },
+      {
+        "ticker": "EEM",
+        "nom": "Actions émergentes",
+        "type": "risque",
+        "r3m": -0.0127,
+        "r6m": 0.0665,
+        "r12m": 0.3605,
+        "score": 0.1381,
+        "excess": 0.1166,
+        "selectionne": true,
+        "rang": 2
+      },
+      {
+        "ticker": "GLD",
+        "nom": "Or",
+        "type": "risque",
+        "r3m": 0.0314,
+        "r6m": -0.1101,
+        "r12m": 0.3598,
+        "score": 0.0937,
+        "excess": 0.0722,
+        "selectionne": false,
+        "rang": 6
+      },
+      {
+        "ticker": "DBC",
+        "nom": "Matières premières (panier large)",
+        "type": "risque",
+        "r3m": 0.0342,
+        "r6m": 0.2323,
+        "r12m": 0.4208,
+        "score": 0.2291,
+        "excess": 0.2076,
+        "selectionne": true,
+        "rang": 1
+      },
+      {
+        "ticker": "VNQ",
+        "nom": "Immobilier coté US (REITs)",
+        "type": "risque",
+        "r3m": 0.0264,
+        "r6m": 0.0598,
+        "r12m": 0.1176,
+        "score": 0.0679,
+        "excess": 0.0464,
+        "selectionne": false,
+        "rang": 7
+      },
+      {
+        "ticker": "TLT",
+        "nom": "Obligations US 20+ ans",
+        "type": "risque",
+        "r3m": -0.012,
+        "r6m": -0.0523,
+        "r12m": 0.0036,
+        "score": -0.0202,
+        "excess": -0.0417,
+        "selectionne": false,
+        "rang": 8
+      },
+      {
+        "ticker": "IEF",
+        "nom": "Obligations US 7-10 ans (refuge)",
+        "type": "refuge",
+        "r3m": -0.0006,
+        "r6m": -0.0223,
+        "r12m": 0.0147,
+        "score": -0.0027,
+        "excess": -0.0242,
+        "selectionne": false,
+        "rang": null
+      }
+    ],
+    "ia": {
+      "regime": "neutre",
+      "titre": "Inflation tenace et fragilité à court terme des leaders du portefeuille.",
+      "commentaire": "Le portefeuille maintient une posture mécaniquement offensive (100% actifs risqués) et surperforme ses indices de référence. Néanmoins, l'analyse de la structure du momentum révèle des signes de fatigue évidents. Les positions QQQ (Tech US) et EEM (Émergents) affichent un momentum à 3 mois négatif, souffrant directement de la résurgence de l'inflation américaine (PCE à 3,7%) et des tensions sur les taux souverains, illustrées par le momentum absolu toujours négatif du TLT et de l'IEF. Le leader actuel, DBC (Matières premières), affiche un score global impressionnant, mais la récente baisse du pétrole et du MXV souligne une divergence entre l'historique spectaculaire à 12 mois et la dynamique de court terme qui s'essouffle. Face à ces vents contraires macroéconomiques et l'attentisme fébrile autour de Nvidia, le véritable régime sous-jacent glisse vers la neutralité. Le S&P 500 (SPY), plus diversifié, et les actions internationales (EFA) montrent une meilleure résilience récente (dynamique 3 mois positive) et talonnent désormais le Nasdaq. La rotation du 1er septembre pourrait bien modifier l'allocation si la pression sur les taux perdure.",
+      "risques": [
+        "Sensibilité aux taux : Le maintien d'une inflation élevée aux États-Unis pousse les rendements obligataires à la hausse, un vent contraire direct pour les valorisations du Nasdaq (QQQ) et les marchés émergents (EEM).",
+        "Risque idiosyncratique Tech : L'attentisme général du marché avant les résultats de Nvidia expose la poche QQQ à un choc de volatilité immédiat en cas de déception ou de 'sell-the-news'.",
+        "Correction des matières premières : Le repli récent du pétrole et de certains indices de commodités menace la dynamique de court terme de DBC, actuellement la plus grosse position."
+      ],
+      "a_surveiller": [
+        "Le croisement SPY / QQQ : Avec un score de 11,3% contre 12,9% pour QQQ, le SPY pourrait éjecter la tech de l'allocation lors du rebalancement mécanique du 1er septembre.",
+        "Publication des résultats de Nvidia : Catalyseur fondamental qui validera ou invalidera la récente contraction du momentum à 3 mois sur QQQ.",
+        "L'évolution du momentum à 3 mois sur EEM (-1,3%) : Une détérioration supplémentaire signalerait une véritable cassure de tendance, rendant la position vulnérable pour le mois prochain."
+      ],
+      "modele": "gemini-3.1-pro-preview"
+    }
   }
 ]

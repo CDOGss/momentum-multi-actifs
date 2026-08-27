@@ -1,20 +1,20 @@
 {
-  "date": "2026-08-25",
+  "date": "2026-08-26",
   "prochaine_rotation": "2026-09-01",
   "regime_strategie": "offensif",
   "ia": {
     "regime": "neutre",
-    "titre": "Taux haussiers : essoufflement tech et émergent à court terme.",
-    "commentaire": "Le portefeuille reste mécaniquement investi à 100 % en actifs risqués (DBC, EEM, QQQ), mais le classement momentum révèle de fortes tensions sous-jacentes. La première place des matières premières (DBC) traduit des pressions inflationnistes persistantes, en parfaite résonance avec l'actualité macroéconomique : la Fed évoque de nouvelles hausses de taux face à une inflation tenace. Conséquence logique, les rendements obligataires grimpent et maintiennent les obligations (TLT, IEF) en momentum absolu négatif, fermant la porte à un repli défensif.\n\nUne divergence majeure se dessine toutefois sur nos positions. Bien que QQQ et EEM conservent le podium grâce à leur historique à 6 et 12 mois, leur momentum à 3 mois vire au rouge (-2,6 % pour QQQ, -1,2 % pour EEM), pénalisés par la hausse des coûts d'emprunt. À l'inverse, le S&P 500 (SPY, #4) montre une résilience supérieure à court terme (+2,3 % sur 3 mois) et talonne le Nasdaq (score de 11,4 % vs 13,2 %).\n\nÀ une semaine de la rotation, le maintien du QQQ est précaire et dépendra intimement du symposium de Jackson Hole et du catalyseur binaire des résultats de Nvidia.",
+    "titre": "Inflation tenace et fragilité à court terme des leaders du portefeuille.",
+    "commentaire": "Le portefeuille maintient une posture mécaniquement offensive (100% actifs risqués) et surperforme ses indices de référence. Néanmoins, l'analyse de la structure du momentum révèle des signes de fatigue évidents. Les positions QQQ (Tech US) et EEM (Émergents) affichent un momentum à 3 mois négatif, souffrant directement de la résurgence de l'inflation américaine (PCE à 3,7%) et des tensions sur les taux souverains, illustrées par le momentum absolu toujours négatif du TLT et de l'IEF. Le leader actuel, DBC (Matières premières), affiche un score global impressionnant, mais la récente baisse du pétrole et du MXV souligne une divergence entre l'historique spectaculaire à 12 mois et la dynamique de court terme qui s'essouffle. Face à ces vents contraires macroéconomiques et l'attentisme fébrile autour de Nvidia, le véritable régime sous-jacent glisse vers la neutralité. Le S&P 500 (SPY), plus diversifié, et les actions internationales (EFA) montrent une meilleure résilience récente (dynamique 3 mois positive) et talonnent désormais le Nasdaq. La rotation du 1er septembre pourrait bien modifier l'allocation si la pression sur les taux perdure.",
     "risques": [
-      "Choc hawkish à Jackson Hole propulsant les rendements obligataires, ce qui pénaliserait simultanément les poches QQQ et EEM.",
-      "Déception sur les résultats de Nvidia provoquant une chute brutale du Nasdaq avant la date de rotation mensuelle.",
-      "Baisse prolongée du pétrole (WTI sous 84$) qui viendrait éroder la première place de l'ETF DBC."
+      "Sensibilité aux taux : Le maintien d'une inflation élevée aux États-Unis pousse les rendements obligataires à la hausse, un vent contraire direct pour les valorisations du Nasdaq (QQQ) et les marchés émergents (EEM).",
+      "Risque idiosyncratique Tech : L'attentisme général du marché avant les résultats de Nvidia expose la poche QQQ à un choc de volatilité immédiat en cas de déception ou de 'sell-the-news'.",
+      "Correction des matières premières : Le repli récent du pétrole et de certains indices de commodités menace la dynamique de court terme de DBC, actuellement la plus grosse position."
     ],
     "a_surveiller": [
-      "Basculement SPY/QQQ : le SPY (#4) pourrait mécaniquement remplacer le QQQ (#3) si le rebond technologique échoue.",
-      "Déclarations de Jerome Powell à Jackson Hole concernant la crédibilité de la Fed et le niveau terminal des taux.",
-      "Réaction du marché aux résultats trimestriels de Nvidia."
+      "Le croisement SPY / QQQ : Avec un score de 11,3% contre 12,9% pour QQQ, le SPY pourrait éjecter la tech de l'allocation lors du rebalancement mécanique du 1er septembre.",
+      "Publication des résultats de Nvidia : Catalyseur fondamental qui validera ou invalidera la récente contraction du momentum à 3 mois sur QQQ.",
+      "L'évolution du momentum à 3 mois sur EEM (-1,3%) : Une détérioration supplémentaire signalerait une véritable cassure de tendance, rendant la position vulnérable pour le mois prochain."
     ],
     "modele": "gemini-3.1-pro-preview"
   }
