@@ -5298,5 +5298,197 @@
       ],
       "modele": "gemini-3.1-pro-preview"
     }
+  },
+  {
+    "date": "2026-09-01",
+    "nav": 10366.37,
+    "bench_spy": 10092.34,
+    "bench_6040": 9983.3,
+    "cash": 0.0,
+    "frais_cumules": 5.23,
+    "vix": 16.3,
+    "regime_strategie": "offensif",
+    "rebalance": true,
+    "trades": [
+      {
+        "ticker": "DBC",
+        "sens": "vente",
+        "montant": 178.25,
+        "prix": 31.93,
+        "parts": 5.5825,
+        "frais": 0.09
+      },
+      {
+        "ticker": "EEM",
+        "sens": "achat",
+        "montant": 62.82,
+        "prix": 66.77,
+        "parts": 0.9408,
+        "frais": 0.03
+      },
+      {
+        "ticker": "QQQ",
+        "sens": "achat",
+        "montant": 170.67,
+        "prix": 707.64,
+        "parts": 0.2412,
+        "frais": 0.09
+      }
+    ],
+    "positions": [
+      {
+        "ticker": "DBC",
+        "nom": "Matières premières (panier large)",
+        "parts": 108.2198,
+        "prix": 31.93,
+        "valeur": 3455.46,
+        "prix_revient": 28.79,
+        "date_achat": "2026-07-15"
+      },
+      {
+        "ticker": "EEM",
+        "nom": "Actions émergentes",
+        "parts": 51.7516,
+        "prix": 66.77,
+        "valeur": 3455.46,
+        "prix_revient": 65.59,
+        "date_achat": "2026-07-15"
+      },
+      {
+        "ticker": "QQQ",
+        "nom": "Nasdaq 100 (tech US)",
+        "parts": 4.8831,
+        "prix": 707.64,
+        "valeur": 3455.46,
+        "prix_revient": 717.24,
+        "date_achat": "2026-07-15"
+      }
+    ],
+    "momentum": [
+      {
+        "ticker": "SPY",
+        "nom": "S&P 500 (actions US)",
+        "type": "risque",
+        "r3m": 0.0055,
+        "r6m": 0.1257,
+        "r12m": 0.194,
+        "score": 0.1084,
+        "excess": 0.0902,
+        "selectionne": false,
+        "rang": 4
+      },
+      {
+        "ticker": "QQQ",
+        "nom": "Nasdaq 100 (tech US)",
+        "type": "risque",
+        "r3m": -0.0506,
+        "r6m": 0.1791,
+        "r12m": 0.2466,
+        "score": 0.125,
+        "excess": 0.1068,
+        "selectionne": true,
+        "rang": 3
+      },
+      {
+        "ticker": "EFA",
+        "nom": "Actions internationales développées",
+        "type": "risque",
+        "r3m": 0.0358,
+        "r6m": 0.0472,
+        "r12m": 0.1969,
+        "score": 0.0933,
+        "excess": 0.0751,
+        "selectionne": false,
+        "rang": 5
+      },
+      {
+        "ticker": "EEM",
+        "nom": "Actions émergentes",
+        "type": "risque",
+        "r3m": -0.0423,
+        "r6m": 0.0913,
+        "r12m": 0.3588,
+        "score": 0.136,
+        "excess": 0.1177,
+        "selectionne": true,
+        "rang": 2
+      },
+      {
+        "ticker": "GLD",
+        "nom": "Or",
+        "type": "risque",
+        "r3m": -0.0369,
+        "r6m": -0.1525,
+        "r12m": 0.2474,
+        "score": 0.0193,
+        "excess": 0.0011,
+        "selectionne": false,
+        "rang": 7
+      },
+      {
+        "ticker": "DBC",
+        "nom": "Matières premières (panier large)",
+        "type": "risque",
+        "r3m": 0.0647,
+        "r6m": 0.2371,
+        "r12m": 0.488,
+        "score": 0.2633,
+        "excess": 0.2451,
+        "selectionne": true,
+        "rang": 1
+      },
+      {
+        "ticker": "VNQ",
+        "nom": "Immobilier coté US (REITs)",
+        "type": "risque",
+        "r3m": 0.0325,
+        "r6m": 0.0235,
+        "r12m": 0.0904,
+        "score": 0.0488,
+        "excess": 0.0306,
+        "selectionne": false,
+        "rang": 6
+      },
+      {
+        "ticker": "TLT",
+        "nom": "Obligations US 20+ ans",
+        "type": "risque",
+        "r3m": -0.0347,
+        "r6m": -0.0686,
+        "r12m": -0.0184,
+        "score": -0.0405,
+        "excess": -0.0588,
+        "selectionne": false,
+        "rang": 8
+      },
+      {
+        "ticker": "IEF",
+        "nom": "Obligations US 7-10 ans (refuge)",
+        "type": "refuge",
+        "r3m": -0.0154,
+        "r6m": -0.0357,
+        "r12m": -0.0053,
+        "score": -0.0188,
+        "excess": -0.037,
+        "selectionne": false,
+        "rang": null
+      }
+    ],
+    "ia": {
+      "regime": "neutre",
+      "titre": "Résurgence inflationniste : les matières premières portent le portefeuille",
+      "commentaire": "Bien que notre modèle systématique reste mécaniquement offensif, l'environnement se crispe. Le rebalancement du jour (allègement de DBC pour renforcer EEM et QQQ) illustre parfaitement la dynamique macroéconomique actuelle : les matières premières (+6,5% sur 3 mois) surperforment nettement et tirent le portefeuille, portées par les tensions au Moyen-Orient et la hausse du pétrole. À l'inverse, la tech américaine et les marchés émergents souffrent à court terme (respectivement -5,1% et -4,2% sur 3 mois). Ce classement momentum traduit un retour du risque inflationniste. Les récentes déclarations de Michael Barr ravivent le spectre d'une nouvelle hausse des taux de la Fed, ce qui pèse simultanément sur les actions et les obligations (TLT et IEF toujours en momentum absolu négatif). Nous traversons un régime où les actifs réels s'imposent face à la duration. Le modèle conserve QQQ et EEM grâce à leur excellent historique sur 12 mois, mais l'écart se resserre dangereusement avec le reste du marché. La stratégie reste mécaniquement exposée au risque, mais la toile de fond justifie une prudence analytique.",
+      "risques": [
+        "Poursuite de la correction sur QQQ et EEM face à la remontée des rendements obligataires et la rhétorique restrictive de la Fed.",
+        "Dépendance actuelle de la performance globale au seul ETF DBC, rendant le portefeuille vulnérable à une baisse soudaine du pétrole.",
+        "Corrélation baissière simultanée des actions et des obligations, neutralisant l'effet refuge des Treasuries en cas de bascule défensive."
+      ],
+      "a_surveiller": [
+        "L'écart de score de momentum entre QQQ (+12,5%) et SPY (+10,8%) : le S&P 500 pourrait bientôt évincer le Nasdaq du top 3.",
+        "La prochaine réunion de la Fed en septembre (le marché commence à pricer une hausse de 25 points de base).",
+        "Le momentum à 3 mois de EEM et QQQ : s'il reste fortement négatif, leur score global pourrait faire basculer leur momentum absolu dans le rouge."
+      ],
+      "modele": "gemini-3.1-pro-preview"
+    }
   }
 ]

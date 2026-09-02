@@ -1,19 +1,20 @@
 {
-  "date": "2026-08-31",
-  "prochaine_rotation": "2026-09-01",
+  "date": "2026-09-01",
+  "prochaine_rotation": "2026-10-01",
   "regime_strategie": "offensif",
   "ia": {
     "regime": "neutre",
-    "titre": "Flambée du pétrole et fermeté de la Fed : un momentum sous tension.",
-    "commentaire": "À la veille de la rotation mensuelle, le classement momentum illustre parfaitement le choc macroéconomique en cours. Le maintien écrasant de DBC en tête (+23,8%) capte mécaniquement la flambée pétrolière alimentée par les vives tensions entre les États-Unis et l'Iran. Face à cette résurgence des craintes inflationnistes, le ton restrictif du président de la Fed, Kevin Warsh, fait remonter les rendements. L'obligataire accuse le coup, avec TLT et IEF ancrés dans un momentum absolu négatif.\n\nCependant, une divergence dangereuse se creuse dans notre poche actions. Si EEM et QQQ conservent leur place sur le podium grâce à l'inertie de leurs performances à 6 et 12 mois, leur dynamique à 3 mois a déjà basculé dans le rouge (-3,9% et -3,4%). Ces actifs, très sensibles aux taux, souffrent du resserrement monétaire anticipé. La règle nous maintient en posture offensive, mais la résilience à court terme se trouve en réalité chez SPY et EFA (momentum 3 mois positif). Le portefeuille traverse un régime aux accents stagflationnistes où seules les matières premières justifient pleinement l'appétit pour le risque actuel.",
+    "titre": "Résurgence inflationniste : les matières premières portent le portefeuille",
+    "commentaire": "Bien que notre modèle systématique reste mécaniquement offensif, l'environnement se crispe. Le rebalancement du jour (allègement de DBC pour renforcer EEM et QQQ) illustre parfaitement la dynamique macroéconomique actuelle : les matières premières (+6,5% sur 3 mois) surperforment nettement et tirent le portefeuille, portées par les tensions au Moyen-Orient et la hausse du pétrole. À l'inverse, la tech américaine et les marchés émergents souffrent à court terme (respectivement -5,1% et -4,2% sur 3 mois). Ce classement momentum traduit un retour du risque inflationniste. Les récentes déclarations de Michael Barr ravivent le spectre d'une nouvelle hausse des taux de la Fed, ce qui pèse simultanément sur les actions et les obligations (TLT et IEF toujours en momentum absolu négatif). Nous traversons un régime où les actifs réels s'imposent face à la duration. Le modèle conserve QQQ et EEM grâce à leur excellent historique sur 12 mois, mais l'écart se resserre dangereusement avec le reste du marché. La stratégie reste mécaniquement exposée au risque, mais la toile de fond justifie une prudence analytique.",
     "risques": [
-      "Poursuite de la correction sur le Nasdaq (QQQ) et les actions émergentes (EEM), vulnérables à la remontée des taux directeurs.",
-      "Baisse soudaine des matières premières (DBC) en cas d'apaisement géopolitique éclair au Moyen-Orient, ce qui amputerait notre principal moteur de performance.",
-      "Désynchronisation temporelle : le poids du momentum à 12 mois nous force à conserver des actifs en perte de vitesse à court terme."
+      "Poursuite de la correction sur QQQ et EEM face à la remontée des rendements obligataires et la rhétorique restrictive de la Fed.",
+      "Dépendance actuelle de la performance globale au seul ETF DBC, rendant le portefeuille vulnérable à une baisse soudaine du pétrole.",
+      "Corrélation baissière simultanée des actions et des obligations, neutralisant l'effet refuge des Treasuries en cas de bascule défensive."
     ],
     "a_surveiller": [
-      "Rotation mensuelle du 1er septembre : SPY (score +11,1%) et EFA (+10,3%) pourraient évincer QQQ (+13,2%) ou EEM (+14,0%) si la faiblesse technologique persiste d'ici la clôture.",
-      "Réunion de la Fed de septembre : toute indication d'une hausse effective des taux validerait le basculement macroéconomique, menaçant davantage les valorisations actions."
+      "L'écart de score de momentum entre QQQ (+12,5%) et SPY (+10,8%) : le S&P 500 pourrait bientôt évincer le Nasdaq du top 3.",
+      "La prochaine réunion de la Fed en septembre (le marché commence à pricer une hausse de 25 points de base).",
+      "Le momentum à 3 mois de EEM et QQQ : s'il reste fortement négatif, leur score global pourrait faire basculer leur momentum absolu dans le rouge."
     ],
     "modele": "gemini-3.1-pro-preview"
   }
