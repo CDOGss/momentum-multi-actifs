@@ -4,3 +4,8 @@ __pycache__/
 .venv/
 venv/
 backtest_chart.png
+
+# Secrets — toutes les variantes (.env, .env.txt créé par le Bloc-notes…)
+.env
+.env.*
+!.env.example

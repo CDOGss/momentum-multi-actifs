@@ -71,7 +71,7 @@ BENCH_6040 = {"SPY": 0.60, "IEF": 0.40}  # portefeuille 60/40 classique
 
 # --- IA (Gemini : rôle d'ANALYSTE, jamais de décideur) --------------------------
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.1-pro-preview")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
 
 # --- Flux d'actualité macro (RSS gratuits, sans clé) ----------------------------
 FLUX_ACTU = [
