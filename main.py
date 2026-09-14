@@ -284,13 +284,19 @@ def executer_passage():
     date_seance = prix["SPY"].dropna().index[-1].date()
     date_str = date_seance.isoformat()
 
-    # Garde-fous : ne traiter que la clôture FRAÎCHE du jour (sauf FORCE_RUN=1).
+    # Garde-fous (sauf FORCE_RUN=1). On traite la DERNIÈRE clôture disponible, pas
+    # forcément celle du jour : yfinance publie souvent la barre quotidienne avec un
+    # jour de retard (à 20h NY il renvoie encore la clôture de la veille). Exiger
+    # date_seance == aujourd'hui faisait sauter le passage quasi tous les soirs
+    # (sept. 2026). La déduplication par l'historique ci-dessous empêche de traiter
+    # deux fois la même séance (week-end, jour férié, créneaux multiples).
+    retard = (maintenant_ny.date() - date_seance).days
     if not force:
-        if date_seance != maintenant_ny.date():
-            print(f"⛔ Pas de séance aujourd'hui ({maintenant_ny:%Y-%m-%d}) : dernière clôture "
-                  f"connue le {date_str}. Marché fermé, exécution annulée.")
+        if retard > 5:
+            print(f"⛔ Données obsolètes : dernière clôture connue le {date_str}, il y a "
+                  f"{retard} jours. Problème de source de données, exécution annulée.")
             return
-        if (maintenant_ny.hour, maintenant_ny.minute) < (16, 10):
+        if retard == 0 and (maintenant_ny.hour, maintenant_ny.minute) < (16, 10):
             print(f"⛔ Il est {maintenant_ny:%H:%M} à New York : le bot doit tourner après la "
                   "clôture (16h10). Exécution annulée (FORCE_RUN=1 pour outrepasser).")
             return
@@ -299,6 +305,8 @@ def executer_passage():
     if any(s["date"] == date_str for s in historique):
         print(f"⛔ La séance du {date_str} est déjà dans l'historique. Rien à faire.")
         return
+    if retard > 0:
+        print(f"ℹ️ Clôture du {date_str} (il y a {retard} j) pas encore traitée : on la traite.")
 
     # Portefeuille (créé au premier passage).
     ptf = charger_json(config.FICHIER_PORTEFEUILLE, None)
