@@ -1,21 +1,21 @@
 {
-  "date": "2026-09-01",
+  "date": "2026-09-11",
   "prochaine_rotation": "2026-10-01",
   "regime_strategie": "offensif",
   "ia": {
     "regime": "neutre",
-    "titre": "Résurgence inflationniste : les matières premières portent le portefeuille",
-    "commentaire": "Bien que notre modèle systématique reste mécaniquement offensif, l'environnement se crispe. Le rebalancement du jour (allègement de DBC pour renforcer EEM et QQQ) illustre parfaitement la dynamique macroéconomique actuelle : les matières premières (+6,5% sur 3 mois) surperforment nettement et tirent le portefeuille, portées par les tensions au Moyen-Orient et la hausse du pétrole. À l'inverse, la tech américaine et les marchés émergents souffrent à court terme (respectivement -5,1% et -4,2% sur 3 mois). Ce classement momentum traduit un retour du risque inflationniste. Les récentes déclarations de Michael Barr ravivent le spectre d'une nouvelle hausse des taux de la Fed, ce qui pèse simultanément sur les actions et les obligations (TLT et IEF toujours en momentum absolu négatif). Nous traversons un régime où les actifs réels s'imposent face à la duration. Le modèle conserve QQQ et EEM grâce à leur excellent historique sur 12 mois, mais l'écart se resserre dangereusement avec le reste du marché. La stratégie reste mécaniquement exposée au risque, mais la toile de fond justifie une prudence analytique.",
+    "titre": "Choc pétrolier et spectre de hausses de taux menacent les actions",
+    "commentaire": "Le portefeuille reste mécaniquement positionné en mode offensif sur DBC, EEM et QQQ, mais les dynamiques sous-jacentes révèlent de vives tensions macroéconomiques. La domination écrasante des matières premières (#1 DBC à +27.6%) s'explique par les tensions géopolitiques majeures au Moyen-Orient et la flambée des cours pétroliers. Cette résurgence brutale de l'inflation réactive les anticipations de hausses de taux d'intérêt par la Réserve fédérale, provoquant un krach obligataire visible dans les scores négatifs de TLT et IEF. Dans ce contexte, la sensibilité des valeurs de croissance s'accroît nettement : QQQ voit sa performance à trois mois passer en territoire négatif (-0.2%) et son avance sur SPY se réduire à moins de deux points. Les marchés asiatiques et émergents subissent déjà des prises de bénéfices face au renchérissement énergétique. Si le momentum absolu demeure positif sur l'ensemble des actions détenues, la divergence entre l'envolée des matières premières et l'essoufflement de la tech esquisse un début de régime stagflationniste défavorable aux actifs à duration longue.",
     "risques": [
-      "Poursuite de la correction sur QQQ et EEM face à la remontée des rendements obligataires et la rhétorique restrictive de la Fed.",
-      "Dépendance actuelle de la performance globale au seul ETF DBC, rendant le portefeuille vulnérable à une baisse soudaine du pétrole.",
-      "Corrélation baissière simultanée des actions et des obligations, neutralisant l'effet refuge des Treasuries en cas de bascule défensive."
+      "Vulnérabilité de QQQ face au regain de tension sur les rendements obligataires et aux hausses de taux de la Fed",
+      "Choc d'offre pétrolier pénalisant la croissance mondiale et les actions émergentes (EEM)",
+      "Absence de refuge obligataire efficace, IEF et TLT affichant des scores momentum négatifs"
     ],
     "a_surveiller": [
-      "L'écart de score de momentum entre QQQ (+12,5%) et SPY (+10,8%) : le S&P 500 pourrait bientôt évincer le Nasdaq du top 3.",
-      "La prochaine réunion de la Fed en septembre (le marché commence à pricer une hausse de 25 points de base).",
-      "Le momentum à 3 mois de EEM et QQQ : s'il reste fortement négatif, leur score global pourrait faire basculer leur momentum absolu dans le rouge."
+      "Écart de score entre QQQ (+14.5%) et SPY (+12.6%) avant la rotation du 1er octobre",
+      "Décision de politique monétaire et discours de la Fed concernant le resserrement des taux",
+      "Évolution des tensions géopolitiques autour des infrastructures pétrolières au Moyen-Orient"
     ],
-    "modele": "gemini-3.1-pro-preview"
+    "modele": "gemini-3.8-flash"
   }
 }
