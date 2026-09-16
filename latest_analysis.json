@@ -1,20 +1,20 @@
 {
-  "date": "2026-09-11",
+  "date": "2026-09-14",
   "prochaine_rotation": "2026-10-01",
   "regime_strategie": "offensif",
   "ia": {
     "regime": "neutre",
-    "titre": "Choc pétrolier et spectre de hausses de taux menacent les actions",
-    "commentaire": "Le portefeuille reste mécaniquement positionné en mode offensif sur DBC, EEM et QQQ, mais les dynamiques sous-jacentes révèlent de vives tensions macroéconomiques. La domination écrasante des matières premières (#1 DBC à +27.6%) s'explique par les tensions géopolitiques majeures au Moyen-Orient et la flambée des cours pétroliers. Cette résurgence brutale de l'inflation réactive les anticipations de hausses de taux d'intérêt par la Réserve fédérale, provoquant un krach obligataire visible dans les scores négatifs de TLT et IEF. Dans ce contexte, la sensibilité des valeurs de croissance s'accroît nettement : QQQ voit sa performance à trois mois passer en territoire négatif (-0.2%) et son avance sur SPY se réduire à moins de deux points. Les marchés asiatiques et émergents subissent déjà des prises de bénéfices face au renchérissement énergétique. Si le momentum absolu demeure positif sur l'ensemble des actions détenues, la divergence entre l'envolée des matières premières et l'essoufflement de la tech esquisse un début de régime stagflationniste défavorable aux actifs à duration longue.",
+    "titre": "Choc pétrolier et taux à 5 % fragilisent l'allocation offensive",
+    "commentaire": "Le portefeuille conserve mécaniquement une posture offensive via DBC, EEM et QQQ, mais la dynamique interne signale de fortes tensions. La surperformance écrasante des matières premières (DBC à +28,6 %, dont +16,1 % sur 3 mois) reflète directement le choc géopolitique à Ormuz et la résurgence de l'inflation. Ce retour de flamme énergétique propulse les rendements souverains au-delà de 5 % sur le 10 ans américain, déclenchant une onde de choc obligataire visible dans l'effondrement persistant de TLT (-5,1 %) et d'IEF (-2,7 %). Face à ce durcissement brutal des conditions financières, le momentum récent des actions s'effrite nettement : QQQ (-1,6 % sur 3 mois) et EEM (-2,3 % sur 3 mois) perdent de l'élan sous l'effet conjugué des valorisations technologiques sous pression et des craintes de resserrement monétaire par la Fed. Seul le panier de commodités protège pour l'instant la performance globale face au recul des indices actions.",
     "risques": [
-      "Vulnérabilité de QQQ face au regain de tension sur les rendements obligataires et aux hausses de taux de la Fed",
-      "Choc d'offre pétrolier pénalisant la croissance mondiale et les actions émergentes (EEM)",
-      "Absence de refuge obligataire efficace, IEF et TLT affichant des scores momentum négatifs"
+      "Vulnérabilité de QQQ face au maintien durable des rendements obligataires au-dessus de 5 %",
+      "Pression baissière sur EEM en cas de flambée du dollar et de durcissement monétaire mondial",
+      "Absence totale d'amortisseur obligataire classique, IEF et TLT affichant un momentum absolu négatif"
     ],
     "a_surveiller": [
-      "Écart de score entre QQQ (+14.5%) et SPY (+12.6%) avant la rotation du 1er octobre",
-      "Décision de politique monétaire et discours de la Fed concernant le resserrement des taux",
-      "Évolution des tensions géopolitiques autour des infrastructures pétrolières au Moyen-Orient"
+      "Écart de score entre QQQ (+13,4 %) et SPY (+11,8 %), susceptible d'entraîner une permutation lors du rebalancement du 1er octobre",
+      "Décision et projections de taux du FOMRE/Fed face à la flambée de l'inflation",
+      "Maintien du momentum absolu positif sur QQQ et EEM face à l'accélération des taux réels"
     ],
     "modele": "gemini-3.8-flash"
   }
