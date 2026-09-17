@@ -1,20 +1,19 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-15",
   "prochaine_rotation": "2026-10-01",
   "regime_strategie": "offensif",
   "ia": {
     "regime": "neutre",
-    "titre": "Choc pétrolier et taux à 5 % fragilisent l'allocation offensive",
-    "commentaire": "Le portefeuille conserve mécaniquement une posture offensive via DBC, EEM et QQQ, mais la dynamique interne signale de fortes tensions. La surperformance écrasante des matières premières (DBC à +28,6 %, dont +16,1 % sur 3 mois) reflète directement le choc géopolitique à Ormuz et la résurgence de l'inflation. Ce retour de flamme énergétique propulse les rendements souverains au-delà de 5 % sur le 10 ans américain, déclenchant une onde de choc obligataire visible dans l'effondrement persistant de TLT (-5,1 %) et d'IEF (-2,7 %). Face à ce durcissement brutal des conditions financières, le momentum récent des actions s'effrite nettement : QQQ (-1,6 % sur 3 mois) et EEM (-2,3 % sur 3 mois) perdent de l'élan sous l'effet conjugué des valorisations technologiques sous pression et des craintes de resserrement monétaire par la Fed. Seul le panier de commodités protège pour l'instant la performance globale face au recul des indices actions.",
+    "titre": "Choc de taux : la Fed durcit le ton et fragilise les actions",
+    "commentaire": "Bien que le modèle demeure mécaniquement offensif, le paysage macroéconomique révèle de profondes tensions. La surperformance écrasante des matières premières (DBC à +31,4%) reflète des pressions inflationnistes tenaces qui forcent la Réserve fédérale à relever ses taux et à afficher son indépendance. Ce resserrement monétaire agressif pèse lourdement sur les actifs de duration : les obligations souveraines s'enfoncent en territoire négatif (TLT -5,4%, IEF -2,9%), invalidant pour l'instant leur rôle de refuge. Côté actions, l'érosion court terme est manifeste : le momentum à 3 mois vire au rouge sur EEM (-5,7%) et QQQ (-5,2%), fragilisant les positions actuelles. Le Nasdaq 100 ne devance plus le S&P 500 que d'une marge infime de 0,7 point de score. Si la remontée brutale des rendements obligataires se poursuit, les valeurs technologiques et émergentes risquent de céder leur place lors de la rotation mensuelle du 1er octobre au profit d'actifs plus résilients, voire de forcer un repli vers le cash si le momentum absolu venait à faiblir.",
     "risques": [
-      "Vulnérabilité de QQQ face au maintien durable des rendements obligataires au-dessus de 5 %",
-      "Pression baissière sur EEM en cas de flambée du dollar et de durcissement monétaire mondial",
-      "Absence totale d'amortisseur obligataire classique, IEF et TLT affichant un momentum absolu négatif"
+      "Vulnérabilité accrue des valeurs technologiques (QQQ) face à la flambée des rendements obligataires à long terme.",
+      "Fragilisation du momentum court terme sur les actions (3 mois négatif sur QQQ et EEM), augmentant le risque d'un faux pas.",
+      "Absence de protection obligataire en cas de correction brutale des marchés boursiers, IEF affichant un momentum négatif."
     ],
     "a_surveiller": [
-      "Écart de score entre QQQ (+13,4 %) et SPY (+11,8 %), susceptible d'entraîner une permutation lors du rebalancement du 1er octobre",
-      "Décision et projections de taux du FOMRE/Fed face à la flambée de l'inflation",
-      "Maintien du momentum absolu positif sur QQQ et EEM face à l'accélération des taux réels"
+      "Écart critique entre QQQ (+11,0%) et SPY (+10,3%) en vue de la rotation mécanique du 1er octobre.",
+      "Comportement des rendements des Treasuries à 10 ans suite aux annonces hawkish de la Fed."
     ],
     "modele": "gemini-3.8-flash"
   }
