@@ -1,19 +1,20 @@
 {
-  "date": "2026-09-15",
+  "date": "2026-09-16",
   "prochaine_rotation": "2026-10-01",
   "regime_strategie": "offensif",
   "ia": {
     "regime": "neutre",
-    "titre": "Choc de taux : la Fed durcit le ton et fragilise les actions",
-    "commentaire": "Bien que le modèle demeure mécaniquement offensif, le paysage macroéconomique révèle de profondes tensions. La surperformance écrasante des matières premières (DBC à +31,4%) reflète des pressions inflationnistes tenaces qui forcent la Réserve fédérale à relever ses taux et à afficher son indépendance. Ce resserrement monétaire agressif pèse lourdement sur les actifs de duration : les obligations souveraines s'enfoncent en territoire négatif (TLT -5,4%, IEF -2,9%), invalidant pour l'instant leur rôle de refuge. Côté actions, l'érosion court terme est manifeste : le momentum à 3 mois vire au rouge sur EEM (-5,7%) et QQQ (-5,2%), fragilisant les positions actuelles. Le Nasdaq 100 ne devance plus le S&P 500 que d'une marge infime de 0,7 point de score. Si la remontée brutale des rendements obligataires se poursuit, les valeurs technologiques et émergentes risquent de céder leur place lors de la rotation mensuelle du 1er octobre au profit d'actifs plus résilients, voire de forcer un repli vers le cash si le momentum absolu venait à faiblir.",
+    "titre": "La Fed durcit le ton : le momentum actions montre des signes d'essoufflement",
+    "commentaire": "Le portefeuille conserve un positionnement mécanique offensif, mais les fondations cycliques se fragilisent. Le leadership écrasant des matières premières (DBC à +28,7%) valide la persistance des tensions inflationnistes qui viennent de contraindre la Fed à relever ses taux directeurs contre toute attente politique. Ce choc hawkish enfonce le compartiment obligataire dans le rouge (TLT à -5,5%, IEF à -3,2%), bloquant toute issue de repli refuge vers la dette d'État. En revanche, une divergence notable émerge au sein des actifs risqués en portefeuille : EEM et QQQ subissent un net ralentissement à court terme (respectivement -4,3% et -3,3% sur 3 mois), tandis que le S&P 500 (SPY #4 à +9,7%) réduit rapidement l'écart avec QQQ (+11,1%). Même si le VIX reste bas à 15,4 et que les marchés actions tentent un rebond de soulagement, la reprise du resserrement monétaire menace directement les multiples de valorisation de la tech et la liquidité émergente d'ici la rotation d'octobre.",
     "risques": [
-      "Vulnérabilité accrue des valeurs technologiques (QQQ) face à la flambée des rendements obligataires à long terme.",
-      "Fragilisation du momentum court terme sur les actions (3 mois négatif sur QQQ et EEM), augmentant le risque d'un faux pas.",
-      "Absence de protection obligataire en cas de correction brutale des marchés boursiers, IEF affichant un momentum négatif."
+      "Vulnérabilité accrue des valorisations de la tech (QQQ) face à la reprise des hausses de taux de la Fed.",
+      "Pression sur les devises émergentes et l'ETF EEM liée au raffermissement du dollar américain.",
+      "Risque de correction sur les matières premières (DBC) si le resserrement monétaire accélère une récession mondiale."
     ],
     "a_surveiller": [
-      "Écart critique entre QQQ (+11,0%) et SPY (+10,3%) en vue de la rotation mécanique du 1er octobre.",
-      "Comportement des rendements des Treasuries à 10 ans suite aux annonces hawkish de la Fed."
+      "Écart de score momentum critique entre QQQ (+11,1%) et SPY (+9,7%) avant la rotation du 1er octobre 2026.",
+      "Comportement des rendements souverains US (TLT/IEF) après la communication agressive de la Fed.",
+      "Évolution des performances 3 mois d'EEM (-4,3%) et QQQ (-3,3%) pour prévenir un passage en momentum absolu négatif."
     ],
     "modele": "gemini-3.8-flash"
   }

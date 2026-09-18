@@ -1,46 +1,47 @@
-# 🧭 Rotation momentum multi-actifs — 2026-09-15
+# 🧭 Rotation momentum multi-actifs — 2026-09-16
 
 ## 💼 Situation
-- **Valeur du portefeuille : 10,488.35 $** (+4.88% depuis le départ)
-- Benchmark S&P 500 : +0.34% — Benchmark 60/40 : -1.07%
-- Régime mécanique : **offensif** — VIX : 17.7
+- **Valeur du portefeuille : 10,430.88 $** (+4.31% depuis le départ)
+- Benchmark S&P 500 : -0.10% — Benchmark 60/40 : -1.37%
+- Régime mécanique : **offensif** — VIX : 15.4
 - Frais cumulés depuis le départ : 5.23 $
 
 ## 📌 Positions
 | ETF | Nom | Valeur | Prix | Prix de revient |
 |---|---|---:|---:|---:|
-| **DBC** | Matières premières (panier large) | 3,644.84 $ | 33.68 $ | 28.79 $ |
-| **EEM** | Actions émergentes | 3,403.19 $ | 65.76 $ | 65.59 $ |
-| **QQQ** | Nasdaq 100 (tech US) | 3,440.32 $ | 704.54 $ | 717.24 $ |
+| **DBC** | Matières premières (panier large) | 3,588.57 $ | 33.16 $ | 28.79 $ |
+| **EEM** | Actions émergentes | 3,401.12 $ | 65.72 $ | 65.59 $ |
+| **QQQ** | Nasdaq 100 (tech US) | 3,441.20 $ | 704.72 $ | 717.24 $ |
 
 ## 📊 Classement momentum du jour
 | Rang | ETF | Score | 3 mois | 6 mois | 12 mois | Momentum absolu |
 |---|---|---:|---:|---:|---:|:---:|
-| #1 | **DBC** 📌 | +31.4% | +19.4% | +19.0% | +55.8% | ✅ |
-| #2 | **EEM** 📌 | +11.9% | -5.7% | +13.2% | +28.3% | ✅ |
-| #3 | **QQQ** 📌 | +11.0% | -5.2% | +17.6% | +20.7% | ✅ |
-| #4 | **SPY** | +10.3% | +0.6% | +13.8% | +16.5% | ✅ |
-| #5 | **EFA** | +9.2% | +1.3% | +9.1% | +17.2% | ✅ |
-| #6 | **VNQ** | +1.9% | -3.0% | +3.2% | +5.3% | ❌ |
-| #7 | **GLD** | +0.8% | -0.6% | -14.4% | +17.5% | ❌ |
-| #8 | **TLT** | -5.4% | -4.8% | -5.3% | -6.2% | ❌ |
-| refuge | **IEF** | -2.9% | -2.7% | -3.5% | -2.6% | ❌ |
+| #1 | **DBC** 📌 | +28.7% | +18.9% | +15.3% | +52.0% | ✅ |
+| #2 | **EEM** 📌 | +11.8% | -4.2% | +12.4% | +27.3% | ✅ |
+| #3 | **QQQ** 📌 | +11.1% | -3.3% | +17.1% | +19.7% | ✅ |
+| #4 | **SPY** | +9.7% | +0.8% | +13.0% | +15.4% | ✅ |
+| #5 | **EFA** | +8.4% | +0.7% | +8.5% | +16.0% | ✅ |
+| #6 | **VNQ** | +1.0% | -3.8% | +2.1% | +4.8% | ❌ |
+| #7 | **GLD** | -0.2% | -1.5% | -14.7% | +15.6% | ❌ |
+| #8 | **TLT** | -5.5% | -5.1% | -5.3% | -6.2% | ❌ |
+| refuge | **IEF** | -3.2% | -3.0% | -3.7% | -2.9% | ❌ |
 
 📌 = détenu — ✅/❌ = momentum absolu vs T-Bills (BIL)
 
 ## 🧠 L'œil de l'analyste (IA)
-**Choc de taux : la Fed durcit le ton et fragilise les actions** — régime perçu : `neutre`
+**La Fed durcit le ton : le momentum actions montre des signes d'essoufflement** — régime perçu : `neutre`
 
-Bien que le modèle demeure mécaniquement offensif, le paysage macroéconomique révèle de profondes tensions. La surperformance écrasante des matières premières (DBC à +31,4%) reflète des pressions inflationnistes tenaces qui forcent la Réserve fédérale à relever ses taux et à afficher son indépendance. Ce resserrement monétaire agressif pèse lourdement sur les actifs de duration : les obligations souveraines s'enfoncent en territoire négatif (TLT -5,4%, IEF -2,9%), invalidant pour l'instant leur rôle de refuge. Côté actions, l'érosion court terme est manifeste : le momentum à 3 mois vire au rouge sur EEM (-5,7%) et QQQ (-5,2%), fragilisant les positions actuelles. Le Nasdaq 100 ne devance plus le S&P 500 que d'une marge infime de 0,7 point de score. Si la remontée brutale des rendements obligataires se poursuit, les valeurs technologiques et émergentes risquent de céder leur place lors de la rotation mensuelle du 1er octobre au profit d'actifs plus résilients, voire de forcer un repli vers le cash si le momentum absolu venait à faiblir.
+Le portefeuille conserve un positionnement mécanique offensif, mais les fondations cycliques se fragilisent. Le leadership écrasant des matières premières (DBC à +28,7%) valide la persistance des tensions inflationnistes qui viennent de contraindre la Fed à relever ses taux directeurs contre toute attente politique. Ce choc hawkish enfonce le compartiment obligataire dans le rouge (TLT à -5,5%, IEF à -3,2%), bloquant toute issue de repli refuge vers la dette d'État. En revanche, une divergence notable émerge au sein des actifs risqués en portefeuille : EEM et QQQ subissent un net ralentissement à court terme (respectivement -4,3% et -3,3% sur 3 mois), tandis que le S&P 500 (SPY #4 à +9,7%) réduit rapidement l'écart avec QQQ (+11,1%). Même si le VIX reste bas à 15,4 et que les marchés actions tentent un rebond de soulagement, la reprise du resserrement monétaire menace directement les multiples de valorisation de la tech et la liquidité émergente d'ici la rotation d'octobre.
 
 **Risques :**
-- ⚠️ Vulnérabilité accrue des valeurs technologiques (QQQ) face à la flambée des rendements obligataires à long terme.
-- ⚠️ Fragilisation du momentum court terme sur les actions (3 mois négatif sur QQQ et EEM), augmentant le risque d'un faux pas.
-- ⚠️ Absence de protection obligataire en cas de correction brutale des marchés boursiers, IEF affichant un momentum négatif.
+- ⚠️ Vulnérabilité accrue des valorisations de la tech (QQQ) face à la reprise des hausses de taux de la Fed.
+- ⚠️ Pression sur les devises émergentes et l'ETF EEM liée au raffermissement du dollar américain.
+- ⚠️ Risque de correction sur les matières premières (DBC) si le resserrement monétaire accélère une récession mondiale.
 
 **À surveiller :**
-- 👁️ Écart critique entre QQQ (+11,0%) et SPY (+10,3%) en vue de la rotation mécanique du 1er octobre.
-- 👁️ Comportement des rendements des Treasuries à 10 ans suite aux annonces hawkish de la Fed.
+- 👁️ Écart de score momentum critique entre QQQ (+11,1%) et SPY (+9,7%) avant la rotation du 1er octobre 2026.
+- 👁️ Comportement des rendements souverains US (TLT/IEF) après la communication agressive de la Fed.
+- 👁️ Évolution des performances 3 mois d'EEM (-4,3%) et QQQ (-3,3%) pour prévenir un passage en momentum absolu négatif.
 
 ---
 *Rapport généré automatiquement — expérience à blanc, aucun argent réel, ceci n'est pas un conseil en investissement.*
