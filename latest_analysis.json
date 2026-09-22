@@ -1,20 +1,20 @@
 {
-  "date": "2026-09-17",
+  "date": "2026-09-18",
   "prochaine_rotation": "2026-10-01",
   "regime_strategie": "offensif",
   "ia": {
-    "regime": "neutre",
-    "titre": "Hégémonie des matières premières face au durcissement monétaire de la Fed",
-    "commentaire": "Le modèle conserve mécaniquement un profil offensif, mais la hiérarchie interne reflète un régime de surchauffe inflationniste tardive. DBC domine nettement le classement (+27,4 %), porté par un momentum robuste à court et long terme, en parfaite adéquation avec une Réserve fédérale déterminée à relever ses taux directeurs pour juguler l'inflation. À l'inverse, les deux autres actifs détenus, EEM et QQQ, montrent de sérieux signes de fatigue avec des performances à 3 mois passées en territoire négatif (-2,4 % et -0,7 %). Ces segments pâtissent directement de la hausse des rendements obligataires mondiaux et de l'écartement des spreads souverains. Pendant ce temps, SPY (+12,0 %) affiche une meilleure tenue récente (+3,2 % sur 3 mois) et talonne dangereusement QQQ (+14,0 %). Le naufrage persistant des emprunts d'État (TLT et IEF négatifs) confirme l'absence de refuge obligataire traditionnel : si le choc de taux venait à faire flancher les actions, la stratégie basculerait directement en cash.",
+    "regime": "risk_on",
+    "titre": "Offensif mais fragile : SPY menace EEM sous pression de taux",
+    "commentaire": "Le portefeuille conserve une configuration purement offensive, validée par un VIX bas à 14,9 et un appétit pour le risque soutenu par le rebond technologique lié à l'IA. DBC domine toujours largement le classement grâce à sa composante historique 12 mois (+51,0%), tandis que QQQ (#2) et EEM (#3) complètent le trio détenu. Toutefois, une divergence technique majeure apparaît : les performances à 3 mois de QQQ (-2,5%) et surtout d'EEM (-5,3%) s'essoufflent face au durcissement monétaire suggéré par la Fed. Avec un score de 11,9% et une dynamique trimestrielle positive (+2,3%), SPY (#4) talonne directement EEM (13,3%), réduisant l'écart à seulement 1,4 point. Parallèlement, le reflux récent des cours pétroliers pourrait rapidement entamer le momentum de DBC si la baisse persiste. Malgré la rhétorique hawkish de Musalem, les actifs obligataires (TLT, IEF) restent profondément ancrés en territoire de momentum absolu négatif, interdisant tout repli refuge mécanique à ce stade.",
     "risques": [
-      "Vulnérabilité de QQQ et EEM face à la poursuite du cycle de hausses de taux de la Fed",
-      "Absence de protection par les obligations souveraines (IEF et TLT en momentum absolu négatif)",
-      "Risque de retournement brutal des matières premières (DBC) en cas de ralentissement économique induit par le resserrement monétaire"
+      "Divergence baissière sur DBC si le repli récent des cours pétroliers érode son score momentum avant la rotation du 1er octobre.",
+      "Sensibilité accrue d'EEM et de QQQ au maintien d'une Fed hawkish et à la fermeté du dollar américain.",
+      "Absence totale de coussin obligataire : TLT et IEF affichent un momentum absolu négatif et ne protégeraient pas en cas de choc boursier."
     ],
     "a_surveiller": [
-      "Écart de score entre QQQ (+14,0 %) et SPY (+12,0 %) en vue du rebalancement du 1er octobre",
-      "Détérioration continue du momentum 3 mois sur EEM et QQQ pouvant menacer leur momentum absolu",
-      "Nouvelles déclarations des banquiers centraux confirmant des hausses de taux supplémentaires d'ici fin 2026"
+      "Écart de score entre EEM (#3 à +13,3%) et SPY (#4 à +11,9%) : risque de permutation d'ici la rotation du 1er octobre 2026.",
+      "Trajectoire des matières premières (DBC 3m à +19,2%) face à la détente des cours du brut signalée par le marché.",
+      "Prochaine communication du FOMC et dynamique des rendements souverains US à court terme."
     ],
     "modele": "gemini-3.8-flash"
   }
