@@ -1,20 +1,20 @@
 {
-  "date": "2026-09-18",
+  "date": "2026-09-21",
   "prochaine_rotation": "2026-10-01",
   "regime_strategie": "offensif",
   "ia": {
-    "regime": "risk_on",
-    "titre": "Offensif mais fragile : SPY menace EEM sous pression de taux",
-    "commentaire": "Le portefeuille conserve une configuration purement offensive, validée par un VIX bas à 14,9 et un appétit pour le risque soutenu par le rebond technologique lié à l'IA. DBC domine toujours largement le classement grâce à sa composante historique 12 mois (+51,0%), tandis que QQQ (#2) et EEM (#3) complètent le trio détenu. Toutefois, une divergence technique majeure apparaît : les performances à 3 mois de QQQ (-2,5%) et surtout d'EEM (-5,3%) s'essoufflent face au durcissement monétaire suggéré par la Fed. Avec un score de 11,9% et une dynamique trimestrielle positive (+2,3%), SPY (#4) talonne directement EEM (13,3%), réduisant l'écart à seulement 1,4 point. Parallèlement, le reflux récent des cours pétroliers pourrait rapidement entamer le momentum de DBC si la baisse persiste. Malgré la rhétorique hawkish de Musalem, les actifs obligataires (TLT, IEF) restent profondément ancrés en territoire de momentum absolu négatif, interdisant tout repli refuge mécanique à ce stade.",
+    "regime": "neutre",
+    "titre": "Choc pétrolier et tech masquent la fragilisation du cycle de resserrement",
+    "commentaire": "Le portefeuille reste mécaniquement offensif avec le trio DBC, QQQ et EEM, mais la dynamique interne montre des divergences marquées. La domination écrasante des matières premières (#1 DBC à +27,2%, propulsé par un gain de +18,9% sur 3 mois) reflète les craintes géopolitiques autour du pétrole et un retour des pressions inflationnistes. Ce regain d'inflation réactive le ton hawkish de la Réserve fédérale, comme l'illustrent les déclarations de Susan Collins évoquant de nouveaux relèvements de taux. En conséquence, les obligations souveraines (TLT, IEF) s'enfoncent en territoire négatif. Si le Nasdaq (#2 QQQ) résiste remarquablement grâce aux records des géants des semi-conducteurs, les marchés émergents (#3 EEM) montrent de nets signes d'essoufflement avec une performance trimestrielle négative (-3,3%). Avec un écart de score désormais minime (17,7% contre 14,1%), le S&P 500 (SPY) menace directement la place d'EEM avant la rotation d'octobre. Le régime apparent de basse volatilité (VIX à 14,2) occulte ainsi un équilibre macroéconomique précaire tiré par un choc d'offre énergétique.",
     "risques": [
-      "Divergence baissière sur DBC si le repli récent des cours pétroliers érode son score momentum avant la rotation du 1er octobre.",
-      "Sensibilité accrue d'EEM et de QQQ au maintien d'une Fed hawkish et à la fermeté du dollar américain.",
-      "Absence totale de coussin obligataire : TLT et IEF affichent un momentum absolu négatif et ne protégeraient pas en cas de choc boursier."
+      "Durcissement monétaire prolongé de la Fed pesant lourdement sur les valorisations technologiques (QQQ)",
+      "Vulnérabilité accrue des marchés émergents (EEM) face à l'envolée du brut et au dollar fort",
+      "Risque de retournement brutal des matières premières (DBC) en cas d'accalmie géopolitique"
     ],
     "a_surveiller": [
-      "Écart de score entre EEM (#3 à +13,3%) et SPY (#4 à +11,9%) : risque de permutation d'ici la rotation du 1er octobre 2026.",
-      "Trajectoire des matières premières (DBC 3m à +19,2%) face à la détente des cours du brut signalée par le marché.",
-      "Prochaine communication du FOMC et dynamique des rendements souverains US à court terme."
+      "Dépassement d'EEM par SPY au classement avant le fixing de rotation du 2026-10-01",
+      "Évolution des cours du brut et franchissement de seuils critiques vers 150 $ le baril",
+      "Rendements obligataires US à 10 ans face aux prochaines prises de parole de la Fed"
     ],
     "modele": "gemini-3.8-flash"
   }
