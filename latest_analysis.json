@@ -1,21 +1,6 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "prochaine_rotation": "2026-10-01",
   "regime_strategie": "offensif",
-  "ia": {
-    "regime": "neutre",
-    "titre": "Pression obligataire et choc pétrolier menacent la résilience des actions",
-    "commentaire": "Le portefeuille conserve mécaniquement un profil offensif, mais les signaux sous-jacents traduisent une nette divergence macroéconomique. La suprématie de DBC (+27,2 %), propulsé par la flambée des cours pétroliers à l'approche des 100 dollars, illustre un retour marqué des pressions inflationnistes. Cette poussée des matières premières alimente directement la rhétorique hawkish des membres de la Fed et propulse les rendements souverains vers de nouveaux sommets, le compartiment obligataire s'enfonçant en territoire négatif (TLT à -3,7 %, IEF à -2,0 %). En conséquence, le risque de resserrement prolongé pèse sur les valorisations boursières. Si QQQ résiste grâce à son avance historique sur douze mois, son momentum court terme s'essouffle (+4,8 % sur 3 mois). Surtout, EEM montre des signes évidents de fragilité avec une performance trimestrielle négative (-3,3 %), sous la pression conjuguée de la vigueur du dollar et de la hausse des taux. L'écart entre EEM et SPY se resserre nettement à l'approche du rebalancement mensuel.",
-    "risques": [
-      "Vulnérabilité accrue des actions émergentes (EEM) face à l'envolée du dollar américain et au coût du crédit",
-      "Compression des multiples technologiques (QQQ) déclenchée par la poursuite de la hausse du taux 10 ans américain",
-      "Choc stagflationniste si l'envolée des matières premières (DBC) étouffe la croissance économique mondiale"
-    ],
-    "a_surveiller": [
-      "Rapprochement entre EEM (#3) et SPY (#4, +5,7 % sur 3 mois) avant le rebalancement du 1er octobre",
-      "Dynamique du dollar (DXY) et seuil critique de franchissement des rendements obligataires à 10 ans",
-      "Tenue du momentum absolu de QQQ et EEM face à l'accélération baissière sur les actions"
-    ],
-    "modele": "gemini-3.8-flash"
-  }
+  "ia": null
 }
