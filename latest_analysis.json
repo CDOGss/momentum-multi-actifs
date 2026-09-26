@@ -1,6 +1,21 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "prochaine_rotation": "2026-10-01",
   "regime_strategie": "offensif",
-  "ia": null
+  "ia": {
+    "regime": "neutre",
+    "titre": "Domination des matières premières face à la résurgence des taux souverains",
+    "commentaire": "Le portefeuille conserve une posture mécanique offensive, mais l'architecture du momentum reflète un régime tardif teinté d'inflation. En tête insolente, DBC (+31,2 %) capitalise sur la fermeté des matières premières, tandis que QQQ (+18,1 %) résiste grâce à l'engouement persistant pour la tech et l'IA. À l'opposé, le krach obligataire s'intensifie : IEF (-4,0 %) et TLT (-7,1 %) restent englués en momentum négatif sur fond de rendements mondiaux à des sommets pluriannuels. Cette tension obligataire est corroborée par le discours belliciste de la Fed (Hammack, Barkin) évoquant de nouvelles hausses de taux face à l'inflation persistante. La véritable vulnérabilité réside sur le troisième slot : EEM (+15,1 %, mais -1,0 % sur 3 mois) subit le resserrement monétaire et voit fondre son avance face à SPY (+13,0 %, +4,7 % sur 3 mois). Alors que le VIX à 14,9 dénote une complaisance trompeuse, le risque d'éviction d'EEM au profit de SPY se précise pour le rebalancement du 1er octobre.",
+    "risques": [
+      "Vulnérabilité accrue d'EEM face au durcissement monétaire de la Fed et à la remontée des taux souverains.",
+      "Risque de consolidation brutale sur DBC en cas de ralentissement économique induit par les taux élevés.",
+      "Absence de protection obligataire : IEF affichant un momentum négatif, tout basculement défensif se ferait directement vers le cash."
+    ],
+    "a_surveiller": [
+      "Écart de score entre EEM (15,1 %) et SPY (13,0 %) avant la rotation mensuelle du 1er octobre.",
+      "Prochaines publications de l'inflation et de l'emploi US qui pourraient précipiter une nouvelle hausse de taux de la Fed.",
+      "Comportement des valeurs de croissance (QQQ) face à des rendements obligataires atteignant des sommets pluriannuels."
+    ],
+    "modele": "gemini-3.8-flash"
+  }
 }
