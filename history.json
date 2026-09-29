@@ -7144,5 +7144,171 @@
       ],
       "modele": "gemini-3.8-flash"
     }
+  },
+  {
+    "date": "2026-09-28",
+    "nav": 10590.3,
+    "bench_spy": 10143.08,
+    "bench_6040": 9901.99,
+    "cash": 0.0,
+    "frais_cumules": 5.23,
+    "vix": 16.1,
+    "regime_strategie": "offensif",
+    "rebalance": false,
+    "trades": [],
+    "positions": [
+      {
+        "ticker": "DBC",
+        "nom": "Matières premières (panier large)",
+        "parts": 108.2198,
+        "prix": 32.49,
+        "valeur": 3516.06,
+        "prix_revient": 28.79,
+        "date_achat": "2026-07-15"
+      },
+      {
+        "ticker": "EEM",
+        "nom": "Actions émergentes",
+        "parts": 51.7516,
+        "prix": 67.2,
+        "valeur": 3477.71,
+        "prix_revient": 65.59,
+        "date_achat": "2026-07-15"
+      },
+      {
+        "ticker": "QQQ",
+        "nom": "Nasdaq 100 (tech US)",
+        "parts": 4.8831,
+        "prix": 736.53,
+        "valeur": 3596.53,
+        "prix_revient": 717.24,
+        "date_achat": "2026-07-15"
+      }
+    ],
+    "momentum": [
+      {
+        "ticker": "SPY",
+        "nom": "S&P 500 (actions US)",
+        "type": "risque",
+        "r3m": 0.0358,
+        "r6m": 0.2135,
+        "r12m": 0.176,
+        "score": 0.1418,
+        "excess": 0.1205,
+        "selectionne": false,
+        "rang": 4
+      },
+      {
+        "ticker": "QQQ",
+        "nom": "Nasdaq 100 (tech US)",
+        "type": "risque",
+        "r3m": 0.0183,
+        "r6m": 0.312,
+        "r12m": 0.2468,
+        "score": 0.1923,
+        "excess": 0.1711,
+        "selectionne": true,
+        "rang": 2
+      },
+      {
+        "ticker": "EFA",
+        "nom": "Actions internationales développées",
+        "type": "risque",
+        "r3m": 0.0154,
+        "r6m": 0.1376,
+        "r12m": 0.1819,
+        "score": 0.1116,
+        "excess": 0.0903,
+        "selectionne": false,
+        "rang": 5
+      },
+      {
+        "ticker": "EEM",
+        "nom": "Actions émergentes",
+        "type": "risque",
+        "r3m": -0.0034,
+        "r6m": 0.2237,
+        "r12m": 0.2974,
+        "score": 0.1726,
+        "excess": 0.1513,
+        "selectionne": true,
+        "rang": 3
+      },
+      {
+        "ticker": "GLD",
+        "nom": "Or",
+        "type": "risque",
+        "r3m": 0.0253,
+        "r6m": -0.0887,
+        "r12m": 0.0962,
+        "score": 0.0109,
+        "excess": -0.0103,
+        "selectionne": false,
+        "rang": 7
+      },
+      {
+        "ticker": "DBC",
+        "nom": "Matières premières (panier large)",
+        "type": "risque",
+        "r3m": 0.2233,
+        "r6m": 0.1165,
+        "r12m": 0.473,
+        "score": 0.2709,
+        "excess": 0.2497,
+        "selectionne": true,
+        "rang": 1
+      },
+      {
+        "ticker": "VNQ",
+        "nom": "Immobilier coté US (REITs)",
+        "type": "risque",
+        "r3m": -0.069,
+        "r6m": 0.0596,
+        "r12m": 0.0431,
+        "score": 0.0112,
+        "excess": -0.01,
+        "selectionne": false,
+        "rang": 6
+      },
+      {
+        "ticker": "TLT",
+        "nom": "Obligations US 20+ ans",
+        "type": "risque",
+        "r3m": -0.0905,
+        "r6m": -0.0605,
+        "r12m": -0.0759,
+        "score": -0.0757,
+        "excess": -0.0969,
+        "selectionne": false,
+        "rang": 8
+      },
+      {
+        "ticker": "IEF",
+        "nom": "Obligations US 7-10 ans (refuge)",
+        "type": "refuge",
+        "r3m": -0.0484,
+        "r6m": -0.0342,
+        "r12m": -0.0332,
+        "score": -0.0386,
+        "excess": -0.0599,
+        "selectionne": false,
+        "rang": null
+      }
+    ],
+    "ia": {
+      "regime": "neutre",
+      "titre": "Choc pétrolier et taux sous tension avant le rebalancement d'octobre",
+      "commentaire": "Le modèle demeure mécaniquement offensif, porté par le leadership écrasant des matières premières (DBC à +27,1%, dont +22,3% sur 3 mois), en parfaite adéquation avec la crise géopolitique et la flambée de l'énergie. Toutefois, la structure interne du portefeuille se fragilise à trois jours du fixing mensuel du 1er octobre. La résurgence des craintes inflationnistes et la vive remontée des rendements obligataires (TLT et IEF ancrés en momentum négatif) compriment les valorisations actions. Le momentum court terme (3 mois) d'EEM s'enfonce dans le rouge (-0,3%) et QQQ ralentit nettement (+1,8%), permettant à SPY (+3,6% sur 3 mois) de combler une partie de son retard pour le top 3. En l'absence d'amortisseur obligataire classique face au durcissement monétaire de la Fed, le portefeuille s'appuie presque exclusivement sur la surperformance de DBC pour préserver son avance, créant une asymétrie marquée face au risque de stagflation.",
+      "risques": [
+        "Sensibilité accrue de QQQ et EEM face à la hausse des rendements obligataires et au raffermissement du dollar.",
+        "Absence totale de couverture obligataire (IEF et TLT en momentum absolu négatif) en cas de choc de marché.",
+        "Risque de consolidation brutale sur DBC en cas de détente rapide des tensions au Moyen-Orient."
+      ],
+      "a_surveiller": [
+        "Rapprochement entre EEM (#3 à +17,3%) et SPY (#4 à +14,2%) d'ici le rebalancement du 1er octobre 2026.",
+        "Évolution du momentum 3 mois de QQQ (+1,8%) face aux discours des gouverneurs de la Fed sur l'inflation."
+      ],
+      "modele": "gemini-3.8-flash"
+    }
   }
 ]

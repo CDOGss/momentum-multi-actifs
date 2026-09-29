@@ -1,47 +1,46 @@
-# 🧭 Rotation momentum multi-actifs — 2026-09-24
+# 🧭 Rotation momentum multi-actifs — 2026-09-28
 
 ## 💼 Situation
-- **Valeur du portefeuille : 10,689.87 $** (+6.90% depuis le départ)
-- Benchmark S&P 500 : +1.64% — Benchmark 60/40 : -0.79%
-- Régime mécanique : **offensif** — VIX : 14.9
+- **Valeur du portefeuille : 10,590.30 $** (+5.90% depuis le départ)
+- Benchmark S&P 500 : +1.43% — Benchmark 60/40 : -0.98%
+- Régime mécanique : **offensif** — VIX : 16.1
 - Frais cumulés depuis le départ : 5.23 $
 
 ## 📌 Positions
 | ETF | Nom | Valeur | Prix | Prix de revient |
 |---|---|---:|---:|---:|
-| **DBC** | Matières premières (panier large) | 3,590.73 $ | 33.18 $ | 28.79 $ |
-| **EEM** | Actions émergentes | 3,480.30 $ | 67.25 $ | 65.59 $ |
-| **QQQ** | Nasdaq 100 (tech US) | 3,618.84 $ | 741.10 $ | 717.24 $ |
+| **DBC** | Matières premières (panier large) | 3,516.06 $ | 32.49 $ | 28.79 $ |
+| **EEM** | Actions émergentes | 3,477.71 $ | 67.20 $ | 65.59 $ |
+| **QQQ** | Nasdaq 100 (tech US) | 3,596.53 $ | 736.53 $ | 717.24 $ |
 
 ## 📊 Classement momentum du jour
 | Rang | ETF | Score | 3 mois | 6 mois | 12 mois | Momentum absolu |
 |---|---|---:|---:|---:|---:|:---:|
-| #1 | **DBC** 📌 | +31.2% | +23.2% | +17.8% | +52.5% | ✅ |
-| #2 | **QQQ** 📌 | +18.1% | +3.6% | +26.4% | +24.5% | ✅ |
-| #3 | **EEM** 📌 | +15.1% | -1.0% | +17.7% | +28.6% | ✅ |
-| #4 | **SPY** | +13.0% | +4.7% | +17.4% | +16.9% | ✅ |
-| #5 | **EFA** | +9.1% | +1.3% | +9.8% | +16.1% | ✅ |
-| #6 | **GLD** | +4.4% | +6.0% | -5.9% | +13.1% | ✅ |
-| #7 | **VNQ** | +1.3% | -5.4% | +5.6% | +3.6% | ❌ |
-| #8 | **TLT** | -7.1% | -8.0% | -6.4% | -7.0% | ❌ |
-| refuge | **IEF** | -4.0% | -4.4% | -4.0% | -3.6% | ❌ |
+| #1 | **DBC** 📌 | +27.1% | +22.3% | +11.7% | +47.3% | ✅ |
+| #2 | **QQQ** 📌 | +19.2% | +1.8% | +31.2% | +24.7% | ✅ |
+| #3 | **EEM** 📌 | +17.3% | -0.3% | +22.4% | +29.7% | ✅ |
+| #4 | **SPY** | +14.2% | +3.6% | +21.3% | +17.6% | ✅ |
+| #5 | **EFA** | +11.2% | +1.5% | +13.8% | +18.2% | ✅ |
+| #6 | **VNQ** | +1.1% | -6.9% | +6.0% | +4.3% | ❌ |
+| #7 | **GLD** | +1.1% | +2.5% | -8.9% | +9.6% | ❌ |
+| #8 | **TLT** | -7.6% | -9.0% | -6.0% | -7.6% | ❌ |
+| refuge | **IEF** | -3.9% | -4.8% | -3.4% | -3.3% | ❌ |
 
 📌 = détenu — ✅/❌ = momentum absolu vs T-Bills (BIL)
 
 ## 🧠 L'œil de l'analyste (IA)
-**Domination des matières premières face à la résurgence des taux souverains** — régime perçu : `neutre`
+**Choc pétrolier et taux sous tension avant le rebalancement d'octobre** — régime perçu : `neutre`
 
-Le portefeuille conserve une posture mécanique offensive, mais l'architecture du momentum reflète un régime tardif teinté d'inflation. En tête insolente, DBC (+31,2 %) capitalise sur la fermeté des matières premières, tandis que QQQ (+18,1 %) résiste grâce à l'engouement persistant pour la tech et l'IA. À l'opposé, le krach obligataire s'intensifie : IEF (-4,0 %) et TLT (-7,1 %) restent englués en momentum négatif sur fond de rendements mondiaux à des sommets pluriannuels. Cette tension obligataire est corroborée par le discours belliciste de la Fed (Hammack, Barkin) évoquant de nouvelles hausses de taux face à l'inflation persistante. La véritable vulnérabilité réside sur le troisième slot : EEM (+15,1 %, mais -1,0 % sur 3 mois) subit le resserrement monétaire et voit fondre son avance face à SPY (+13,0 %, +4,7 % sur 3 mois). Alors que le VIX à 14,9 dénote une complaisance trompeuse, le risque d'éviction d'EEM au profit de SPY se précise pour le rebalancement du 1er octobre.
+Le modèle demeure mécaniquement offensif, porté par le leadership écrasant des matières premières (DBC à +27,1%, dont +22,3% sur 3 mois), en parfaite adéquation avec la crise géopolitique et la flambée de l'énergie. Toutefois, la structure interne du portefeuille se fragilise à trois jours du fixing mensuel du 1er octobre. La résurgence des craintes inflationnistes et la vive remontée des rendements obligataires (TLT et IEF ancrés en momentum négatif) compriment les valorisations actions. Le momentum court terme (3 mois) d'EEM s'enfonce dans le rouge (-0,3%) et QQQ ralentit nettement (+1,8%), permettant à SPY (+3,6% sur 3 mois) de combler une partie de son retard pour le top 3. En l'absence d'amortisseur obligataire classique face au durcissement monétaire de la Fed, le portefeuille s'appuie presque exclusivement sur la surperformance de DBC pour préserver son avance, créant une asymétrie marquée face au risque de stagflation.
 
 **Risques :**
-- ⚠️ Vulnérabilité accrue d'EEM face au durcissement monétaire de la Fed et à la remontée des taux souverains.
-- ⚠️ Risque de consolidation brutale sur DBC en cas de ralentissement économique induit par les taux élevés.
-- ⚠️ Absence de protection obligataire : IEF affichant un momentum négatif, tout basculement défensif se ferait directement vers le cash.
+- ⚠️ Sensibilité accrue de QQQ et EEM face à la hausse des rendements obligataires et au raffermissement du dollar.
+- ⚠️ Absence totale de couverture obligataire (IEF et TLT en momentum absolu négatif) en cas de choc de marché.
+- ⚠️ Risque de consolidation brutale sur DBC en cas de détente rapide des tensions au Moyen-Orient.
 
 **À surveiller :**
-- 👁️ Écart de score entre EEM (15,1 %) et SPY (13,0 %) avant la rotation mensuelle du 1er octobre.
-- 👁️ Prochaines publications de l'inflation et de l'emploi US qui pourraient précipiter une nouvelle hausse de taux de la Fed.
-- 👁️ Comportement des valeurs de croissance (QQQ) face à des rendements obligataires atteignant des sommets pluriannuels.
+- 👁️ Rapprochement entre EEM (#3 à +17,3%) et SPY (#4 à +14,2%) d'ici le rebalancement du 1er octobre 2026.
+- 👁️ Évolution du momentum 3 mois de QQQ (+1,8%) face aux discours des gouverneurs de la Fed sur l'inflation.
 
 ---
 *Rapport généré automatiquement — expérience à blanc, aucun argent réel, ceci n'est pas un conseil en investissement.*
