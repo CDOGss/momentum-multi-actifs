@@ -1,19 +1,20 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "prochaine_rotation": "2026-10-01",
   "regime_strategie": "offensif",
   "ia": {
     "regime": "neutre",
-    "titre": "Choc pétrolier et taux sous tension avant le rebalancement d'octobre",
-    "commentaire": "Le modèle demeure mécaniquement offensif, porté par le leadership écrasant des matières premières (DBC à +27,1%, dont +22,3% sur 3 mois), en parfaite adéquation avec la crise géopolitique et la flambée de l'énergie. Toutefois, la structure interne du portefeuille se fragilise à trois jours du fixing mensuel du 1er octobre. La résurgence des craintes inflationnistes et la vive remontée des rendements obligataires (TLT et IEF ancrés en momentum négatif) compriment les valorisations actions. Le momentum court terme (3 mois) d'EEM s'enfonce dans le rouge (-0,3%) et QQQ ralentit nettement (+1,8%), permettant à SPY (+3,6% sur 3 mois) de combler une partie de son retard pour le top 3. En l'absence d'amortisseur obligataire classique face au durcissement monétaire de la Fed, le portefeuille s'appuie presque exclusivement sur la surperformance de DBC pour préserver son avance, créant une asymétrie marquée face au risque de stagflation.",
+    "titre": "Désinflation apparente et tensions obligataires : le momentum teste sa dynamique cyclique",
+    "commentaire": "Le portefeuille aborde la rotation mensuelle du 1er octobre en configuration offensive, porté par le trio de tête DBC, QQQ et EEM. Toutefois, l'analyse temporelle du classement révèle une divergence notable : si le panier de matières premières (DBC) affiche une vive accélération trimestrielle (+20,0%), les actions technologiques (QQQ à +0,3%) et émergentes (EEM à -1,5%) marquent un net essoufflement à court terme. Ce phénomène traduit fidèlement les contradictions macroéconomiques actuelles. D'un côté, l'apaisement de l'inflation PCE américaine conforte l'hypothèse d'une pause sur les hausses de taux de la Fed, soutenant l'appétit pour le risque et maintenant le VIX modéré à 16,3. De l'autre, la déroute persistante des emprunts d'État (TLT et IEF ancrés en territoire négatif) maintient des conditions financières restrictives. Dans ce contexte, SPY (+2,6% sur 3 mois) talonne EEM pour la troisième place. Le positionnement actuel capte la reflation via DBC mais s'avère sensible à une poursuite des tensions sur les taux réels.",
     "risques": [
-      "Sensibilité accrue de QQQ et EEM face à la hausse des rendements obligataires et au raffermissement du dollar.",
-      "Absence totale de couverture obligataire (IEF et TLT en momentum absolu négatif) en cas de choc de marché.",
-      "Risque de consolidation brutale sur DBC en cas de détente rapide des tensions au Moyen-Orient."
+      "Sensibilité accrue de QQQ en cas de nouvelle poussée des rendements obligataires souverains.",
+      "Fragilité d'EEM face à la vigueur des taux réels et aux incertitudes sur la croissance mondiale.",
+      "Risque de retournement brutal sur DBC en cas d'accalmie géopolitique ou de repli des cours pétroliers."
     ],
     "a_surveiller": [
-      "Rapprochement entre EEM (#3 à +17,3%) et SPY (#4 à +14,2%) d'ici le rebalancement du 1er octobre 2026.",
-      "Évolution du momentum 3 mois de QQQ (+1,8%) face aux discours des gouverneurs de la Fed sur l'inflation."
+      "Écart de score entre EEM (+17,5%) et SPY (+13,6%) lors du verdict de rotation du 1er octobre.",
+      "Évolution des rendements obligataires souverains (US 10 ans) après les données d'inflation PCE.",
+      "Maintien du momentum absolu positif des actifs risqués face au rendement des T-Bills."
     ],
     "modele": "gemini-3.8-flash"
   }
