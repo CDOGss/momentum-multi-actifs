@@ -1,20 +1,20 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-06",
   "prochaine_rotation": "2026-11-02",
   "regime_strategie": "offensif",
   "ia": {
     "regime": "risk_on",
-    "titre": "Tech et matières premières dominent malgré la vive tension obligataire",
-    "commentaire": "Le classement systématique met en évidence une dynamique de fin de cycle reflationniste : DBC domine nettement (+26,1%), soutenu par QQQ (+20,3%) et EEM (+18,4%), ce dernier profitant du dynamisme des ressources et de marchés clés comme le Brésil. Cette sélection 100% offensive contraste violemment avec la débâcle obligataire : TLT (-8,8%) et le refuge IEF (-4,3%) demeurent en momentum absolu négatif, confirmant le rejet total de la duration par le marché.\n\nSur le front macroéconomique, la complaisance apparente des indices actions (VIX contenu à 15,5) masque la montée des périls sur les taux souverains américains et européens, alimentée par la persistance de l'inflation. L'écart entre EEM et SPY (+13,0%) reste d'environ 5 points, mais une accélération de la hausse des rendements obligataires menacerait en premier lieu les valorisations technologiques du QQQ. Pour l'heure, le momentum récompense pleinement l'exposition aux actifs réels et à la croissance sélective.",
+    "titre": "Hégémonie des matières premières et de la tech en plein paradoxe monétaire",
+    "commentaire": "Le portefeuille conserve une configuration purement offensive, articulée autour d'un trio reflationniste : matières premières (DBC en tête à +26,6%), tech américaine (QQQ) et émergents (EEM). Ce classement reflète un régime atypique de surchauffe où la dynamique haussière des actifs réels cohabite avec la résilience des mégacaps technologiques. L'actualité macro met en lumière des frictions patentes : alors que les indices boursiers frôlent des records sur fond de VIX bas (15,0), la persistance des pressions inflationnistes alimentée par l'énergie et la dette massive liée à l'IA contraint les banques centrales à maintenir une posture restrictive. L'éviction totale des obligations (TLT et IEF lourdement négatifs) confirme l'absence de parachute souverain conventionnel. Le différentiel de score entre EEM (+17,1%) et SPY (+13,7%) reste le principal point de bascule potentiel au sein du trio de tête en cas de consolidation du dollar ou de dégradation des marchés émergents.",
     "risques": [
-      "Choc de valorisation sur QQQ en cas de nouvelle poussée brutale des taux souverains américains.",
-      "Retournement baissier sur DBC face aux hausses d'exportations pétrolières du Moyen-Orient.",
-      "Contagion du stress sur les dettes souveraines européennes vers le sentiment de marché global."
+      "Résurgence de l'inflation énergétique via DBC forçant la Fed à durcir davantage ses taux.",
+      "Sensibilité accrue de QQQ et EEM face à un rebond du dollar américain.",
+      "Absence de protection obligataire en cas de choc exogène, IEF affichant un momentum négatif."
     ],
     "a_surveiller": [
-      "Publication des minutes de la Fed pour évaluer le risque de durcissement monétaire supplémentaire.",
-      "Écart de momentum entre EEM (+18,4%) et le poursuivant SPY (+13,0%) d'ici la rotation du 2 novembre.",
-      "Évolution des rendements obligataires US à 10 et 30 ans, principaux vecteurs de contagion macro."
+      "Publication des minutes de la Fed mercredi et impact sur le spread EEM/SPY (écart de 3,4 points).",
+      "Comportement des cours du pétrole brut face à la volatilité de l'offre au Moyen-Orient.",
+      "Niveau de support du momentum 3 mois sur EEM (+3,1%) face au retour de SPY (+4,8%)."
     ],
     "modele": "gemini-3.8-flash"
   }
