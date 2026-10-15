@@ -1,20 +1,6 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "prochaine_rotation": "2026-11-02",
   "regime_strategie": "offensif",
-  "ia": {
-    "regime": "neutre",
-    "titre": "Surperformance des matières premières face à la résurgence des tensions obligataires",
-    "commentaire": "Le portefeuille reste mécaniquement offensif, porté par l'écrasante surperformance des matières premières (DBC à +28,1 %) et la résilience passée de la tech (QQQ à +15,9 %). Cependant, la configuration sous-jacente révèle une transition vers un régime de reflation contrariée. Le discours agressif des membres de la Fed, couplé à la hausse des rendements obligataires mondiaux illustrée par l'effondrement persistant du compartiment obligataire (TLT à -7,5 %, IEF à -3,7 %), commence à peser sur la valorisation des actifs de croissance. La tech américaine et les actions émergentes (EEM, +11,6 %) subissent le double choc d'un dollar ferme et de coûts énergétiques croissants. De plus, SPY talonne désormais EEM au coude-à-coude pour la troisième place qualificative (+11,6 % chacun), matérialisant un risque imminent de permutation lors du rebalancement de novembre. L'absence totale de soutien obligataire ou de l'or confirme qu'aucun actif refuge classique n'amortit le risque en cas de correction.",
-    "risques": [
-      "Pression haussière des taux d'intérêt pesant sur les multiples de valorisation du QQQ.",
-      "Sensibilité accrue d'EEM au renforcement du dollar et aux chocs énergétiques mondiaux.",
-      "Absence de diversification défensive, GLD et IEF demeurant en territoire de momentum absolu négatif."
-    ],
-    "a_surveiller": [
-      "Arbitrage très serré entre EEM (+11,6 %) et SPY (+11,6 %) avant le rebalancement du 2026-11-02.",
-      "Prochaine publication du CPI américain et réactions des rendements obligataires aux propos restrictifs de la Fed."
-    ],
-    "modele": "gemini-3.8-flash"
-  }
+  "ia": null
 }
