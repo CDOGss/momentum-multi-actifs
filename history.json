@@ -8814,5 +8814,157 @@
       }
     ],
     "ia": null
+  },
+  {
+    "date": "2026-10-14",
+    "nav": 10494.91,
+    "bench_spy": 10195.94,
+    "bench_6040": 9940.95,
+    "cash": -2.52,
+    "frais_cumules": 5.31,
+    "vix": 16.5,
+    "regime_strategie": "offensif",
+    "rebalance": false,
+    "trades": [],
+    "positions": [
+      {
+        "ticker": "DBC",
+        "nom": "Matières premières (panier large)",
+        "parts": 108.2198,
+        "prix": 33.31,
+        "valeur": 3604.8,
+        "prix_revient": 28.79,
+        "date_achat": "2026-07-15"
+      },
+      {
+        "ticker": "EEM",
+        "nom": "Actions émergentes",
+        "parts": 53.0112,
+        "prix": 64.39,
+        "valeur": 3413.39,
+        "prix_revient": 65.62,
+        "date_achat": "2026-07-15"
+      },
+      {
+        "ticker": "QQQ",
+        "nom": "Nasdaq 100 (tech US)",
+        "parts": 4.773,
+        "prix": 728.95,
+        "valeur": 3479.24,
+        "prix_revient": 717.24,
+        "date_achat": "2026-07-15"
+      }
+    ],
+    "momentum": [
+      {
+        "ticker": "SPY",
+        "nom": "S&P 500 (actions US)",
+        "type": "risque",
+        "r3m": 0.0277,
+        "r6m": 0.1051,
+        "r12m": 0.1732,
+        "score": 0.102,
+        "excess": 0.0808,
+        "selectionne": false,
+        "rang": 3
+      },
+      {
+        "ticker": "QQQ",
+        "nom": "Nasdaq 100 (tech US)",
+        "type": "risque",
+        "r3m": 0.0337,
+        "r6m": 0.1461,
+        "r12m": 0.2165,
+        "score": 0.1321,
+        "excess": 0.1109,
+        "selectionne": true,
+        "rang": 2
+      },
+      {
+        "ticker": "EFA",
+        "nom": "Actions internationales développées",
+        "type": "risque",
+        "r3m": -0.0102,
+        "r6m": 0.0103,
+        "r12m": 0.1429,
+        "score": 0.0477,
+        "excess": 0.0265,
+        "selectionne": false,
+        "rang": 5
+      },
+      {
+        "ticker": "EEM",
+        "nom": "Actions émergentes",
+        "type": "risque",
+        "r3m": 0.0031,
+        "r6m": 0.0406,
+        "r12m": 0.2283,
+        "score": 0.0907,
+        "excess": 0.0695,
+        "selectionne": true,
+        "rang": 4
+      },
+      {
+        "ticker": "GLD",
+        "nom": "Or",
+        "type": "risque",
+        "r3m": 0.0302,
+        "r6m": -0.1464,
+        "r12m": -0.0056,
+        "score": -0.0406,
+        "excess": -0.0617,
+        "selectionne": false,
+        "rang": 7
+      },
+      {
+        "ticker": "DBC",
+        "nom": "Matières premières (panier large)",
+        "type": "risque",
+        "r3m": 0.1704,
+        "r6m": 0.153,
+        "r12m": 0.5405,
+        "score": 0.288,
+        "excess": 0.2668,
+        "selectionne": true,
+        "rang": 1
+      },
+      {
+        "ticker": "VNQ",
+        "nom": "Immobilier coté US (REITs)",
+        "type": "risque",
+        "r3m": -0.0893,
+        "r6m": -0.025,
+        "r12m": 0.0572,
+        "score": -0.019,
+        "excess": -0.0402,
+        "selectionne": false,
+        "rang": 6
+      },
+      {
+        "ticker": "TLT",
+        "nom": "Obligations US 20+ ans",
+        "type": "risque",
+        "r3m": -0.052,
+        "r6m": -0.0702,
+        "r12m": -0.0886,
+        "score": -0.0702,
+        "excess": -0.0914,
+        "selectionne": false,
+        "rang": 8
+      },
+      {
+        "ticker": "IEF",
+        "nom": "Obligations US 7-10 ans (refuge)",
+        "type": "refuge",
+        "r3m": -0.0327,
+        "r6m": -0.0421,
+        "r12m": -0.0378,
+        "score": -0.0375,
+        "excess": -0.0587,
+        "selectionne": false,
+        "rang": null
+      }
+    ],
+    "ia": null
   }
 ]
