@@ -1,6 +1,21 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "prochaine_rotation": "2026-11-02",
   "regime_strategie": "offensif",
-  "ia": null
+  "ia": {
+    "regime": "neutre",
+    "titre": "L'inflation porte les matières premières, la tech vacille avant rotation",
+    "commentaire": "Le portefeuille reste mécaniquement offensif, mais sa structure interne révèle un régime de fin de cycle dominé par les craintes inflationnistes. Avec un score écrasant de +25,7 %, DBC confirme son leadership incontesté alors que l'inflation américaine rebondit vers 3,7 %, maintenant la Fed sous pression. Cette poussée des rendements et du coût du capital pèse directement sur les segments longs en duration : les obligations souveraines (TLT, IEF) s'enfoncent en momentum négatif et le compartiment technologique (QQQ) montre des signes d'essoufflement, pénalisé par les récents déboires d'Alphabet. Une divergence critique apparaît au sein du portefeuille à quatre jours du rebalancement mensuel du 2 novembre : EEM (+3,7 %), actuellement détenu, a décroché au 5e rang derrière SPY (+8,0 %) et EFA (+5,1 %). Ses performances récentes négatives sur 3 et 6 mois traduisent la vulnérabilité des émergents face au durcissement monétaire global, annonçant une éviction mécanique imminente au profit du S&P 500.",
+    "risques": [
+      "Dégagement brutal sur le secteur technologique (QQQ) face aux valorisations tendues de l'IA et aux taux élevés",
+      "Pression accrue sur les marchés émergents (EEM) due au maintien de taux restrictifs aux États-Unis",
+      "Correction des matières premières (DBC) en cas d'apaisement géopolitique ou de destruction de demande"
+    ],
+    "a_surveiller": [
+      "Rebalancement mensuel du 2 novembre 2026 : confirmation de la sortie d'EEM au profit de SPY",
+      "Écart de momentum entre QQQ (+8,3 %) et SPY (+8,0 %), susceptible d'inverser le tiercé de tête",
+      "Évolution du VIX au-dessus de 20 points en cas de nouvelle vague de ventes sur Wall Street"
+    ],
+    "modele": "gemini-3.8-flash"
+  }
 }
