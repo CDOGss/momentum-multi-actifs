@@ -1,20 +1,20 @@
 {
-  "date": "2026-10-30",
-  "prochaine_rotation": "2026-11-02",
+  "date": "2026-11-02",
+  "prochaine_rotation": "2026-12-01",
   "regime_strategie": "offensif",
   "ia": {
     "regime": "neutre",
-    "titre": "Choc pétrolier et rotation imminente vers les indices larges",
-    "commentaire": "Le marché bascule dans une configuration quasi-stagflationniste. Les tensions géopolitiques majeures au Moyen-Orient propulsent DBC en tête absolue (+26,1%), tandis que la résurgence des craintes inflationnistes et le discours restrictif de la Fed pèsent lourdement sur la tech et les obligations. Le portefeuille actuel subit cette transition : EEM décroche au rang #6 avec un momentum absolu désormais négatif (-5,1% sur 3 mois), et QQQ glisse en 4e position sous l'effet des déceptions sur les résultats de l'IA. À l'inverse, SPY et EFA résistent mieux et occupent les places #2 et #3. Bien que le régime mécanique demeure 'offensif', les actifs refuges obligataires (IEF, TLT) et l'or sont hors-jeu. La rotation prévue le 2 novembre actera mécaniquement le débouclage de positions fragiles (EEM, QQQ) au profit d'actions diversifiées plus résilientes, tout en conservant le puissant moteur des matières premières.",
+    "titre": "Repli défensif vers SPY et EFA face aux secousses technologiques",
+    "commentaire": "La rotation mensuelle traduit un net resserrement défensif au sein du compartiment actions : la purge brutale sur la tech (QQQ à -5,8 % sur 3 mois) et les émergents (EEM à -7,4 %) a fait basculer leur momentum absolu en territoire négatif, provoquant leur sortie mécanique au profit d'indices plus larges (SPY et EFA). Bien que le régime quantitatif demeure classé « offensif » grâce à la domination incontestée de DBC (+22,0 %), la dynamique interne s'essouffle. Les scores trimestriels de SPY (-2,3 %) et d'EFA (-3,4 %) sont désormais dans le rouge, tandis que le VIX franchit les 21 points dans un contexte de tensions monétaires persistantes. L'actualité confirme ce climat d'incertitude : déroute des semi-conducteurs, nervosité avant les élections de mi-mandat et fortes secousses sur les cours pétroliers. L'ancrage sur DBC protège le capital, mais la convergence baissière des actions développées réduit la marge de sécurité avant un basculement vers des actifs refuges.",
     "risques": [
-      "Détention résiduelle jusqu'au 2 novembre d'EEM, désormais en momentum absolu négatif et sous-performant.",
-      "Sensibilité accrue de QQQ aux déceptions de résultats technologiques et au regain de fauconnisme de la Fed.",
-      "Volatilité extrême sur DBC en cas de désescalade soudaine dans le détroit d'Ormuz."
+      "Forte volatilité sur DBC suite aux récents décrochages brutaux des cours du pétrole brut.",
+      "Contagion de la faiblesse du secteur technologique à l'ensemble de l'indice SPY.",
+      "Proximité d'un basculement en momentum absolu négatif pour SPY et EFA si la tendance 3 mois persiste."
     ],
     "a_surveiller": [
-      "Rebalancement mensuel mécanique du 2 novembre : confirmation de la sortie d'EEM et QQQ au profit de SPY et EFA.",
-      "Évolution du score absolu de SPY (+5,5%) et EFA (+4,2%) face au risque de contagion de la baisse boursière.",
-      "VIX à 19,4 : franchissement potentiel du seuil d'alerte des 20 points."
+      "Écart de score entre EFA (+4,8 %) et VNQ (+3,1 %), ce dernier étant en embuscade pour entrer dans le top 3.",
+      "Chiffres de l'inflation américaine attendus le 10 novembre et orientation de la Fed.",
+      "Comportement de DBC face aux turbulences géopolitiques affectant l'offre de brut."
     ],
     "modele": "gemini-3.8-flash"
   }

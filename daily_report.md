@@ -1,47 +1,54 @@
-# 🧭 Rotation momentum multi-actifs — 2026-10-30
+# 🧭 Rotation momentum multi-actifs — 2026-11-02
 
 ## 💼 Situation
-- **Valeur du portefeuille : 10,166.22 $** (+1.66% depuis le départ)
-- Benchmark S&P 500 : +0.12% — Benchmark 60/40 : -0.76%
-- Régime mécanique : **offensif** — VIX : 19.4
-- Frais cumulés depuis le départ : 5.31 $
+- **Valeur du portefeuille : 9,993.95 $** (-0.06% depuis le départ)
+- Benchmark S&P 500 : -0.36% — Benchmark 60/40 : -1.16%
+- Régime mécanique : **offensif** — VIX : 21.1
+- Frais cumulés depuis le départ : 11.98 $
+
+## 🔄 Rotation mensuelle exécutée
+- 🔴 **Vente DBC** : 181.50 $ à 32.46 $ (frais 0.09 $)
+- 🔴 **Vente EEM** : 3,239.51 $ à 61.11 $ (frais 1.62 $)
+- 🟢 **Achat EFA** : 3,331.32 $ à 103.70 $ (frais 1.67 $)
+- 🔴 **Vente QQQ** : 3,250.81 $ à 681.09 $ (frais 1.63 $)
+- 🟢 **Achat SPY** : 3,331.32 $ à 752.10 $ (frais 1.67 $)
 
 ## 📌 Positions
 | ETF | Nom | Valeur | Prix | Prix de revient |
 |---|---|---:|---:|---:|
-| **DBC** | Matières premières (panier large) | 3,637.27 $ | 33.61 $ | 28.79 $ |
-| **EEM** | Actions émergentes | 3,235.80 $ | 61.04 $ | 65.62 $ |
-| **QQQ** | Nasdaq 100 (tech US) | 3,295.68 $ | 690.49 $ | 717.24 $ |
+| **DBC** | Matières premières (panier large) | 3,331.32 $ | 32.46 $ | 28.79 $ |
+| **EFA** | Actions internationales développées | 3,331.32 $ | 103.70 $ | 103.70 $ |
+| **SPY** | S&P 500 (actions US) | 3,331.32 $ | 752.10 $ | 752.10 $ |
 
 ## 📊 Classement momentum du jour
 | Rang | ETF | Score | 3 mois | 6 mois | 12 mois | Momentum absolu |
 |---|---|---:|---:|---:|---:|:---:|
-| #1 | **DBC** 📌 | +26.2% | +16.4% | +9.1% | +53.0% | ✅ |
-| #2 | **SPY** | +5.5% | -0.0% | +5.4% | +11.1% | ✅ |
-| #3 | **EFA** | +4.2% | -2.5% | +2.9% | +12.4% | ✅ |
-| #4 | **QQQ** 📌 | +3.5% | -1.3% | +2.6% | +9.1% | ✅ |
-| #5 | **VNQ** | +1.8% | -4.4% | -0.5% | +10.1% | ❌ |
-| #6 | **EEM** 📌 | +0.6% | -5.1% | -4.3% | +11.1% | ❌ |
-| #7 | **TLT** | -2.7% | +0.4% | -2.5% | -6.0% | ❌ |
-| #8 | **GLD** | -7.4% | -4.3% | -15.9% | -2.0% | ❌ |
-| refuge | **IEF** | -1.2% | -0.4% | -1.5% | -1.6% | ❌ |
+| #1 | **DBC** 📌 | +22.0% | +14.7% | +3.6% | +47.7% | ✅ |
+| #2 | **SPY** 📌 | +5.0% | -2.2% | +5.3% | +11.8% | ✅ |
+| #3 | **EFA** 📌 | +4.8% | -3.4% | +4.6% | +13.2% | ✅ |
+| #4 | **VNQ** | +3.1% | -3.1% | +1.3% | +10.9% | ✅ |
+| #5 | **QQQ** | +1.6% | -5.8% | +1.4% | +9.3% | ❌ |
+| #6 | **EEM** | +0.3% | -7.4% | -4.2% | +12.4% | ❌ |
+| #7 | **TLT** | -2.7% | -0.5% | -1.9% | -5.6% | ❌ |
+| #8 | **GLD** | -6.1% | -3.3% | -12.8% | -2.3% | ❌ |
+| refuge | **IEF** | -1.4% | -1.2% | -1.4% | -1.7% | ❌ |
 
 📌 = détenu — ✅/❌ = momentum absolu vs T-Bills (BIL)
 
 ## 🧠 L'œil de l'analyste (IA)
-**Choc pétrolier et rotation imminente vers les indices larges** — régime perçu : `neutre`
+**Repli défensif vers SPY et EFA face aux secousses technologiques** — régime perçu : `neutre`
 
-Le marché bascule dans une configuration quasi-stagflationniste. Les tensions géopolitiques majeures au Moyen-Orient propulsent DBC en tête absolue (+26,1%), tandis que la résurgence des craintes inflationnistes et le discours restrictif de la Fed pèsent lourdement sur la tech et les obligations. Le portefeuille actuel subit cette transition : EEM décroche au rang #6 avec un momentum absolu désormais négatif (-5,1% sur 3 mois), et QQQ glisse en 4e position sous l'effet des déceptions sur les résultats de l'IA. À l'inverse, SPY et EFA résistent mieux et occupent les places #2 et #3. Bien que le régime mécanique demeure 'offensif', les actifs refuges obligataires (IEF, TLT) et l'or sont hors-jeu. La rotation prévue le 2 novembre actera mécaniquement le débouclage de positions fragiles (EEM, QQQ) au profit d'actions diversifiées plus résilientes, tout en conservant le puissant moteur des matières premières.
+La rotation mensuelle traduit un net resserrement défensif au sein du compartiment actions : la purge brutale sur la tech (QQQ à -5,8 % sur 3 mois) et les émergents (EEM à -7,4 %) a fait basculer leur momentum absolu en territoire négatif, provoquant leur sortie mécanique au profit d'indices plus larges (SPY et EFA). Bien que le régime quantitatif demeure classé « offensif » grâce à la domination incontestée de DBC (+22,0 %), la dynamique interne s'essouffle. Les scores trimestriels de SPY (-2,3 %) et d'EFA (-3,4 %) sont désormais dans le rouge, tandis que le VIX franchit les 21 points dans un contexte de tensions monétaires persistantes. L'actualité confirme ce climat d'incertitude : déroute des semi-conducteurs, nervosité avant les élections de mi-mandat et fortes secousses sur les cours pétroliers. L'ancrage sur DBC protège le capital, mais la convergence baissière des actions développées réduit la marge de sécurité avant un basculement vers des actifs refuges.
 
 **Risques :**
-- ⚠️ Détention résiduelle jusqu'au 2 novembre d'EEM, désormais en momentum absolu négatif et sous-performant.
-- ⚠️ Sensibilité accrue de QQQ aux déceptions de résultats technologiques et au regain de fauconnisme de la Fed.
-- ⚠️ Volatilité extrême sur DBC en cas de désescalade soudaine dans le détroit d'Ormuz.
+- ⚠️ Forte volatilité sur DBC suite aux récents décrochages brutaux des cours du pétrole brut.
+- ⚠️ Contagion de la faiblesse du secteur technologique à l'ensemble de l'indice SPY.
+- ⚠️ Proximité d'un basculement en momentum absolu négatif pour SPY et EFA si la tendance 3 mois persiste.
 
 **À surveiller :**
-- 👁️ Rebalancement mensuel mécanique du 2 novembre : confirmation de la sortie d'EEM et QQQ au profit de SPY et EFA.
-- 👁️ Évolution du score absolu de SPY (+5,5%) et EFA (+4,2%) face au risque de contagion de la baisse boursière.
-- 👁️ VIX à 19,4 : franchissement potentiel du seuil d'alerte des 20 points.
+- 👁️ Écart de score entre EFA (+4,8 %) et VNQ (+3,1 %), ce dernier étant en embuscade pour entrer dans le top 3.
+- 👁️ Chiffres de l'inflation américaine attendus le 10 novembre et orientation de la Fed.
+- 👁️ Comportement de DBC face aux turbulences géopolitiques affectant l'offre de brut.
 
 ---
 *Rapport généré automatiquement — expérience à blanc, aucun argent réel, ceci n'est pas un conseil en investissement.*
