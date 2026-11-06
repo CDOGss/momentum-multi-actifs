@@ -11043,5 +11043,172 @@
       ],
       "modele": "gemini-3.8-flash"
     }
+  },
+  {
+    "date": "2026-11-05",
+    "nav": 9775.62,
+    "bench_spy": 9711.05,
+    "bench_6040": 9754.08,
+    "cash": 0.0,
+    "frais_cumules": 11.98,
+    "vix": 28.2,
+    "regime_strategie": "offensif",
+    "rebalance": false,
+    "trades": [],
+    "positions": [
+      {
+        "ticker": "DBC",
+        "nom": "Matières premières (panier large)",
+        "parts": 102.6283,
+        "prix": 31.47,
+        "valeur": 3229.71,
+        "prix_revient": 28.79,
+        "date_achat": "2026-07-15"
+      },
+      {
+        "ticker": "EFA",
+        "nom": "Actions internationales développées",
+        "parts": 32.1246,
+        "prix": 102.7,
+        "valeur": 3299.19,
+        "prix_revient": 103.7,
+        "date_achat": "2026-11-02"
+      },
+      {
+        "ticker": "SPY",
+        "nom": "S&P 500 (actions US)",
+        "parts": 4.4294,
+        "prix": 733.0,
+        "valeur": 3246.72,
+        "prix_revient": 752.1,
+        "date_achat": "2026-11-02"
+      }
+    ],
+    "momentum": [
+      {
+        "ticker": "SPY",
+        "nom": "S&P 500 (actions US)",
+        "type": "risque",
+        "r3m": -0.0497,
+        "r6m": 0.007,
+        "r12m": 0.0973,
+        "score": 0.0182,
+        "excess": 0.0033,
+        "selectionne": true,
+        "rang": 4
+      },
+      {
+        "ticker": "QQQ",
+        "nom": "Nasdaq 100 (tech US)",
+        "type": "risque",
+        "r3m": -0.1042,
+        "r6m": -0.0669,
+        "r12m": 0.0498,
+        "score": -0.0404,
+        "excess": -0.0553,
+        "selectionne": false,
+        "rang": 6
+      },
+      {
+        "ticker": "EFA",
+        "nom": "Actions internationales développées",
+        "type": "risque",
+        "r3m": -0.0539,
+        "r6m": 0.0139,
+        "r12m": 0.1353,
+        "score": 0.0318,
+        "excess": 0.0169,
+        "selectionne": true,
+        "rang": 3
+      },
+      {
+        "ticker": "EEM",
+        "nom": "Actions émergentes",
+        "type": "risque",
+        "r3m": -0.1156,
+        "r6m": -0.1237,
+        "r12m": 0.0834,
+        "score": -0.052,
+        "excess": -0.0669,
+        "selectionne": false,
+        "rang": 8
+      },
+      {
+        "ticker": "GLD",
+        "nom": "Or",
+        "type": "risque",
+        "r3m": -0.0577,
+        "r6m": -0.1302,
+        "r12m": 0.0363,
+        "score": -0.0505,
+        "excess": -0.0654,
+        "selectionne": false,
+        "rang": 7
+      },
+      {
+        "ticker": "DBC",
+        "nom": "Matières premières (panier large)",
+        "type": "risque",
+        "r3m": 0.0886,
+        "r6m": 0.0403,
+        "r12m": 0.4211,
+        "score": 0.1833,
+        "excess": 0.1684,
+        "selectionne": true,
+        "rang": 1
+      },
+      {
+        "ticker": "VNQ",
+        "nom": "Immobilier coté US (REITs)",
+        "type": "risque",
+        "r3m": -0.0139,
+        "r6m": 0.0159,
+        "r12m": 0.1196,
+        "score": 0.0405,
+        "excess": 0.0256,
+        "selectionne": false,
+        "rang": 2
+      },
+      {
+        "ticker": "TLT",
+        "nom": "Obligations US 20+ ans",
+        "type": "risque",
+        "r3m": -0.0062,
+        "r6m": -0.0285,
+        "r12m": -0.054,
+        "score": -0.0296,
+        "excess": -0.0445,
+        "selectionne": false,
+        "rang": 5
+      },
+      {
+        "ticker": "IEF",
+        "nom": "Obligations US 7-10 ans (refuge)",
+        "type": "refuge",
+        "r3m": -0.0093,
+        "r6m": -0.0156,
+        "r12m": -0.0166,
+        "score": -0.0138,
+        "excess": -0.0287,
+        "selectionne": false,
+        "rang": null
+      }
+    ],
+    "ia": {
+      "regime": "risk_off",
+      "titre": "Choc inflationniste et décrochage technologique menacent l'allocation offensive",
+      "commentaire": "Bien que le modèle demeure mécaniquement offensif, le régime macroéconomique réel bascule en territoire hostile avec un VIX bondissant à 28,2. Le classement momentum illustre parfaitement la résurgence du risque stagflationniste : DBC domine outrageusement (+18,3%), soutenu par les tensions géopolitiques dans le détroit d'Ormuz, tandis que les actifs de duration et de croissance s'effondrent, à l'image du Nasdaq (QQQ à -4,0%) et des obligations (IEF et TLT négatifs). La Fed réaffirme une posture restrictive face à une inflation tenace, ce qui fragilise les actions. En interne, l'alerte est vive pour le portefeuille : SPY (#4) est d'ores et déjà dépassé par VNQ (#2) et voit son score s'effriter (+1,8% avec un 3 mois à -5,0%). Si cette dynamique de correction des actions globales (EFA et SPY) se poursuit d'ici le 1er décembre sans relais du côté d'IEF, le portefeuille risque une transition brutale vers le cash.",
+      "risques": [
+        "Détention de SPY alors qu'il est déjà relégué au rang #4 derrière VNQ",
+        "Fragilité du momentum absolu de SPY (+1,8%) et EFA (+3,2%), vulnérables à un passage négatif d'ici le 1er décembre",
+        "Volatilité accrue (VIX à 28,2) et pressions stagflationnistes pénalisant la valorisation des actions détenues"
+      ],
+      "a_surveiller": [
+        "Écart de performance entre SPY, EFA et le seuil de bascule vers le cash (T-Bills)",
+        "Maintien de VNQ devant SPY en vue du rebalancement mensuel du 1er décembre",
+        "Évolution des rendements obligataires après les déclarations hawkish de la Réserve fédérale"
+      ],
+      "modele": "gemini-3.8-flash"
+    }
   }
 ]
