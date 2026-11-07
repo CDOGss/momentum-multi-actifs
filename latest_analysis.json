@@ -1,20 +1,20 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "prochaine_rotation": "2026-12-01",
   "regime_strategie": "offensif",
   "ia": {
     "regime": "risk_off",
-    "titre": "Choc inflationniste et décrochage technologique menacent l'allocation offensive",
-    "commentaire": "Bien que le modèle demeure mécaniquement offensif, le régime macroéconomique réel bascule en territoire hostile avec un VIX bondissant à 28,2. Le classement momentum illustre parfaitement la résurgence du risque stagflationniste : DBC domine outrageusement (+18,3%), soutenu par les tensions géopolitiques dans le détroit d'Ormuz, tandis que les actifs de duration et de croissance s'effondrent, à l'image du Nasdaq (QQQ à -4,0%) et des obligations (IEF et TLT négatifs). La Fed réaffirme une posture restrictive face à une inflation tenace, ce qui fragilise les actions. En interne, l'alerte est vive pour le portefeuille : SPY (#4) est d'ores et déjà dépassé par VNQ (#2) et voit son score s'effriter (+1,8% avec un 3 mois à -5,0%). Si cette dynamique de correction des actions globales (EFA et SPY) se poursuit d'ici le 1er décembre sans relais du côté d'IEF, le portefeuille risque une transition brutale vers le cash.",
+    "titre": "Divergence marquée entre un portefeuille offensif et un choc macro imminent",
+    "commentaire": "Le portefeuille reste mécaniquement offensif avec DBC, EFA et SPY, mais cette allocation masque une vulnérabilité critique. Le VIX à 25,6 et la capitulation des valeurs technologiques (QQQ relégué au 6e rang) traduisent un net durcissement des conditions financières, attisé par la perspective de nouvelles hausses de taux de la Fed et les incertitudes post-midterms. Seul DBC (+17,4%) conserve une dynamique robuste, porté par les tensions sur l'énergie au Moyen-Orient et le régime inflationniste. En revanche, le momentum des actions s'effondre : SPY a glissé au 4e rang derrière VNQ, tandis qu'EFA et SPY enregistrent de lourdes pertes sur 3 mois (-5,7% et -4,6%). Leurs scores composites (+1,9% et +1,7%) approchent dangereusement de la zone négative. L'absence d'amortisseur obligataire classique — IEF et TLT affichant des scores négatifs face aux T-Bills — signale qu'une dégradation supplémentaire des actions imposerait une bascule directe vers le cash lors de la rotation de décembre.",
     "risques": [
-      "Détention de SPY alors qu'il est déjà relégué au rang #4 derrière VNQ",
-      "Fragilité du momentum absolu de SPY (+1,8%) et EFA (+3,2%), vulnérables à un passage négatif d'ici le 1er décembre",
-      "Volatilité accrue (VIX à 28,2) et pressions stagflationnistes pénalisant la valorisation des actions détenues"
+      "Passage d'EFA et SPY sous le seuil de momentum absolu positif en cas de rechute des indices actions",
+      "Forte volatilité sur DBC liée aux aléas géopolitiques et aux à-coups violents sur le pétrole brut",
+      "Incapacité des obligations (IEF/TLT) à jouer leur rôle de valeur refuge face à la fermeté des taux directeurs"
     ],
     "a_surveiller": [
-      "Écart de performance entre SPY, EFA et le seuil de bascule vers le cash (T-Bills)",
-      "Maintien de VNQ devant SPY en vue du rebalancement mensuel du 1er décembre",
-      "Évolution des rendements obligataires après les déclarations hawkish de la Réserve fédérale"
+      "Position relative de SPY (#4) et VNQ (#2) avant la rotation mensuelle du 1er décembre",
+      "Évolution des scores absolus d'EFA (+1,9%) et SPY (+1,7%) face au rendement des T-Bills",
+      "Déclarations des responsables de la Fed et données d'inflation susceptibles de valider un nouveau tour de vis monétaire"
     ],
     "modele": "gemini-3.8-flash"
   }
