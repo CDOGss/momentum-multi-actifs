@@ -1,20 +1,20 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "prochaine_rotation": "2026-12-01",
   "regime_strategie": "offensif",
   "ia": {
     "regime": "neutre",
-    "titre": "Divergence technologique et détente pétrolière fragilisent la dynamique offensive",
-    "commentaire": "Le portefeuille conserve un profil mécaniquement offensif via DBC, EFA et SPY, mais la structure sous-jacente des marchés révèle de nettes fragilités. QQQ et EEM sont désormais ancrés en momentum absolu négatif, traduisant la défiance envers la tech américaine — plombée notamment par Nvidia — et les marchés émergents. DBC caracole toujours en tête grâce à son acquis sur douze mois (+40,1 %), mais son score récent reflète la détente sur les cours du pétrole et l'apaisement géopolitique temporaire. Parallèlement, la fermeté des banquiers centraux face à la persistance de l'inflation écarte tout refuge obligataire, IEF et TLT affichant des scores négatifs face aux T-Bills. À noter la poussée de l'immobilier coté (VNQ, #2), qui évincerait actuellement SPY (#4) si la rotation mensuelle intervenait ce jour. Avec un VIX flirtant avec les 20 points et un momentum absolu sur les actions US qui s'étiole, la vigilance est de mise.",
+    "titre": "L'inflation persistante fragilise les actions tandis que DBC consolide son leadership",
+    "commentaire": "Malgré un régime mécanique encore offensif, la dynamique de marché se détériore sous l'effet des tensions obligataires. Le leadership écrasant des matières premières (DBC à +12,7 %) illustre une inflation américaine persistante, confirmée par les récents chiffres de l'IPC qui ravivent les craintes d'un durcissement accru de la Fed. Ce choc de taux comprime les multiples boursiers : SPY (-2,7 % sur 3 mois) et EFA (-3,8 %) perdent rapidement de leur élan, tandis que QQQ a déjà basculé en momentum absolu négatif. En outre, VNQ surpasse désormais SPY, reléguant temporairement ce dernier hors du top 3 théorique avant la rotation mensuelle du 1er décembre. Face à cette dégradation, le compartiment obligataire (IEF, TLT) ne procure aucune protection en raison de la hausse continue des rendements souverains, maintenant IEF en territoire négatif. Le portefeuille reste ainsi pleinement exposé aux actifs risqués dans un climat macroéconomique de plus en plus défavorable.",
     "risques": [
-      "Continuation du repli pétrolier érodant rapidement l'avance de performance de DBC.",
-      "Contagion de la faiblesse du secteur technologique (QQQ) au reste de l'indice SPY.",
-      "Absence de valeur refuge efficace : IEF et TLT restent sous pression face aux taux élevés."
+      "Décrochage de SPY rétrogradé au 4e rang derrière VNQ, gelé jusqu'à la rotation du 1er décembre",
+      "Poursuite du durcissement monétaire de la Fed pesant lourdement sur les valorisations actions (SPY, EFA)",
+      "Absence de parachute obligataire, IEF étant en momentum négatif en cas de bascule hors des actions"
     ],
     "a_surveiller": [
-      "Maintien de VNQ (#2 à +6.0%) devant SPY (#4 à +4.6%) d'ici la rotation du 1er décembre 2026.",
-      "Comportement du score 3 mois de DBC face à la baisse des cours de l'or noir.",
-      "Franchissement haussier durable du seuil de volatilité des 20 points sur le VIX."
+      "Seuil de bascule du score absolu de SPY (+4,1 %) et EFA (+4,5 %) vers le territoire négatif",
+      "Persistance de VNQ devant SPY à l'approche de la date de réallocation du 1er décembre",
+      "Évolution des rendements obligataires US suite aux prochaines déclarations de la Fed"
     ],
     "modele": "gemini-3.8-flash"
   }
