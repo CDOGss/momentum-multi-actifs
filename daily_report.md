@@ -1,47 +1,47 @@
-# 🧭 Rotation momentum multi-actifs — 2026-11-11
+# 🧭 Rotation momentum multi-actifs — 2026-11-12
 
 ## 💼 Situation
-- **Valeur du portefeuille : 9,892.68 $** (-1.07% depuis le départ)
-- Benchmark S&P 500 : +0.66% — Benchmark 60/40 : -0.79%
-- Régime mécanique : **offensif** — VIX : 17.5
+- **Valeur du portefeuille : 9,867.07 $** (-1.33% depuis le départ)
+- Benchmark S&P 500 : +0.31% — Benchmark 60/40 : -1.32%
+- Régime mécanique : **offensif** — VIX : 18.7
 - Frais cumulés depuis le départ : 11.98 $
 
 ## 📌 Positions
 | ETF | Nom | Valeur | Prix | Prix de revient |
 |---|---|---:|---:|---:|
-| **DBC** | Matières premières (panier large) | 3,165.06 $ | 30.84 $ | 28.79 $ |
-| **EFA** | Actions internationales développées | 3,362.16 $ | 104.66 $ | 103.70 $ |
-| **SPY** | S&P 500 (actions US) | 3,365.47 $ | 759.81 $ | 752.10 $ |
+| **DBC** | Matières premières (panier large) | 3,172.24 $ | 30.91 $ | 28.79 $ |
+| **EFA** | Actions internationales développées | 3,341.27 $ | 104.01 $ | 103.70 $ |
+| **SPY** | S&P 500 (actions US) | 3,353.55 $ | 757.12 $ | 752.10 $ |
 
 ## 📊 Classement momentum du jour
 | Rang | ETF | Score | 3 mois | 6 mois | 12 mois | Momentum absolu |
 |---|---|---:|---:|---:|---:|:---:|
-| #1 | **DBC** 📌 | +13.2% | +3.6% | -1.7% | +37.7% | ✅ |
-| #2 | **VNQ** | +4.6% | -0.7% | +3.0% | +11.7% | ✅ |
-| #3 | **SPY** 📌 | +4.5% | -2.1% | +2.9% | +12.7% | ✅ |
-| #4 | **EFA** 📌 | +4.1% | -3.7% | +2.4% | +13.6% | ✅ |
-| #5 | **QQQ** | +0.8% | -5.6% | -3.2% | +11.3% | ❌ |
-| #6 | **EEM** | -0.1% | -7.0% | -7.2% | +14.0% | ❌ |
-| #7 | **TLT** | -2.8% | -0.8% | -2.3% | -5.4% | ❌ |
-| #8 | **GLD** | -9.0% | -8.5% | -15.2% | -3.5% | ❌ |
-| refuge | **IEF** | -1.7% | -1.5% | -1.6% | -2.0% | ❌ |
+| #1 | **DBC** 📌 | +13.1% | +3.0% | -0.8% | +37.1% | ✅ |
+| #2 | **SPY** 📌 | +3.8% | -2.2% | +1.7% | +12.0% | ✅ |
+| #3 | **VNQ** | +3.7% | -1.6% | +2.9% | +9.8% | ✅ |
+| #4 | **EFA** 📌 | +3.3% | -4.3% | +2.1% | +12.1% | ✅ |
+| #5 | **QQQ** | +0.4% | -5.8% | -4.2% | +11.2% | ❌ |
+| #6 | **EEM** | -1.6% | -8.2% | -8.8% | +12.2% | ❌ |
+| #7 | **TLT** | -4.2% | -1.7% | -3.9% | -7.2% | ❌ |
+| #8 | **GLD** | -11.7% | -11.6% | -16.9% | -6.6% | ❌ |
+| refuge | **IEF** | -2.5% | -2.0% | -2.3% | -3.1% | ❌ |
 
 📌 = détenu — ✅/❌ = momentum absolu vs T-Bills (BIL)
 
 ## 🧠 L'œil de l'analyste (IA)
-**Résurgence de l'inflation : l'illusion offensive masquée par les matières premières** — régime perçu : `neutre`
+**Régime offensif sous tension face aux pressions hawkish de la Fed** — régime perçu : `neutre`
 
-Le portefeuille reste mécaniquement offensif, mais cette posture masque une dégradation sous-jacente des actifs risqués. DBC caracole en tête (#1, +13,2%), porté par un momentum court terme résilient (+3,6% sur 3 mois), ce qui colle parfaitement aux alertes d'inflation élevée rapportées par les marchés et aux révisions hawkish de Goldman Sachs vis-à-vis de la Fed. En revanche, le compartiment actions s'essouffle nettement : les performances sur trois mois de SPY (-2,1%) et d'EFA (-3,7%) traduisent une fatigue tangible, alors que le Nasdaq (QQQ) a déjà basculé en momentum absolu négatif. Fait marquant, VNQ s'est hissé à la 2e place (+4,6%), évinçant virtuellement EFA du trio de tête à trois semaines du rebalancement de décembre. Avec des rendements obligataires sous pression et un refuge IEF au score négatif, le marché évolue dans un régime d'incertitude monétaire où seule la composante matières premières protège pour l'instant la performance globale.
+Bien que l'allocation mécanique reste classée offensive avec trois actifs risqués en portefeuille (DBC, SPY, EFA), la dynamique interne signale une fragilisation nette. Cinq des huit actifs du panel affichent désormais un momentum absolu inférieur aux T-Bills, traduisant un essoufflement marqué par des rendements trimestriels négatifs sur l'ensemble des actions (SPY à -2,2%, EFA à -4,3%, QQQ à -5,8%). Seul le panier de matières premières DBC conserve une impulsion positive à 3 mois (+3,0%). Cette détérioration s'aligne sur un contexte macroéconomique tendu : résurgence des craintes inflationnistes, fermeté accrue des responsables de la Fed prévoyant de nouvelles hausses de taux, et secousses sur le compartiment technologique après le choc Nvidia. En interne, l'immobilier coté (VNQ, score +3,7%) déloge virtuellement EFA (+3,3%) pour le 3e rang. Sans reprise rapide des indices actions, la menace d'un basculement partiel vers les liquidités lors de la prochaine rotation mensuelle s'intensifie.
 
 **Risques :**
-- ⚠️ Divergence de composition : EFA est désormais 4e derrière VNQ, actant une rotation potentielle au 1er décembre.
-- ⚠️ Persistance des tensions sur les taux de la Fed pénalisant les multiples boursiers (SPY et EFA déjà négatifs sur 3 mois).
-- ⚠️ Chute brutale du score absolu des actions pouvant déclencher un repli vers le cash lors du prochain fixing mensuel.
+- ⚠️ Érosion rapide du momentum absolu de SPY et EFA, les rapprochant d'un basculement mécanique vers le cash.
+- ⚠️ Persistance d'un discours hawkish de la Fed pénalisant l'ensemble des actifs risqués et limitant l'intérêt de VNQ.
+- ⚠️ Décrochage des cours de l'énergie pesant à terme sur DBC, principal amortisseur actuel du portefeuille.
 
 **À surveiller :**
-- 👁️ Écart de score très serré entre VNQ (+4,6%), SPY (+4,5%) et EFA (+4,1%) d'ici la rotation du 01/12/2026.
-- 👁️ Trajectoire du momentum absolu de SPY et EFA face au taux sans risque T-Bills.
-- 👁️ Prochaines déclarations des membres de la Fed et données finales d'inflation US.
+- 👁️ Écart de performance entre VNQ (+3,7%) et EFA (+3,3%) d'ici le fixing de rotation du 1er décembre 2026.
+- 👁️ Évolution du momentum 3 mois de SPY (-2,2%) pour prévenir un passage sous le rendement des T-Bills.
+- 👁️ Indicateurs d'inflation américaine et prises de parole de la Fed validant ou non un nouveau cycle de resserrement.
 
 ---
 *Rapport généré automatiquement — expérience à blanc, aucun argent réel, ceci n'est pas un conseil en investissement.*
