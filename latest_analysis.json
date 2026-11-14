@@ -1,20 +1,20 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "prochaine_rotation": "2026-12-01",
   "regime_strategie": "offensif",
   "ia": {
     "regime": "neutre",
-    "titre": "Régime offensif sous tension face aux pressions hawkish de la Fed",
-    "commentaire": "Bien que l'allocation mécanique reste classée offensive avec trois actifs risqués en portefeuille (DBC, SPY, EFA), la dynamique interne signale une fragilisation nette. Cinq des huit actifs du panel affichent désormais un momentum absolu inférieur aux T-Bills, traduisant un essoufflement marqué par des rendements trimestriels négatifs sur l'ensemble des actions (SPY à -2,2%, EFA à -4,3%, QQQ à -5,8%). Seul le panier de matières premières DBC conserve une impulsion positive à 3 mois (+3,0%). Cette détérioration s'aligne sur un contexte macroéconomique tendu : résurgence des craintes inflationnistes, fermeté accrue des responsables de la Fed prévoyant de nouvelles hausses de taux, et secousses sur le compartiment technologique après le choc Nvidia. En interne, l'immobilier coté (VNQ, score +3,7%) déloge virtuellement EFA (+3,3%) pour le 3e rang. Sans reprise rapide des indices actions, la menace d'un basculement partiel vers les liquidités lors de la prochaine rotation mensuelle s'intensifie.",
+    "titre": "Menace de resserrement monétaire et essoufflement du momentum actions",
+    "commentaire": "Bien que la stratégie conserve un positionnement mécanique offensif, la dynamique interne des marchés se fragilise nettement. DBC domine toujours le classement grâce à son acquis sur douze mois (+38,1 %), mais sa performance récente s'étiole (+0,8 % sur trois mois), en écho au rééquilibrage de l'offre pétrolière. Parallèlement, le spectre d'une reprise des hausses de taux par la Réserve fédérale pour juguler une inflation persistante pénalise sévèrement les valeurs de croissance : QQQ plonge en momentum absolu négatif (-0,2 %), entraîné par la correction du secteur technologique. Les obligations souveraines (IEF à -2,3 %, TLT à -4,0 %) demeurent disqualifiées comme valeur refuge, ce qui contraindrait la stratégie à se réfugier directement dans le cash en cas de repli supplémentaire. Enfin, une rotation se prépare pour le 1er décembre : VNQ (+4,8 %) a dépassé SPY (+4,0 %) et surtout EFA (+3,9 %), alors même que le socle de performance absolue des actions développées s'érode dangereusement face aux T-Bills.",
     "risques": [
-      "Érosion rapide du momentum absolu de SPY et EFA, les rapprochant d'un basculement mécanique vers le cash.",
-      "Persistance d'un discours hawkish de la Fed pénalisant l'ensemble des actifs risqués et limitant l'intérêt de VNQ.",
-      "Décrochage des cours de l'énergie pesant à terme sur DBC, principal amortisseur actuel du portefeuille."
+      "Retraitement brutal sur DBC si la faiblesse récente des matières premières et du pétrole s'accentue.",
+      "Bascule mécanique vers VNQ au 1er décembre dans un environnement de politique monétaire restrictive peu favorable à l'immobilier.",
+      "Proximité de SPY et EFA avec le seuil critique de momentum absolu négatif, risquant d'enclencher un repli sur cash."
     ],
     "a_surveiller": [
-      "Écart de performance entre VNQ (+3,7%) et EFA (+3,3%) d'ici le fixing de rotation du 1er décembre 2026.",
-      "Évolution du momentum 3 mois de SPY (-2,2%) pour prévenir un passage sous le rendement des T-Bills.",
-      "Indicateurs d'inflation américaine et prises de parole de la Fed validant ou non un nouveau cycle de resserrement."
+      "Maintien de l'avance de VNQ (+4,8 %) sur EFA (+3,9 %) à l'approche de l'échéance de rotation mensuelle du 1er décembre.",
+      "Évolution des anticipations de taux de la Fed pour janvier et données d'inflation à court terme.",
+      "Comportement du VIX au-dessus de 19 et capacité de SPY à préserver un score supérieur à celui des T-Bills."
     ],
     "modele": "gemini-3.8-flash"
   }
