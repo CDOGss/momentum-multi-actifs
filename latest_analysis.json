@@ -1,21 +1,6 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-16",
   "prochaine_rotation": "2026-12-01",
   "regime_strategie": "offensif",
-  "ia": {
-    "regime": "neutre",
-    "titre": "Menace de resserrement monétaire et essoufflement du momentum actions",
-    "commentaire": "Bien que la stratégie conserve un positionnement mécanique offensif, la dynamique interne des marchés se fragilise nettement. DBC domine toujours le classement grâce à son acquis sur douze mois (+38,1 %), mais sa performance récente s'étiole (+0,8 % sur trois mois), en écho au rééquilibrage de l'offre pétrolière. Parallèlement, le spectre d'une reprise des hausses de taux par la Réserve fédérale pour juguler une inflation persistante pénalise sévèrement les valeurs de croissance : QQQ plonge en momentum absolu négatif (-0,2 %), entraîné par la correction du secteur technologique. Les obligations souveraines (IEF à -2,3 %, TLT à -4,0 %) demeurent disqualifiées comme valeur refuge, ce qui contraindrait la stratégie à se réfugier directement dans le cash en cas de repli supplémentaire. Enfin, une rotation se prépare pour le 1er décembre : VNQ (+4,8 %) a dépassé SPY (+4,0 %) et surtout EFA (+3,9 %), alors même que le socle de performance absolue des actions développées s'érode dangereusement face aux T-Bills.",
-    "risques": [
-      "Retraitement brutal sur DBC si la faiblesse récente des matières premières et du pétrole s'accentue.",
-      "Bascule mécanique vers VNQ au 1er décembre dans un environnement de politique monétaire restrictive peu favorable à l'immobilier.",
-      "Proximité de SPY et EFA avec le seuil critique de momentum absolu négatif, risquant d'enclencher un repli sur cash."
-    ],
-    "a_surveiller": [
-      "Maintien de l'avance de VNQ (+4,8 %) sur EFA (+3,9 %) à l'approche de l'échéance de rotation mensuelle du 1er décembre.",
-      "Évolution des anticipations de taux de la Fed pour janvier et données d'inflation à court terme.",
-      "Comportement du VIX au-dessus de 19 et capacité de SPY à préserver un score supérieur à celui des T-Bills."
-    ],
-    "modele": "gemini-3.8-flash"
-  }
+  "ia": null
 }
