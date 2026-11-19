@@ -1,30 +1,29 @@
-# 🧭 Rotation momentum multi-actifs — 2026-11-17
+# 🧭 Rotation momentum multi-actifs — 2026-11-18
 
 ## 💼 Situation
-- **Valeur du portefeuille : 9,598.41 $** (-4.02% depuis le départ)
-- Benchmark S&P 500 : -2.96% — Benchmark 60/40 : -3.18%
-- Régime mécanique : **mixte** — VIX : 25.5
+- **Valeur du portefeuille : 9,483.68 $** (-5.16% depuis le départ)
+- Benchmark S&P 500 : -3.26% — Benchmark 60/40 : -3.24%
+- Régime mécanique : **mixte** — VIX : 24.6
 - Frais cumulés depuis le départ : 11.98 $
 
 ## 📌 Positions
 | ETF | Nom | Valeur | Prix | Prix de revient |
 |---|---|---:|---:|---:|
-| **DBC** | Matières premières (panier large) | 3,098.35 $ | 30.19 $ | 28.79 $ |
-| **EFA** | Actions internationales développées | 3,255.82 $ | 101.35 $ | 103.70 $ |
-| **SPY** | S&P 500 (actions US) | 3,244.23 $ | 732.44 $ | 752.10 $ |
+| **DBC** | Matières premières (panier large) | 3,028.56 $ | 29.51 $ | 28.79 $ |
+| **EFA** | Actions internationales développées | 3,220.81 $ | 100.26 $ | 103.70 $ |
+| **SPY** | S&P 500 (actions US) | 3,234.31 $ | 730.20 $ | 752.10 $ |
 
 ## 📊 Classement momentum du jour
 | Rang | ETF | Score | 3 mois | 6 mois | 12 mois | Momentum absolu |
 |---|---|---:|---:|---:|---:|:---:|
-| #1 | **DBC** 📌 | +9.8% | -1.8% | -4.5% | +35.9% | ✅ |
-| #2 | **VNQ** | +2.8% | -2.9% | +1.3% | +9.9% | ✅ |
-| #3 | **SPY** 📌 | +2.0% | -4.5% | +0.3% | +10.2% | ❌ |
-| #4 | **EFA** 📌 | +1.7% | -5.9% | +1.0% | +10.0% | ❌ |
-| #5 | **QQQ** | -2.0% | -8.2% | -6.2% | +8.4% | ❌ |
-| #6 | **TLT** | -3.7% | -3.0% | -1.9% | -6.3% | ❌ |
-| #7 | **EEM** | -4.2% | -11.9% | -8.8% | +8.1% | ❌ |
-| #8 | **GLD** | -11.8% | -14.8% | -14.3% | -6.2% | ❌ |
-| refuge | **IEF** | -1.8% | -2.2% | -0.9% | -2.5% | ❌ |
+| #1 | **DBC** 📌 | +7.8% | -5.1% | -4.4% | +33.0% | ✅ |
+| #2 | **VNQ** | +3.0% | -2.6% | +0.4% | +11.2% | ✅ |
+| #3 | **SPY** 📌 | +2.0% | -4.0% | -1.0% | +10.9% | ❌ |
+| #4 | **EFA** 📌 | +0.7% | -6.6% | -1.7% | +10.3% | ❌ |
+| #5 | **QQQ** | -1.6% | -7.1% | -7.3% | +9.8% | ❌ |
+| #6 | **TLT** | -3.1% | -1.4% | -2.1% | -5.7% | ❌ |
+| #7 | **EEM** | -5.2% | -13.1% | -11.1% | +8.7% | ❌ |
+| refuge | **IEF** | -1.7% | -1.5% | -1.3% | -2.3% | ❌ |
 
 📌 = détenu — ✅/❌ = momentum absolu vs T-Bills (BIL)
 
