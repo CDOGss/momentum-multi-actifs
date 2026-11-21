@@ -12799,5 +12799,160 @@
       ],
       "modele": "gemini-4-hydrogen"
     }
+  },
+  {
+    "date": "2026-11-20",
+    "nav": 9152.93,
+    "bench_spy": 9138.86,
+    "bench_6040": 9399.68,
+    "cash": 0.0,
+    "frais_cumules": 11.98,
+    "vix": 35.9,
+    "regime_strategie": "mixte",
+    "rebalance": false,
+    "trades": [],
+    "positions": [
+      {
+        "ticker": "DBC",
+        "nom": "Matières premières (panier large)",
+        "parts": 102.6283,
+        "prix": 29.32,
+        "valeur": 3009.06,
+        "prix_revient": 28.79,
+        "date_achat": "2026-07-15"
+      },
+      {
+        "ticker": "EFA",
+        "nom": "Actions internationales développées",
+        "parts": 32.1246,
+        "prix": 96.14,
+        "valeur": 3088.45,
+        "prix_revient": 103.7,
+        "date_achat": "2026-11-02"
+      },
+      {
+        "ticker": "SPY",
+        "nom": "S&P 500 (actions US)",
+        "parts": 4.4294,
+        "prix": 689.81,
+        "valeur": 3055.41,
+        "prix_revient": 752.1,
+        "date_achat": "2026-11-02"
+      }
+    ],
+    "momentum": [
+      {
+        "ticker": "SPY",
+        "nom": "S&P 500 (actions US)",
+        "type": "risque",
+        "r3m": -0.0942,
+        "r6m": -0.0702,
+        "r12m": 0.0522,
+        "score": -0.0374,
+        "excess": -0.0589,
+        "selectionne": true,
+        "rang": 5
+      },
+      {
+        "ticker": "QQQ",
+        "nom": "Nasdaq 100 (tech US)",
+        "type": "risque",
+        "r3m": -0.1377,
+        "r6m": -0.1502,
+        "r12m": 0.0191,
+        "score": -0.0896,
+        "excess": -0.1111,
+        "selectionne": false,
+        "rang": 6
+      },
+      {
+        "ticker": "EFA",
+        "nom": "Actions internationales développées",
+        "type": "risque",
+        "r3m": -0.1101,
+        "r6m": -0.0608,
+        "r12m": 0.0747,
+        "score": -0.032,
+        "excess": -0.0535,
+        "selectionne": true,
+        "rang": 4
+      },
+      {
+        "ticker": "GLD",
+        "nom": "Or",
+        "type": "risque",
+        "r3m": -0.2433,
+        "r6m": -0.2198,
+        "r12m": -0.1389,
+        "score": -0.2007,
+        "excess": -0.2222,
+        "selectionne": false,
+        "rang": 7
+      },
+      {
+        "ticker": "DBC",
+        "nom": "Matières premières (panier large)",
+        "type": "risque",
+        "r3m": -0.0524,
+        "r6m": -0.0399,
+        "r12m": 0.3234,
+        "score": 0.077,
+        "excess": 0.0556,
+        "selectionne": true,
+        "rang": 1
+      },
+      {
+        "ticker": "VNQ",
+        "nom": "Immobilier coté US (REITs)",
+        "type": "risque",
+        "r3m": -0.0579,
+        "r6m": -0.0267,
+        "r12m": 0.0853,
+        "score": 0.0002,
+        "excess": -0.0213,
+        "selectionne": false,
+        "rang": 2
+      },
+      {
+        "ticker": "TLT",
+        "nom": "Obligations US 20+ ans",
+        "type": "risque",
+        "r3m": -0.0015,
+        "r6m": -0.0151,
+        "r12m": -0.0405,
+        "score": -0.019,
+        "excess": -0.0405,
+        "selectionne": false,
+        "rang": 3
+      },
+      {
+        "ticker": "IEF",
+        "nom": "Obligations US 7-10 ans (refuge)",
+        "type": "refuge",
+        "r3m": -0.0043,
+        "r6m": -0.0035,
+        "r12m": -0.0135,
+        "score": -0.0071,
+        "excess": -0.0286,
+        "selectionne": false,
+        "rang": null
+      }
+    ],
+    "ia": {
+      "regime": "risk_off",
+      "titre": "Marchés sous tension : le repli massif vers le cash se prépare",
+      "commentaire": "Le classement momentum reflète un stress de marché sévère, cohérent avec un VIX à 35,9. Seules les matières premières (DBC, +7,7 %) conservent un momentum absolu positif, mais cette résilience reste fragile : elle repose uniquement sur la performance à 12 mois (+32,3 %), alors que les fenêtres à 3 et 6 mois sont déjà négatives. Tous les autres actifs, y compris le refuge obligataire IEF (-0,7 %), affichent un momentum absolu négatif, signalant une fuite généralisée vers les liquidités. Cette configuration valide pleinement l'actualité macroéconomique : la perspective de nouvelles hausses de taux de la Fed face à l'inflation pèse à la fois sur l'or (GLD à -20,1 %), les obligations et les actions, tandis que les valeurs technologiques (QQQ à -9,0 %) décrochent sur fond de fébrilité autour de l'IA. Une tension majeure pèse sur le portefeuille (-8,47 %) : encore exposé à EFA (#4) et SPY (#5) jusqu'à la rotation du 1er décembre, il subit la chute des bourses. En l'état actuel des scores, la règle mécanique sortirait deux tiers du portefeuille directement vers le cash.",
+      "risques": [
+        "Exposition maintenue aux actions (EFA et SPY, soit deux tiers du portefeuille) jusqu'au 2026-12-01 malgré un VIX à 35,9 et un momentum négatif.",
+        "Risque de contagion baissière sur DBC (déjà à -5,2 % sur 3 mois) sous l'effet de la vague de ventes sur les matières premières et du durcissement monétaire.",
+        "Absence de refuge obligataire actif (TLT et IEF en momentum absolu négatif), exposant le portefeuille à une corrélation baissière généralisée avant la prochaine rotation."
+      ],
+      "a_surveiller": [
+        "Échéance de rotation du 2026-12-01 : confirmation d'une bascule mécanique d'EFA et SPY vers le cash si IEF (-0,7 %) reste sous le rendement des T-Bills.",
+        "Seuil de bascule du momentum absolu de DBC (+7,7 %) et dégradation éventuelle de sa dynamique à 12 mois face aux pressions sur les matières premières.",
+        "Prises de parole de la Fed sur les hausses de taux ainsi que l'évolution du VIX autour du seuil des 35 points."
+      ],
+      "modele": "gemini-4-hydrogen"
+    }
   }
 ]
