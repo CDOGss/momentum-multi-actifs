@@ -1,20 +1,21 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "prochaine_rotation": "2026-12-01",
   "regime_strategie": "mixte",
   "ia": {
     "regime": "risk_off",
-    "titre": "Momentum généralisé en berne à l'approche du repli vers le cash",
-    "commentaire": "Le classement momentum reflète une dégradation généralisée des marchés avec un VIX tendu à 26,4. Sur les neuf ETF suivis, seul DBC (+8,9 %) conserve un momentum absolu positif face aux T-Bills, mais uniquement grâce à son historique à 12 mois (+33,2 %), ses fenêtres à 3 et 6 mois étant déjà négatives. Les positions actuelles en actions, SPY (+0,2 %, rang #3) et EFA (-0,8 %, rang #4), affichent désormais un momentum absolu négatif et se font même dépasser par VNQ (+2,1 %). L'actif refuge obligataire IEF (-1,2 %) étant lui aussi en territoire négatif, la mécanique du modèle prépare un basculement massif des poches actions vers le cash dès le 1er décembre. Ce tableau quantitatif est pleinement cohérent avec le climat macroéconomique : les propos restrictifs de John Williams (Fed) évoquant de potentielles hausses de taux, l'attente de l'inflation PCE et le spectre de nouveaux tarifs douaniers sur la Chine pèsent simultanément sur la tech (QQQ à -4,6 %), les émergents (-7,8 %), les obligations et surtout l'or (-18,7 %).",
+    "titre": "VIX à 28,3 et inflation tenace : repli généralisé des actions",
+    "commentaire": "Le classement momentum reflète une nette dégradation du marché, confirmée par un VIX à 28,3. Seuls deux actifs gardent un momentum absolu positif : les matières premières (DBC, +9,0%) et l'immobilier coté (VNQ, +3,4%). Mais cette résilience repose uniquement sur la jambe 12 mois ; à 3 mois, DBC (-5,2%) et VNQ (-1,2%) reculent déjà. Toutes les actions affichent un score négatif, pénalisées par la tech (QQQ -6,8%) et les émergents (EEM -8,9%), tandis que les obligations (TLT -2,0%, IEF -0,8%) n'offrent aucun refuge.\n\nCe constat concorde avec l'actualité macroéconomique : une inflation américaine à 3,8% et une croissance de 4,3% accentuent la pression sur la Fed pour durcir ses taux, pénalisant actions et obligations de concert. Le portefeuille (-6,35%) reste temporairement exposé à EFA (-0,4%) et SPY (-1,0%) jusqu'au rebalancement du 1er décembre. En l'état, la règle mécanique remplacerait EFA et SPY par VNQ et du cash, IEF étant lui aussi en momentum absolu négatif.",
     "risques": [
-      "Maintien forcé de l'exposition actions (SPY et EFA, soit 68 % du portefeuille) jusqu'à la rotation du 1er décembre malgré un momentum absolu négatif et un VIX à 26,4.",
-      "Vulnérabilité du dernier pilier haussier (DBC), dont les performances à 3 mois (-4,8 %) et 6 mois (-1,6 %) s'érodent dans le sillage des cours du pétrole au plus bas depuis trois mois.",
-      "Absence de refuge obligataire viable (IEF à -1,2 % et TLT à -2,6 %) face au risque d'un resserrement monétaire supplémentaire de la Fed."
+      "Exposition actions maintenue à près de 68% via EFA et SPY durant une phase de correction avant la rotation du 1er décembre, alors que leur momentum absolu est déjà négatif.",
+      "Sensibilité élevée de VNQ (+3,4%) et des obligations refuges (IEF) à d'éventuelles hausses de taux de la Fed si l'inflation américaine reste proche de 3,8%.",
+      "Forte volatilité sur les matières premières (DBC), déjà en repli à 3 mois (-5,2%) et tiraillées entre la baisse du pétrole et les tensions géopolitiques au Moyen-Orient.",
+      "Tensions sur la dette souveraine française susceptibles de peser sur les actions européennes détenues via EFA."
     ],
     "a_surveiller": [
-      "Arbitrage mécanique du 2026-12-01 : confirmation d'un repli des slots SPY et EFA vers le cash (IEF restant négatif) sauf rebond rapide au-dessus du seuil des T-Bills.",
-      "Publication imminente de l'indice PCE américain et discours de la Fed après l'alerte de John Williams sur des hausses de taux consécutives possibles.",
-      "Trajectoire de DBC (+8,9 %) et du secteur technologique (essoufflement du rebond de Nvidia) face aux menaces tarifaires américaines visant la Chine."
+      "Rebalancement du 2026-12-01 : confirmation de la sortie mécanique d'EFA (-0,4%) et SPY (-1,0%) au profit de VNQ (+3,4%) et du cash si IEF (-0,8%) demeure négatif.",
+      "Proximité du seuil zéro pour EFA (-0,4%) et IEF (-0,8%) : un léger rebond d'ici le 1er décembre pourrait inverser leur signal de momentum absolu.",
+      "Publication imminente de l'indice PCE américain à 14h30 et communications de la Fed sous Kevin Warsh sur la trajectoire des taux."
     ],
     "modele": "gemini-4-hydrogen"
   }
