@@ -13445,5 +13445,173 @@
       ],
       "modele": "gemini-4-hydrogen"
     }
+  },
+  {
+    "date": "2026-11-27",
+    "nav": 9487.81,
+    "bench_spy": 9649.05,
+    "bench_6040": 9703.78,
+    "cash": 0.0,
+    "frais_cumules": 11.98,
+    "vix": 23.8,
+    "regime_strategie": "mixte",
+    "rebalance": false,
+    "trades": [],
+    "positions": [
+      {
+        "ticker": "DBC",
+        "nom": "Matières premières (panier large)",
+        "parts": 102.6283,
+        "prix": 29.55,
+        "valeur": 3032.67,
+        "prix_revient": 28.79,
+        "date_achat": "2026-07-15"
+      },
+      {
+        "ticker": "EFA",
+        "nom": "Actions internationales développées",
+        "parts": 32.1246,
+        "prix": 100.52,
+        "valeur": 3229.16,
+        "prix_revient": 103.7,
+        "date_achat": "2026-11-02"
+      },
+      {
+        "ticker": "SPY",
+        "nom": "S&P 500 (actions US)",
+        "parts": 4.4294,
+        "prix": 728.32,
+        "valeur": 3225.99,
+        "prix_revient": 752.1,
+        "date_achat": "2026-11-02"
+      }
+    ],
+    "momentum": [
+      {
+        "ticker": "SPY",
+        "nom": "S&P 500 (actions US)",
+        "type": "risque",
+        "r3m": -0.051,
+        "r6m": -0.0323,
+        "r12m": 0.0906,
+        "score": 0.0024,
+        "excess": -0.0193,
+        "selectionne": true,
+        "rang": 4
+      },
+      {
+        "ticker": "QQQ",
+        "nom": "Nasdaq 100 (tech US)",
+        "type": "risque",
+        "r3m": -0.0904,
+        "r6m": -0.1164,
+        "r12m": 0.0742,
+        "score": -0.0442,
+        "excess": -0.066,
+        "selectionne": false,
+        "rang": 6
+      },
+      {
+        "ticker": "EFA",
+        "nom": "Actions internationales développées",
+        "type": "risque",
+        "r3m": -0.0668,
+        "r6m": -0.0257,
+        "r12m": 0.1079,
+        "score": 0.0051,
+        "excess": -0.0166,
+        "selectionne": true,
+        "rang": 3
+      },
+      {
+        "ticker": "EEM",
+        "nom": "Actions émergentes",
+        "type": "risque",
+        "r3m": -0.1346,
+        "r6m": -0.1487,
+        "r12m": 0.1001,
+        "score": -0.0611,
+        "excess": -0.0828,
+        "selectionne": false,
+        "rang": 7
+      },
+      {
+        "ticker": "GLD",
+        "nom": "Or",
+        "type": "risque",
+        "r3m": -0.1822,
+        "r6m": -0.1983,
+        "r12m": -0.1202,
+        "score": -0.1669,
+        "excess": -0.1886,
+        "selectionne": false,
+        "rang": 8
+      },
+      {
+        "ticker": "DBC",
+        "nom": "Matières premières (panier large)",
+        "type": "risque",
+        "r3m": -0.0403,
+        "r6m": 0.0024,
+        "r12m": 0.3563,
+        "score": 0.1061,
+        "excess": 0.0844,
+        "selectionne": true,
+        "rang": 1
+      },
+      {
+        "ticker": "VNQ",
+        "nom": "Immobilier coté US (REITs)",
+        "type": "risque",
+        "r3m": -0.0017,
+        "r6m": 0.0233,
+        "r12m": 0.1019,
+        "score": 0.0412,
+        "excess": 0.0194,
+        "selectionne": false,
+        "rang": 2
+      },
+      {
+        "ticker": "TLT",
+        "nom": "Obligations US 20+ ans",
+        "type": "risque",
+        "r3m": -0.0075,
+        "r6m": -0.0297,
+        "r12m": -0.0571,
+        "score": -0.0314,
+        "excess": -0.0532,
+        "selectionne": false,
+        "rang": 5
+      },
+      {
+        "ticker": "IEF",
+        "nom": "Obligations US 7-10 ans (refuge)",
+        "type": "refuge",
+        "r3m": -0.0025,
+        "r6m": -0.0115,
+        "r12m": -0.023,
+        "score": -0.0123,
+        "excess": -0.0341,
+        "selectionne": false,
+        "rang": null
+      }
+    ],
+    "ia": {
+      "regime": "risk_off",
+      "titre": "Actifs réels en tête avant une rotation défensive sous tension",
+      "commentaire": "Le classement momentum reflète un marché fragilisé malgré le rebond hebdomadaire des actions. Seuls deux actifs conservent un momentum absolu positif face aux T-Bills : les matières premières (DBC, +10,6 %) et l'immobilier américain (VNQ, +4,1 %), portés par leur performance sur 12 mois. Toutes les poches actions (EFA, SPY, QQQ, EEM) et obligataires (TLT, IEF) affichent un momentum absolu négatif, avec des rendements négatifs à 3 et 6 mois. Ce constat justifie un diagnostic risk-off face à un VIX élevé à 23,8. Cette lecture concorde avec l'actualité macroéconomique : les craintes d'inflation américaine et les signaux d'une possible hausse des taux de la Fed pèsent simultanément sur la duration et sur les valorisations boursières. Le rebond récent de Wall Street crée toutefois une divergence tactique avec cette tendance de fond dégradée. À quatre jours de la rotation du 1er décembre, le portefeuille reste exposé via EFA et SPY en momentum négatif, alors que VNQ les devance désormais et qu'IEF échoue comme valeur refuge, préparant un repli mécanique partiel vers le cash.",
+      "risques": [
+        "Exposition transitoire de 68 % du portefeuille sur EFA et SPY, déjà en momentum absolu négatif avant le 1er décembre, accentuant la sous-performance (-5,12 % contre -2,96 % pour le 60/40) en cas de rechute boursière.",
+        "Risque de durcissement monétaire de la Fed lié à l'inflation américaine, qui frapperait simultanément les actions et l'immobilier coté (VNQ, candidat #2) en cas de remontée des taux longs.",
+        "Essoufflement à court terme de DBC (-4,0 % sur 3 mois, +0,2 % sur 6 mois), dont la première place (+10,6 %) repose essentiellement sur sa hausse à 12 mois (+35,6 %).",
+        "Inefficacité du refuge obligataire : avec IEF (-1,2 %) et TLT (-3,1 %) en momentum absolu négatif, le portefeuille ne bénéficie pas d'amortisseur obligataire."
+      ],
+      "a_surveiller": [
+        "Rotation mensuelle du 2026-12-01 : sortie attendue de SPY (#4) et d'EFA (#3, momentum absolu négatif) au profit d'une entrée de VNQ (#2) et d'une bascule en cash tant qu'IEF (-1,2 %) reste négatif.",
+        "Seuils à court terme sur VNQ (3 mois à -0,2 %) et DBC (6 mois à +0,2 %) : un passage en territoire négatif sur ces horizons fragiliserait leur momentum absolu positif.",
+        "Publications d'inflation américaines et communications de la Fed la semaine prochaine, susceptibles de tendre les taux longs et de maintenir le VIX au-dessus de 23,8."
+      ],
+      "modele": "gemini-4-hydrogen"
+    }
   }
 ]
